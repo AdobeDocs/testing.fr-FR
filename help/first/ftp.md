@@ -19,6 +19,8 @@ Translated: TM+MT
 
 zzzz_MOCKED TRANSLATION_zzzz
 
+zzzz_MOCKED TRANSLATION_zzzz
+
 zzzz_MOCKED TRANSLATION_zzzz zzzz_MOCKED TRANSLATION_zzzz zzzz_MOCKED TRANSLATION_zzzz The data must be in [!DNL  .csv] format, with a second [!DNL  .fin] file to indicate the upload is complete.
 
 > [!IMPORTANT]
