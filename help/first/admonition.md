@@ -7,6 +7,7 @@ Translated: TM+MT
 [zzzz_MOCKED TRANSLATION_zzzz](https://woieoiwjef.com)
 
 
+[zzzz_MOCKED TRANSLATION_zzzz](http://www.adobe.com)
 
 ## zzzz_MOCKED TRANSLATION_zzzz
 
