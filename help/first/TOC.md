@@ -19,3 +19,4 @@ Translated: TM+MT
 * [zzzz_MOCKED TRANSLATION_zzzz](locdnl.md)
 * [zzzz_MOCKED TRANSLATION_zzzz](https://www.google.com)
 * [zzzz_MOCKED TRANSLATION_zzzz](videos.md)
+* [zzzz_MOCKED TRANSLATION_zzzz](audience-lab-faq.md)
