@@ -19,6 +19,9 @@ Translated: TM+MT
 
 **zzzz_MOCKED TRANSLATION_zzzz zzzz_MOCKED TRANSLATION_zzzz**
 
+[zzzz_MOCKED TRANSLATION_zzzz](http://www.google.com)
+
+
 zzzz_MOCKED TRANSLATION_zzzz For destinations with Auto-fill Destination Mapping or segments sent to Google, [!UICONTROL  Audience Lab] will handle the mapping values just like the destinations normally would.
 
 **zzzz_MOCKED TRANSLATION_zzzz**
