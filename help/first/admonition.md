@@ -4,6 +4,8 @@ Translated: TM+MT
 ---
 # zzzz_MOCKED TRANSLATION_zzzz
 
+[zzzz_MOCKED TRANSLATION_zzzz](https://woieoiwjef.com)
+
 ## zzzz_MOCKED TRANSLATION_zzzz
 
 > [!NOTE]
