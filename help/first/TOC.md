@@ -1,4 +1,5 @@
 ---
+git-repo-internal: zzzz_MOCKED TRANSLATION_zzzz
 git-repo: zzzz_MOCKED TRANSLATION_zzzz
 matt: zzzz_MOCKED TRANSLATION_zzzz
 Translated: TM+MT
