@@ -1,89 +1,97 @@
 ---
+matt: lawrence
 Translated: TM+MT
 
 ---
-# zzzz_MOCKED TRANSLATION_zzzz
+
+# Troubleshooting
+
+## Testing BR
+
+* Got to Assets<br/>![](2018-07-24-13-47-56.png)
+* help<br/>![](2018-07-24-13-49-21.png)
+* Open solution folder (launch.en)<br/>![](2018-07-24-13-51-13.png)
+* Click on the ditamap entry to bring up the XML Add On panel<br/>![](2018-07-24-13-52-20.png)
+* Navigate to Outputs<br/>![](2018-07-24-13-53-25.png)
+
+
+## The Pipeline Phases
+
+There are three main phases of the pipeline where errors can occur:
+
+1. Ditamap Creation
+2. Markdown to DITA (and HTML) conversion
+3. DITA to AEM Sites Generation using the XML Add-on For AEM
+
+### Ditamap Creation
+
+This is the process by which the TOC.md files are read and a ditamap is created.
+
+Additionally, this is also where the YAML rewrite occurs.  All of the markdown files are rewritten to include:
+
+* Any YAML variables in the TOC.md file (if the variable already exists in the markdown file, it is retained and considered a local override for that file)
+* The git-repo variables are created (git-edit and git-issue)
+* The last-modified YAML variable is generated from the commit date of the file and written as a YAML variable in the header of the markdown file
 
 
 
+### Markdown to Dita (and HTML) Conversion
 
-## zzzz_MOCKED TRANSLATION_zzzz
+Markdown content is first converted to DITA before uploading to AEM for processing.  Additionally, in the beginning of the pipeline (Jenkins), HTML is generated from the DITA as a method to both catch any problems that may occur during AEM Sites Generation with the XML Add-on.
 
-zzzz_MOCKED TRANSLATION_zzzz
-
-1. zzzz_MOCKED TRANSLATION_zzzz
-2. zzzz_MOCKED TRANSLATION_zzzz
-3. zzzz_MOCKED TRANSLATION_zzzz
-
-### zzzz_MOCKED TRANSLATION_zzzz
-
-zzzz_MOCKED TRANSLATION_zzzz
-
-zzzz_MOCKED TRANSLATION_zzzz  zzzz_MOCKED TRANSLATION_zzzz
-
-* zzzz_MOCKED TRANSLATION_zzzz
-* zzzz_MOCKED TRANSLATION_zzzz
-* zzzz_MOCKED TRANSLATION_zzzz
-
-
-
-### zzzz_MOCKED TRANSLATION_zzzz
-
-zzzz_MOCKED TRANSLATION_zzzz  zzzz_MOCKED TRANSLATION_zzzz
-
-zzzz_MOCKED TRANSLATION_zzzz  zzzz_MOCKED TRANSLATION_zzzz
+These DITA and HTML files can be viewed in Jenkins.  Open the job name (lauch.en as an example), and the generated files will be in the job workspace:
 
 ![](2018-07-24-12-52-17.png)
 
-zzzz_MOCKED TRANSLATION_zzzz  Note: Although the file extensions in this directory are `.md`, the content is Dita.  zzzz_MOCKED TRANSLATION_zzzz  zzzz_MOCKED TRANSLATION_zzzz  zzzz_MOCKED TRANSLATION_zzzz
+From the Workspace, navigate to out/dita to see the raw dita that was generated.  Note: Although the file extensions in this directory are `.md`, the content is Dita.  You can view or download these files and run them through a validator (such as OxygenXML).  Additionally, in the workspace you can also view the generated HTML files (which should be similar to the content created by the XML Add-On).  Simply go to the out/html directory.
 
-zzzz_MOCKED TRANSLATION_zzzz
+During the conversion many errors can occur resulting from:
 
-* zzzz_MOCKED TRANSLATION_zzzz
-* zzzz_MOCKED TRANSLATION_zzzz
+* Invalid Markdown
+* Unsupported HTML in the Markdown file
 
 
-### zzzz_MOCKED TRANSLATION_zzzz
+### DITA to AEM Sites Generation using the XML Add-on For AEM
 
 It is unusual to face any issues with the DITA to AEM Sites Generation *that is not caught by the DITA to html transformation earlier in the pipeline*.
 
-zzzz_MOCKED TRANSLATION_zzzz  The current stage instance for Docs is [https://docs-author-stg.corp.adobe.com](https://docs-author-stg.corp.adobe.com).
+However, if there are difficulties, review the Add On logs in AEM (may need to consult with an Admin).  The current stage instance for Docs is [https://docs-author-stg.corp.adobe.com](https://docs-author-stg.corp.adobe.com).
 
-zzzz_MOCKED TRANSLATION_zzzz
+The logs can be found in:
 
 <!-- markdownlint-disable MD037 -->
 <!-- markdownlint-disable MD033 -->
 
-* zzzz_MOCKED TRANSLATION_zzzz<br/>![](2018-07-24-13-47-56.png)
-* zzzz_MOCKED TRANSLATION_zzzz<br/>![](2018-07-24-13-49-21.png)
-* zzzz_MOCKED TRANSLATION_zzzz<br/>![](2018-07-24-13-51-13.png)
-* zzzz_MOCKED TRANSLATION_zzzz<br/>![](2018-07-24-13-52-20.png)
-* zzzz_MOCKED TRANSLATION_zzzz<br/>![](2018-07-24-13-53-25.png)
-* zzzz_MOCKED TRANSLATION_zzzz<br/>![](2018-07-24-13-54-12.png)
+* Got to Assets<br/>![](2018-07-24-13-47-56.png)
+* help<br/>![](2018-07-24-13-49-21.png)
+* Open solution folder (launch.en)<br/>![](2018-07-24-13-51-13.png)
+* Click on the ditamap entry to bring up the XML Add On panel<br/>![](2018-07-24-13-52-20.png)
+* Navigate to Outputs<br/>![](2018-07-24-13-53-25.png)
+* Click on the date/time for the generated output to see the log<br/>![](2018-07-24-13-54-12.png)
 
-## zzzz_MOCKED TRANSLATION_zzzz
+## Common Problems
 
-### zzzz_MOCKED TRANSLATION_zzzz
+### Content not showing in AEM
 
-#### zzzz_MOCKED TRANSLATION_zzzz
+#### Problem
 
-zzzz_MOCKED TRANSLATION_zzzz
+The content went through the pipeline and the Jenkins job was successful, however, no content can be seen in AEM.
 
-#### zzzz_MOCKED TRANSLATION_zzzz
+#### Resolution
 
-zzzz_MOCKED TRANSLATION_zzzz
+This is most commonly attributable to the associated TOC.md file not being updated to include the markdown file.
 
-*zzzz_MOCKED TRANSLATION_zzzz*
+*If a markdown file is not found in a TOC.md, it will not be included in the ditamap and will not be uploaded to AEM.*
 
-### zzzz_MOCKED TRANSLATION_zzzz
+### DITA Errors
 
-zzzz_MOCKED TRANSLATION_zzzz
+When a  markdown file is processed via the pipeline, it is first converted from Markdown to DITA using the DITA Open Toolkit, specifically the plugin named lwDita (or lightweight-dita).
 
-zzzz_MOCKED TRANSLATION_zzzz
+During this processing, the resulting dita that is generated from the input markdown file may be invalid.
 
-#### zzzz_MOCKED TRANSLATION_zzzz
+#### Problem
 
-Easily the most common error encoutered is `DOTJ013E`, indicates the generated DITA is invalid.  zzzz_MOCKED TRANSLATION_zzzz
+Easily the most common error encoutered is `DOTJ013E`, indicates the generated DITA is invalid.  Example:
 
 ```log
 [DOTJ013E][ERROR] Failed to parse the referenced file 'file:/apps/jenkins/2.121.1/workspace/testing.en/out/dita/color.md'.: file:/apps/jenkins/2.121.1/workspace/testing.en/out/dita/color.md Line 16:Attribute "style" must be declared for element type "ph".
@@ -92,14 +100,14 @@ Easily the most common error encoutered is `DOTJ013E`, indicates the generated D
 
 <!-- <font color="blue">Hello</font> -->
 
-#### zzzz_MOCKED TRANSLATION_zzzz
+#### Resolution
 
 Examine the generated dita source by going to [Jenkins](https://docs.ci.corp.adobe.com) and examining the failing job.
-zzzz_MOCKED TRANSLATION_zzzz
+The generated Dita is in the
 
-### zzzz_MOCKED TRANSLATION_zzzz
+### Malformed Markdown Tables
 
-#### zzzz_MOCKED TRANSLATION_zzzz
+#### Problem
 
 `Error: Failed to run pipeline: No renderer configured for com.vladsch.flexmark.ext.aside.AsideBlock`
 
@@ -109,21 +117,19 @@ zzzz_MOCKED TRANSLATION_zzzz
 | a bad |table |
 ```
 
-#### zzzz_MOCKED TRANSLATION_zzzz
+#### Resolution
 
-An aside block is an extension to Markdown syntax that is indicated by a line starting with a pipe `|`.  zzzz_MOCKED TRANSLATION_zzzz
+An aside block is an extension to Markdown syntax that is indicated by a line starting with a pipe `|`.  This is currently unsupported by the lwDita (markdown to dita) processor.
 
 Fix the markdown syntax for the table (preferred) or, in the case of spans, create a **simple** html table:
 
 <table>
     <tr>
-        <td>zzzz_MOCKED TRANSLATION_zzzz</td>
-        <td>zzzz_MOCKED TRANSLATION_zzzz</td>
+        <td>This</td>
+        <td>is</td>
     </tr>
     <tr>
-        <td>zzzz_MOCKED TRANSLATION_zzzz</td>
-        <td>zzzz_MOCKED TRANSLATION_zzzz</td>
+        <td>a bad</td>
+        <td>table</td>
     </tr>
 </table>
-
-
