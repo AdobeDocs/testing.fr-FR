@@ -1,0 +1,15 @@
+---
+Translated: TM+MT
+
+---
+{
+"extends": "markdownlint.json",
+"MD033": false,
+"MD032": false,
+"MD007": false,
+"MD040": false,
+"MD005": false,
+"MD034": false,
+"MD037": false
+
+}
