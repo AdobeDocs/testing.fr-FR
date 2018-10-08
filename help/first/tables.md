@@ -15,7 +15,6 @@ Translated: TM+MT
 ---
 
 
-# Release Notes - May 2015
 # Lots of columns
 
 | Product Name & Help Link | Analysis Workspace | Reports & Analytics | Ad Hoc Analysis | Report Builder | Data Warehouse | Data Workbench |
