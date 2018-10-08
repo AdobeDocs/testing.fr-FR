@@ -1,22 +1,22 @@
 ---
-git-repo: zzzz_MOCKED TRANSLATION_zzzz
-cloud: zzzz_MOCKED TRANSLATION_zzzz
-index: zzzz_MOCKED TRANSLATION_zzzz
+git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
+cloud: experience-cloud
+index: false
 Translated: TM+MT
 
 ---
 
-# zzzz_MOCKED TRANSLATION_zzzz
+# Contributor Guide for Adobe Documentation {#doc-guide}
 
-+ [zzzz_MOCKED TRANSLATION_zzzz](introduction.md)
-+ zzzz_MOCKED TRANSLATION_zzzz
-   + [zzzz_MOCKED TRANSLATION_zzzz](setup/sign-up.md)
-   + [zzzz_MOCKED TRANSLATION_zzzz](setup/install-tools.md)
-   + [zzzz_MOCKED TRANSLATION_zzzz](setup/local-repo.md)
-   + [zzzz_MOCKED TRANSLATION_zzzz](setup/git-fundamentals.md)
-   + [zzzz_MOCKED TRANSLATION_zzzz](setup/full-workflow.md)
-+ zzzz_MOCKED TRANSLATION_zzzz
-   + [zzzz_MOCKED TRANSLATION_zzzz](writing-essentials/using-markdown.md)
-   + [zzzz_MOCKED TRANSLATION_zzzz](writing-essentials/general-writing-guidance.md)
-   + [zzzz_MOCKED TRANSLATION_zzzz](writing-essentials/linking.md)
-+ [zzzz_MOCKED TRANSLATION_zzzz](resources.md)
++ [Introduction](introduction.md)
++ Set up with GitHub
+   + [Set up GitHub account](setup/sign-up.md)
+   + [Install Git and Markdown authoring tools](setup/install-tools.md)
+   + [Set up a local Git repository](setup/local-repo.md)
+   + [GitHub documentation essentials](setup/git-fundamentals.md)
+   + [GitHub workflow for major changes](setup/full-workflow.md)
++ Writing essentials
+   + [Using Markdown](writing-essentials/using-markdown.md)
+   + [General writing guidance](writing-essentials/general-writing-guidance.md)
+   + [Linking](writing-essentials/linking.md)
++ [Git and GitHub learning resources](resources.md)
