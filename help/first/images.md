@@ -16,4 +16,4 @@ Translated: TM+MT
 <br>
 ![Big](big.png)
 <br>
-<img src="big.png" width="48"/>
+<img src="big.png" width="480"/>
