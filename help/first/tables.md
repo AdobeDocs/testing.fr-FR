@@ -1,30 +1,36 @@
 ---
-description: Learn about new features and fixes in the Adobe Marketing Cloud.
+git-commit: ae09849fe09cf4133f877988adffd9a32766ec48
+last-update: 2018-10-08T00:00:00Z
+description: learn about new features and fixes in the adobe marketing cloud.
 keywords: release notes
-seo-description: Learn about new features and fixes in the Adobe Marketing Cloud.
-seo-title: Release Notes - May 2015
-solution: Experience Cloud,Release Notes
-title: Release Notes - May 2015
+seo-description: learn about new features and fixes in the adobe marketing cloud.
+seo-title: release notes - may 2015
+solution: experience cloud,release notes
+title: release notes - may 2015
 uuid: fecea5c0-156d-49bf-9395-f8006c9f30a9
 index: y
 internal: n
 snippet: y
 translate: y
+git-repo-internal: https://git.corp.adobe.com/adobedocs/testing.en
+git-edit: https://git.corp.adobe.com/mlawrenc/testing.en/tree/master/help/first/tables.md
+git-issue: https://git.corp.adobe.com/mlawrenc/testing.en/issues/new
+git-repo: https://git.corp.adobe.com/mlawrenc/testing.en
+matt: lawrence
 Translated: TM+MT
 
 ---
 
-
 # Lots of columns
 
-<table border="1">
+<!-- <table border="1">
 <tr>
 <td>1</td>
-&lt;tdcolspan="2">2 and 3</td>
+<tdcolspan="2">2 and 3</td>
 <td>4</td>
 </tr>
 <tr>
-&lt;tdrowspan="3">5, 9 and 13</td>
+<tdrowspan="3">5, 9 and 13</td>
 <td>6</td>
 <td>7</td>
 <td>8</td>
@@ -36,13 +42,13 @@ Translated: TM+MT
 <ol>
 <li> one </li>
 <li> two </li>
-<!-- </ol> -->
+</ol>
 </td>
 </tr>
 <tr>
-&lt;tdcolspan="3">14, 15 and 16</td>
+<tdcolspan="3">14, 15 and 16</td>
 </tr>
-</table>
+</table> -->
 
 | Product Name & Help Link | Analysis Workspace | Reports & Analytics | Ad Hoc Analysis | Report Builder | Data Warehouse | Data Workbench |
 |------------------------|------------------|-------------------|---------------|--------------|--------------|--------------|
@@ -432,4 +438,3 @@ In the VisitorAPI / AppMeasurement Audience Manager Module integrations, there w
   </tr> 
  </tbody> 
 </table>
-
