@@ -8,6 +8,7 @@ Translated: TM+MT
 
 # Testing Repo for Matt Lawrence {#hello}
 
+* [Images](images.md)
 * Group A {#first-group}
    * [FTP short title](ftp.md)
    * [tables for fun](tables.md)
