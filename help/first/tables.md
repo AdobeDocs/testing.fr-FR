@@ -17,6 +17,33 @@ Translated: TM+MT
 
 # Lots of columns
 
+<table border="1">
+<tr>
+<td>1</td>
+&lt;tdcolspan="2">2 and 3</td>
+<td>4</td>
+</tr>
+<tr>
+&lt;tdrowspan="3">5, 9 and 13</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+</tr>
+<tr>
+<td>10</td>
+<td>11</td>
+<td>
+<ol>
+<li> one </li>
+<li> two </li>
+<!-- </ol> -->
+</td>
+</tr>
+<tr>
+&lt;tdcolspan="3">14, 15 and 16</td>
+</tr>
+</table>
+
 | Product Name & Help Link | Analysis Workspace | Reports & Analytics | Ad Hoc Analysis | Report Builder | Data Warehouse | Data Workbench |
 |------------------------|------------------|-------------------|---------------|--------------|--------------|--------------|
 | Access Method | Browser solution for building robust,custom analysis projects, and democratizing insights. | Browser solution for digital analysis. | Java based tool for advanced digital analysis. | Excel add-in that lets you build customized requests from R&A data, and visualize using Microsoft Excel. | Browser solution that generates reports in .csv format. Can generate Tableau format files. | Multi-channel analytics tool for advanced analysis, such as custom attribution modeling, predictive analytics, and 360 customer analysis. |
