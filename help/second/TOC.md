@@ -1,6 +1,7 @@
 ---
 git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
 cloud: experience-cloud
+hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
 index: false
 Translated: TM+MT
 
