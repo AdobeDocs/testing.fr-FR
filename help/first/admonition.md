@@ -12,6 +12,8 @@ Translated: TM+MT
 | three | four<br>five<br/>six<a href="http://www.aksjfasjkjahdfkjhakjhdfs.com">BadLink</a> |
 
 
+[Testing out a cross-guide link](../second/introduction.md)
+
 * hello<br>there
 * hello<br/>there
 
