@@ -3,7 +3,9 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
 cloud: experience-cloud
 hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
 index: false
-guide-title: Goofball
+guide-title: Contributor Guide for Docs
+guide-url: http://www.adobe.com/guideurl/collabdoc
+tutorials-url: http://www.adobe.com/tutorials/collabdoc
 Translated: TM+MT
 
 ---
