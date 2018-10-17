@@ -6,6 +6,7 @@ guide-title: Testing Guide
 guide-url: http://www.adobe.com/guideurl/testing
 tutorials-url: http://www.adobe.com/tutorials/testing
 getting-started-url: http://www.adobe.com/getting-started/testing
+solution: Experimental Dox
 Translated: TM+MT
 
 ---
