@@ -5,7 +5,6 @@ description: learn about new features and fixes in the adobe marketing cloud.
 keywords: release notes
 seo-description: learn about new features and fixes in the adobe marketing cloud.
 seo-title: release notes - may 2015
-solution: experience cloud,release notes
 title: release notes - may 2015
 uuid: fecea5c0-156d-49bf-9395-f8006c9f30a9
 index: y
