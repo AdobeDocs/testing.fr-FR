@@ -12,7 +12,13 @@ Translated: TM+MT
 
 ## PDF Link
 
-
+To download a set of image files, click ![PDF download](assets/Publish_Workflow.pdf)
 
 ## Zip Link
+
+To download a set of image files, click ![PDF download](assets/test-images.zip)
+
+## Standard Image Display
+
+![Access API Image](access_api.png)
 
