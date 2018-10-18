@@ -12,6 +12,8 @@ Translated: TM+MT
 
 ## PDF Link
 
+[PDF download](assets/Publish_Workflow.pdf)
+
 <!--
 To download a set of image files, click <a href="assets/Publish_Workflow.pdf" download="Publish_Workflow"><img src="assets/Publish_Workflow.pdf"></a>
 
