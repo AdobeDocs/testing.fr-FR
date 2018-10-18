@@ -12,7 +12,7 @@ Translated: TM+MT
 
 ## PDF Link
 
-To download a set of image files, download <a href="assets/Publish_Workflow.pdf" download="Publish_Workflow"><img src="assets/Publish_Workflow.pdf"></a>
+To download a set of image files, click <a href="assets/Publish_Workflow.pdf" download="Publish_Workflow"><img src="assets/Publish_Workflow.pdf"></a>
 
 <!--
 ![PDF download](assets/Publish_Workflow.pdf)
@@ -21,7 +21,7 @@ To download a set of image files, download <a href="assets/Publish_Workflow.pdf"
 
 ## Zip Link
 
-To download a set of image files, download <a href="assets/test-images.zip" download="test-images"></a>
+To download a set of image files, click <a href="assets/test-images.zip" download="test-images"><img src="assets/test-images.zip"></a>
 
 ## Standard Image Display
 
