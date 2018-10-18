@@ -20,5 +20,5 @@ To download a set of image files, click ![PDF download](assets/test-images.zip)
 
 ## Standard Image Display
 
-![Access API Image](access_api.png)
+![Access API Image](assets/access_api.png)
 
