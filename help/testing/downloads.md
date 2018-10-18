@@ -12,11 +12,16 @@ Translated: TM+MT
 
 ## PDF Link
 
-To download a set of image files, click ![PDF download](assets/Publish_Workflow.pdf)
+To download a set of image files, <a href="assets/Publish_Workflow.pdf" download>Click to Download</a>
+
+<!--
+![PDF download](assets/Publish_Workflow.pdf)
+![PDF download](assets/test-images.zip)
+-->
 
 ## Zip Link
 
-To download a set of image files, click ![PDF download](assets/test-images.zip)
+To download a set of image files, <a href="assets/test-images.zip" download>Click to Download</a>
 
 ## Standard Image Display
 
