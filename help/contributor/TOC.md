@@ -6,6 +6,7 @@ hub: https://helpx.adobe.com/support/experience-cloud.html
 getting-started: https://landing.adobe.com/experience-league/
 tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 solution: Contributor Guide
+guide-title: Markdown Guide
 Translated: TM+MT
 
 ---
