@@ -1,11 +1,12 @@
 ---
-git-repo: https://git.corp.adobe.com/mlawrenc/testing.en
-hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
 guide-title: リリースノート
-guide-url: http://www.adobe.com/guideurl/testing
+guide-url: guide-landing.html
+solution: Adobe Experience Manager リリースノート
+hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
 tutorials-url: http://www.adobe.com/tutorials/testing
 getting-started-url: http://www.adobe.com/getting-started/testing
-solution: Adobe Experience Manager リリースノート
+git-repo: https://git.corp.adobe.com/mlawrenc/testing.en
+solution-icon: http://get-this-somewhere/fluff.png
 Translated: TM+MT
 
 ---
