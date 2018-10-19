@@ -1,20 +1,13 @@
 ---
-git-commit: ae09849fe09cf4133f877988adffd9a32766ec48
-last-update: 2018-10-08T00:00:00Z
 description: learn about new features and fixes in the adobe marketing cloud.
 keywords: release notes
 seo-description: learn about new features and fixes in the adobe marketing cloud.
 seo-title: release notes - may 2015
 title: release notes - may 2015
-uuid: fecea5c0-156d-49bf-9395-f8006c9f30a9
 index: y
 internal: n
 snippet: y
 translate: y
-git-repo-internal: https://git.corp.adobe.com/adobedocs/testing.en
-git-edit: https://git.corp.adobe.com/mlawrenc/testing.en/tree/master/help/first/tables.md
-git-issue: https://git.corp.adobe.com/mlawrenc/testing.en/issues/new
-git-repo: https://git.corp.adobe.com/mlawrenc/testing.en
 matt: lawrence
 Translated: TM+MT
 
