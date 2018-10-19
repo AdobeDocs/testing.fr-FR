@@ -1,7 +1,7 @@
 ---
 git-repo: https://git.corp.adobe.com/mlawrenc/testing.en
 hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
-guide-title: Testing Guide
+guide-title: Matt's Test Pages
 guide-url: http://www.adobe.com/guideurl/testing
 tutorials-url: http://www.adobe.com/tutorials/testing
 getting-started-url: http://www.adobe.com/getting-started/testing
