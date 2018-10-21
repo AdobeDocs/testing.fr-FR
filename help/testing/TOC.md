@@ -1,6 +1,6 @@
 ---
-guide-title: リリースノート
 guide-url: guide-landing.html
+guide-title: リリースノート
 solution: Adobe Experience Manager リリースノート
 hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
 tutorials-url: http://www.adobe.com/tutorials/testing
