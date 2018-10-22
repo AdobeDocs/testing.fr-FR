@@ -13,6 +13,7 @@ Translated: TM+MT
 
 # Testing Repo for Matt Lawrence {#hello}
 
+* [sample](sample.md)
 * [downloads](downloads.md)
 * [Images](images.md)
 * [FTP short title](ftp.md)
