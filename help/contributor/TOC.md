@@ -12,7 +12,7 @@ Translated: TM+MT
 ---
 
 
-# Contributor guide for Adobe documentation
+# Contributor guide for Adobe documentation {#contrib}
 
 + [Introduction](introduction.md)
 + Set up with GitHub {#setup}
