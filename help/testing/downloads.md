@@ -14,8 +14,8 @@ Translated: TM+MT
 
 [PDF download](assets/Publish_Workflow.pdf)
 
-<!--
-To download a set of image files, click <a href="assets/Publish_Workflow.pdf" download="Publish_Workflow"><img src="assets/Publish_Workflow.pdf"></a>
+To download a set of image files, click <a href="assets/Publish_Workflow.pdf" download="Publish_Workflow"><img src="assets/Publish_Workflow2.pdf"></a>
+
 
 ![PDF download](assets/Publish_Workflow.pdf)
 ![PDF download](assets/test-images.zip)
@@ -27,5 +27,4 @@ To download a set of image files, click <a href="assets/test-images.zip" downloa
 ## Standard Image Display
 
 ![Access API Image](assets/access_api.png)
--->
 
