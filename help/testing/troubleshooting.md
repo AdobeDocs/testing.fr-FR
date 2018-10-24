@@ -8,7 +8,7 @@ Translated: TM+MT
 
 ## Testing BR
 
-* Got to Assets<br/>![](2018-07-24-13-47-56.png)
+* Got to Assets<br/>![](assets/2018-07-24-13-47-56.png)
 * help<br/>![](2018-07-24-13-49-21.png)
 * Open solution folder (launch.en)<br/>![](2018-07-24-13-51-13.png)
 * Click on the ditamap entry to bring up the XML Add On panel<br/>![](2018-07-24-13-52-20.png)
@@ -62,7 +62,7 @@ The logs can be found in:
 <!-- markdownlint-disable MD037 -->
 <!-- markdownlint-disable MD033 -->
 
-* Got to Assets<br/>![](2018-07-24-13-47-56.png)
+* Got to Assets<br/>![](assets/2018-07-24-13-47-56.png)
 * help<br/>![](2018-07-24-13-49-21.png)
 * Open solution folder (launch.en)<br/>![](2018-07-24-13-51-13.png)
 * Click on the ditamap entry to bring up the XML Add On panel<br/>![](2018-07-24-13-52-20.png)
