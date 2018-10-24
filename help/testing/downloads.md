@@ -22,7 +22,7 @@ To download a set of image files, click <a href="assets/Publish_Workflow.pdf"><i
 
 ## Zip Link
 
-To download a set of image files, click <a href="assets/test-images.zip" download="test-images"><img src="assets/test-images.zip"></a>
+To download a set of image files, click <a href="assets/test-images.zip"><img src="assets/test-images.zip"></a>
 
 ## Standard Image Display
 
