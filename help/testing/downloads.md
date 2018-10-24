@@ -14,15 +14,15 @@ Translated: TM+MT
 
 [PDF download](assets/Publish_Workflow.pdf)
 
-To download a set of image files, click <a href="assets/Publish_Workflow.pdf"><img src="assets/Publish_Workflow2.pdf"></a>
+To download a set of image files, click <a href="assets/Publish_Workflow.pdf">here</a>
 
 
 ![PDF download](assets/Publish_Workflow.pdf)
-![PDF download](assets/test-images.zip)
+[ZIP download](assets/test-images.zip)
 
 ## Zip Link
 
-To download a set of image files, click <a href="assets/foobar.zip"><img src="assets/test-images.zip"></a>
+To download a set of image files, click <a href="assets/foobar.zip">here</a>
 
 ## Standard Image Display
 
