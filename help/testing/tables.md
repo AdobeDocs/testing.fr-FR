@@ -9,7 +9,9 @@ internal: n
 snippet: y
 translate: y
 matt: lawrence
-Translated: TM+MT
+translation-type: tm+mt
+source-git-commit: 0c2a7647fe948974ce9ceb493f696ed759e6cc32
+Translated: 'false'
 
 ---
 
@@ -41,6 +43,31 @@ Translated: TM+MT
 <tdcolspan="3">14, 15 and 16</td>
 </tr>
 </table> -->
+---
+description: Learn how to sign in to the Experience Cloud, manage passwords and notifications, and specify a default landing page.
+keywords: core services
+seo-description: Learn how to sign in to the Experience Cloud, manage passwords and notifications, and specify a default landing page.
+seo-title: Sign in and manage your profile settings
+solution: Marketing Cloud
+title: Sign in and manage your profile settings
+uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# Sign in and manage your profile settings
+
+>[!NOTE]
+>
+>You must encode any URL before passing it to the `destURL` parameter. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
+
+| Parameter | Description | Example | Required / Optional |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|------------------------------------|
+| tenantId | Name of the tenant the user should log into. | aem62tenant | Optional |
+| destURL | The complete URL to the place where the user should be taken to. | https://sc.omniture.com/x/1_7xxzf | Optional |
+| solutionname | Name of the MAC Solution that is the owner of destURL parameter. It is used to verify that the user has access to the solution which is the owner of the URL.  It is the responsibility of the solutions to make sure that the solutionname is in Sync with the destURL parameter.  For example : If the URL contains solutionname as social and the destURL provided is an analytics url, then the user would be redirected to the url even if he doesn't have access to analytics. MAC does NOT verify weather the owner of the destURL is in sync with the solution name. | analytics | Required if destURL param is used. |
 
 | Product Name & Help Link | Analysis Workspace | Reports & Analytics | Ad Hoc Analysis | Report Builder | Data Warehouse | Data Workbench |
 |------------------------|------------------|-------------------|---------------|--------------|--------------|--------------|
@@ -55,9 +82,9 @@ Translated: TM+MT
 | Advanced Attribution | Limited currently - first/last/linear | Limited - first/last/linear | Limited - first/last/linear | Limited - first/last/linear | Limited - first/last/linear | Yes |
 Learn about new features and fixes in the Adobe Marketing Cloud.
 
-> [!NOTE]
-> 
-> To receive release notes one week prior to the monthly product update, subscribe to the[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html). Release information in the Priority Product Update comes one week in advance of the release date and is subject to change. Please check back at release time for updates.
+>[!NOTE]
+>
+>To receive release notes one week prior to the monthly product update, subscribe to the[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html). Release information in the Priority Product Update comes one week in advance of the release date and is subject to change. Please check back at release time for updates.
 
 <!-- <p>This file is the template for the monthly RNs. To update all links, open this file in notepad++, search for <span class="filepath"> 05212015 </span> and replace all occurrences with the current file name (usually release date). When adding content, edit only the tables and Fixes ULs. Do not overwrite Concepts, Sections, or the topic maps ULs. </p> -->
 May 2015
@@ -178,9 +205,9 @@ New features and fixes in the [!DNL  Adobe Mobile Services] SDKs.
 </table>
 
 
-> [!IMPORTANT]
-> 
-> Adobe strongly recommends that you do not create your own wrappers for our SDKs and track wearables using older versions. Doing so will likely cause issues with your data.
+>[!IMPORTANT]
+>
+>Adobe strongly recommends that you do not create your own wrappers for our SDKs and track wearables using older versions. Doing so will likely cause issues with your data.
 
 See [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) for product documentation. To see the release notes for previous releases, expand *Previous Release Notes* in the left pane.
 
@@ -260,9 +287,9 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
 ```
 
 
-> [!NOTE]
-> 
-> The ID sync functionality releasing on May 21 only works for JavaScript. There is no Flash support at this time.
+>[!NOTE]
+>
+>The ID sync functionality releasing on May 21 only works for JavaScript. There is no Flash support at this time.
 
 See [Visitor ID Service Implementation](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) for information about this change.
 
