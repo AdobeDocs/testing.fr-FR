@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 0c2a7647fe948974ce9ceb493f696ed759e6cc32
+source-git-commit: 7269a39b5a2c1b42b6f669be5c8b36d8b71f1973
 Translated: 'false'
 
 ---
@@ -43,21 +43,8 @@ Translated: 'false'
 <tdcolspan="3">14, 15 and 16</td>
 </tr>
 </table> -->
----
-description: Learn how to sign in to the Experience Cloud, manage passwords and notifications, and specify a default landing page.
-keywords: core services
-seo-description: Learn how to sign in to the Experience Cloud, manage passwords and notifications, and specify a default landing page.
-seo-title: Sign in and manage your profile settings
-solution: Marketing Cloud
-title: Sign in and manage your profile settings
-uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-index: y
-internal: n
-snippet: y
-translate: y
----
 
-# Sign in and manage your profile settings
+## Sign in and manage your profile settings
 
 >[!NOTE]
 >
