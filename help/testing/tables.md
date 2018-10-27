@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 6802ff33387166257f572b74bd1f1b3b7b8d3bc8
+source-git-commit: 2b866633b7311ba4757c34b0abd83d502aeed889
 Translated: 'false'
 
 ---
@@ -77,6 +77,7 @@ May 2015
 
 
 ## Simple HTML Table
+
 <table>
 <tr>
 <td>
