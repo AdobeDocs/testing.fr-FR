@@ -9,9 +9,8 @@ internal: n
 snippet: y
 translate: y
 matt: lawrence
-happy: halloween
 translation-type: tm+mt
-source-git-commit: 98edb3b475ddbcf06101aef3916eeeaa9ae2b2f5
+source-git-commit: b09589350b56ecc6a6f7657c34b880cee92fc1ed
 Translated: 'false'
 
 ---
