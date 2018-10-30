@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 7266b6c8953fcb883c71dbb4e81fb0173bd724fc
+source-git-commit: 57e1626ec6ff0502b16a7042ff8d41c40c4791fd
 Translated: 'false'
 
 ---
@@ -19,7 +19,7 @@ Translated: 'false'
 
 ## Experience Manager Code in Tables
 
-<table cellpadding="1" cellspacing="0" width="100%"> 
+<table width="100%"> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
