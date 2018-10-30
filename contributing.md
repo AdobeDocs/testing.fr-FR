@@ -1,11 +1,10 @@
 ---
-source-git-commit: 3ab84f8cc8c688eb4706597d340eb21b54daf795
+source-git-commit: c6ec131dece72abde7a78f2e5c8c147849d77ecf
 translation-type: tm+mt
 Translated: 'false'
 
 ---
 # Contributing
-
 
 Thanks for choosing to contribute!
 
