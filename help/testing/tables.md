@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: db8b9c950943b64208089f82a566075760ff2d4e
+source-git-commit: b994e505d7df97bb6d7783e452c34cecf0196c9d
 Translated: 'false'
 
 ---
@@ -23,7 +23,7 @@ Translated: 'false'
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><code>/etc/workflow/models</code></td> 
+   <td><pre>/etc/workflow/models</pre></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
