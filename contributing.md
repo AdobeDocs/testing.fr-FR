@@ -1,8 +1,11 @@
 ---
-Translated: TM+MT
+source-git-commit: 3ab84f8cc8c688eb4706597d340eb21b54daf795
+translation-type: tm+mt
+Translated: 'false'
 
 ---
 # Contributing
+
 
 Thanks for choosing to contribute!
 
