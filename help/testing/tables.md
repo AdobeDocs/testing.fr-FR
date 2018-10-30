@@ -10,12 +10,62 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: b09589350b56ecc6a6f7657c34b880cee92fc1ed
+source-git-commit: bcd6502e0fef34f2ee8f26c2f595fe96960ebec7
 Translated: 'false'
 
 ---
 
 # Table Tests
+
+## Experience Manager Code in Tables
+
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+ <tbody>
+  <tr>
+   <td><strong>Previous location</strong></td> 
+   <td><span class="code">/etc/workflow/models</span></td> 
+  </tr>
+  <tr>
+   <td><strong>New location(s)</strong></td> 
+   <td><p><span class="code">/libs/settings/workflow/models</span></p> <p><span class="code">/conf/global/settings/workflow/models</span></p> <p><span class="code">/var/workflow/models</span></p> </td> 
+  </tr>
+  <tr>
+   <td><strong>Restructuring guidance</strong></td> 
+   <td><p>Any new or modified Workflow Models must be migrated to /conf/global/workflow/models.</p> 
+    <ol> 
+     <li>Deploy the modified Workflow Models into a local AEM 6.4 development instance, such that they exist in the Previous location.</li> 
+     <li>Edit the Workflow Model using AEM's Workflow Model Editor at AEM > Tools > Workflow > Models.</li> 
+     <li>When migrating modified AEM-provided Workflow Models
+      <ol> 
+       <li>With the Workflow Model Editor open, modify the browser's address URL, and replace the path segment /libs/settings/workflow/models with /etc/workflow/models.
+        <ul> 
+         <li>For example, change: <em>http://localhost:4502/editor.html<strong>/libs/settings/workflow/models</strong>/dam/update_asset.html</em> to <em>http://localhost:4502/editor.html<strong>/etc/workflow/models</strong>/dam/update_asset.html</em></li> 
+        </ul> </li> 
+      </ol> </li> 
+     <li>Enable Edit mode in the Workflow Model Editor which will copy the Workflow Model definition to /conf/global/workflow/models.</li> 
+     <li>Tap the Sync button to sync the changes to the Runtime Workflow Model under /var/workflow/models.</li> 
+     <li>Export both the Workflow Model (/conf/global/workflow/models/&lt;workflow-model>) and Runtime Workflow Model (/var/workflow/models/&lt;workflow-model>) and integrate into the AEM project.
+      <ol> 
+       <li>For example, export:
+        <ul> 
+         <li><span class="code">/config/settings/workflow/models/dam/my_workflow_model</span><br /> and </li> 
+         <li><span class="code">/var/workflow/models/dam/my_workflow_model</span></li> 
+        </ul> </li> 
+      </ol> </li> 
+    </ol> </td> 
+  </tr>
+  <tr>
+   <td><strong>Notes</strong></td> 
+   <td><p>Workflow Model resolution occurs in the following order:</p> 
+    <ol> 
+     <li><span class="code">/conf/global/settings/workflow/models</span></li> 
+     <li><span class="code">/libs/settings/workflow/models</span></li> 
+     <li><span class="code">/etc/workflow/models</span></li> 
+    </ol> <p>Thus, any customizations of AEM-provided Workflow Models persisted in the Previous location must be moved to /conf/global/settings/workflow/models if they are to be retained, otherwise they will be superseded by the AEM-provided Workflow Model definition in /libs/settings/workflow/models.</p> </td> 
+  </tr>
+ </tbody>
+</table>
+
 
 ## Sign in and manage your profile settings
 
