@@ -10,12 +10,12 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: b994e505d7df97bb6d7783e452c34cecf0196c9d
+source-git-commit: 43c6da3d743e98cac9093929f1608d86841b7cb1
 Translated: 'false'
 
 ---
 
-# Table Tests
+# [!DNL Table Tests]
 
 ## Experience Manager Code in Tables
 
