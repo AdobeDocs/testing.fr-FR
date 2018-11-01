@@ -1,5 +1,5 @@
 ---
-source-git-commit: 221f7867c6fc77d73ceec01bac7aecd191d6cc65
+source-git-commit: f5ac328cecda781a3a101cc2e508990753d4b144
 translation-type: tm+mt
 Translated: 'false'
 
@@ -8,7 +8,7 @@ Translated: 'false'
 
 ## testing cross dir links
 
-[Introduction](../contrib/introduction.md)
+[Introduction](../contributor/introduction.md)
 
 ## Testing BR
 
