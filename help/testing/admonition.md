@@ -1,9 +1,14 @@
 ---
-Translated: TM+MT
+source-git-commit: d1298973667dd9b71fd4c61984661fae93adbbe2
+translation-type: tm+mt
+Translated: 'false'
 
 ---
 # Admonitions
 
+## testing cross dir links
+
+[Introduction](../contrib/introduction.md)
 ## Testing BR
 
 
@@ -31,8 +36,8 @@ one<br>two<br/>three
 </tr>
 </table>
 
-> [!NOTE]
-> HELLO
+>[!NOTE]
+>HELLO
 
 * Got to Assets<br/>![](assets/2018-07-24-13-47-56.png)
 * help<br/>![](2018-07-24-13-49-21.png)
@@ -42,25 +47,25 @@ one<br>two<br/>three
 
 ## NOTE BLOCK
 
-> [!NOTE]
-> This is a note block
+>[!NOTE]
+>This is a note block
 
 ## WARNING BLOCK
 
-> [!WARNING]
-> This is a warning block
+>[!WARNING]
+>This is a warning block
 
 ## CAUTION BLOCK
 
-> [!CAUTION]
-> This is a caution block
+>[!CAUTION]
+>This is a caution block
 
 ## IMPORTANT BLOCK
 
-> [!IMPORTANT]
-> This is an important block
+>[!IMPORTANT]
+>This is an important block
 
 ## TIP BLOCK
 
-> [!TIP]
-> This is a tip block
+>[!TIP]
+>This is a tip block
