@@ -1,13 +1,9 @@
 ---
 guide-url: guide-landing.html
 guide-title: リリースノート
-solution: Adobe Experience Manager リリースノート
-hub-url: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=SSE&title=Self+Service+Excellence+%28SSE%29+for+Digital+Experience
-tutorials-url: http://www.adobe.com/tutorials/testing
-getting-started-url: http://www.adobe.com/getting-started/testing
-git-repo: https://git.corp.adobe.com/mlawrenc/testing.en
-solution-icon: http://get-this-somewhere/fluff.png
-Translated: TM+MT
+translation-type: tm+mt
+source-git-commit: ec95e0b52151ca98174e6890d4df90b46b227928
+Translated: 'false'
 
 ---
 
