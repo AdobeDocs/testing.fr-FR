@@ -10,12 +10,21 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 43c6da3d743e98cac9093929f1608d86841b7cb1
+source-git-commit: 4b152506f861a3cdf840f4e9ca13ce2c4c378c77
 Translated: 'false'
 
 ---
 
 # [!DNL Table Tests]
+
+## AsideBlock
+
+| one
+
+| two |
+
+|--|--|
+| a | b |
 
 ## Experience Manager Code in Tables
 
