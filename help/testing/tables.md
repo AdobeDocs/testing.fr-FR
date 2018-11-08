@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 4b152506f861a3cdf840f4e9ca13ce2c4c378c77
+source-git-commit: 03b549433e39e356463e826baca770eeba83fdea
 Translated: 'false'
 
 ---
@@ -19,12 +19,14 @@ Translated: 'false'
 
 ## AsideBlock
 
-| one
+```
+| one 
 
 | two |
 
 |--|--|
 | a | b |
+```
 
 ## Experience Manager Code in Tables
 
