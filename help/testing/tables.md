@@ -6,12 +6,12 @@ seo-title: release notes - may 2015
 title: release notes - may 2015
 index: y
 internal: n
-snippet: y
+snippet: y: this is bad YAML
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 03b549433e39e356463e826baca770eeba83fdea
-Translated: 'false'
+source-git-commit: 7dedd03a02bd8b9fe72d98e42ba7726609ad5a8b
+Translated: false
 
 ---
 
