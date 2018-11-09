@@ -1,5 +1,5 @@
 ---
-source-git-commit: f5ac328cecda781a3a101cc2e508990753d4b144
+source-git-commit: 457053d7cd9e7d39a769e64cd594bdbcc8982b11
 translation-type: tm+mt
 Translated: 'false'
 
@@ -7,6 +7,8 @@ Translated: 'false'
 # Admonitions
 
 ## testing cross dir links
+
+[Writing Essentials](/help/contributor/writing-essentials/linking.md)
 
 [Introduction](../contributor/introduction.md)
 
