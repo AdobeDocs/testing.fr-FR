@@ -1,5 +1,5 @@
 ---
-source-git-commit: 457053d7cd9e7d39a769e64cd594bdbcc8982b11
+source-git-commit: c09472feb4160d55cf2f90bf9628fec1f984fb47
 translation-type: tm+mt
 Translated: 'false'
 
@@ -11,6 +11,9 @@ Translated: 'false'
 [Writing Essentials](/help/contributor/writing-essentials/linking.md)
 
 [Introduction](../contributor/introduction.md)
+
+![Image One](/help/contributor/assets/submit-pull-request.png)
+![Image Two](../contributor/assets/submit-pull-request.png)
 
 ## Testing BR
 
