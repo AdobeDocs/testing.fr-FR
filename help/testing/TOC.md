@@ -2,13 +2,14 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: ec95e0b52151ca98174e6890d4df90b46b227928
+source-git-commit: 254dfa94dd829bf7132d5b30b6aba657f211abf4
 Translated: 'false'
 
 ---
 
 # Testing Repo for Matt Lawrence {#hello}
 
+* [prolog test](prolog.md)
 * [sample](sample.md)
 * [downloads](downloads.md)
 * [Images](images.md)
