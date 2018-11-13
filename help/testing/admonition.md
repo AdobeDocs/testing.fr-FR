@@ -1,5 +1,5 @@
 ---
-source-git-commit: c09472feb4160d55cf2f90bf9628fec1f984fb47
+source-git-commit: 254dfa94dd829bf7132d5b30b6aba657f211abf4
 translation-type: tm+mt
 Translated: 'false'
 
@@ -8,11 +8,9 @@ Translated: 'false'
 
 ## testing cross dir links
 
-[Writing Essentials](/help/contributor/writing-essentials/linking.md)
 
 [Introduction](../contributor/introduction.md)
 
-![Image One](/help/contributor/assets/submit-pull-request.png)
 ![Image Two](../contributor/assets/submit-pull-request.png)
 
 ## Testing BR
