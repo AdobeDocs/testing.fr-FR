@@ -10,8 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: ef7a29344876459b2896d219b25c3ebdeddcb62d
-Translated: 'false'
+source-git-commit: 0b11b3bf5d38736ebbb71853b9c614eaf26e2a4b
 
 ---
 
@@ -43,6 +42,9 @@ Translated: 'false'
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any new or modified Workflow Models must be migrated to /conf/global/workflow/models.</p> 
+    <pre>
+        This is pre text should be monospace
+        </pre>
     <ol> 
      <li>Deploy the modified Workflow Models into a local AEM 6.4 development instance, such that they exist in the Previous location.</li> 
      <li>Edit the Workflow Model using AEM's Workflow Model Editor at AEM > Tools > Workflow > Models.</li> 
