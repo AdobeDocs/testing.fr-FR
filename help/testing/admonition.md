@@ -1,13 +1,11 @@
 ---
-source-git-commit: 254dfa94dd829bf7132d5b30b6aba657f211abf4
+source-git-commit: 40da6b51c655228fcd40c1f911843888b66d5a9a
 translation-type: tm+mt
-Translated: 'false'
 
 ---
 # Admonitions
 
 ## testing cross dir links
-
 
 [Introduction](../contributor/introduction.md)
 
