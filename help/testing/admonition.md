@@ -1,15 +1,9 @@
 ---
-source-git-commit: 7c6cc47a4ee04dce412df9961a7d693f0aeb5a4e
+source-git-commit: 131f84da17b4f32e594fc64001ff0a9dfb550bf3
 translation-type: tm+mt
 
 ---
 # Admonitions
-
-## testing cross dir links
-
-[Introduction](../contributor/introduction.md)
-
-![Image Two](../contributor/assets/submit-pull-request.png)
 
 
 ## Testing italics
@@ -26,8 +20,6 @@ This is not \*italics\*.
 |---|---|
 | >[!NOTE] hello<br>three | four<br>five<br/>six<a href="http://www.aksjfasjkjahdfkjhakjhdfs.com">BadLink</a> |
 
-
-[Testing out a cross-guide link](../contributor/introduction.md)
 
 * hello<br>there
 * hello<br/>there
