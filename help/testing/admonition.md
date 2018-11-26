@@ -1,5 +1,5 @@
 ---
-source-git-commit: 40da6b51c655228fcd40c1f911843888b66d5a9a
+source-git-commit: aa8b25ea829a47f13b6ef2ffa299ba1649b39756
 translation-type: tm+mt
 
 ---
@@ -10,6 +10,14 @@ translation-type: tm+mt
 [Introduction](../contributor/introduction.md)
 
 ![Image Two](../contributor/assets/submit-pull-request.png)
+
+
+## Testing italics
+
+This is *italics*
+
+This is not \*italics\*.
+
 
 ## Testing BR
 
