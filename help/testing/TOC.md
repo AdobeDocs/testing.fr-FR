@@ -2,8 +2,7 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: 254dfa94dd829bf7132d5b30b6aba657f211abf4
-Translated: 'false'
+source-git-commit: 11a0c58640ab6491dcd029d6447cd4743d84bfbb
 
 ---
 
@@ -20,7 +19,7 @@ Translated: 'false'
       * [Adobe](https://www.adobe.com)
       * [colors](color.md)
    * [Google](https://www.google.com)
-   * [admonitions](admonition.md)
+   * [admonitions](foo.md)
 * プロキシです {#second-group}
    * [troubleshooting](troubleshooting.md)
    * [loc uicontrol and dnl](locdnl.md)
