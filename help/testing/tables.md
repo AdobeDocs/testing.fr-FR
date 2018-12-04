@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 242a8f4e513aa19a46fd2bcc9942bd58c045d672
+source-git-commit: 7c8dc092956e92337c238724bc5bfe5275fdd295
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 242a8f4e513aa19a46fd2bcc9942bd58c045d672
 
 ## HTML Table Widths
 
-<table width="100%">
+<table>
   <col style="width:10%">
   <col style="width:70%">
   <col style="width:20%">
