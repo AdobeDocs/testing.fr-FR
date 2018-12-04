@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 4c0de13efce4d81266a7299729199b84a94de8d5
+source-git-commit: 721f284cf976c54955f109edcb2aff7484680b11
 
 ---
 
@@ -30,33 +30,33 @@ source-git-commit: 4c0de13efce4d81266a7299729199b84a94de8d5
 ## HTML Table Widths
 
 <table border="1" width="100%">
-	<col style="width:10%">
-	<col style="width:70%">
-	<col style="width:20%">
-	<thead>
-	<tr>
-		<th>Fruits</th>
-		<th>Vitamin A</th>
-		<th>Vitamin C</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<th>Apples</th>
-		<td>98 ui</td>
-		<td>8.4 mg</td>
-	</tr>
-	<tr>
-		<th>Oranges</th>
-		<td>295 ui</td>
-		<td>69.7 mg</td>
-	</tr>
-	<tr>
-		<th>Bananas</th>
-		<td>76 ui</td>
-		<td>10.3 mg</td>
-	</tr>
-	</tbody>
+  <col style="width:10%">
+  <col style="width:70%">
+  <col style="width:20%">
+  <thead>
+  <tr>
+    <th>Fruits</th>
+    <th>Vitamin A</th>
+        <th>Vitamin C</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Apples</th>
+        <td>98 ui</td>
+        <td>8.4 mg</td>
+    </tr>
+    <tr>
+        <th>Oranges</th>
+        <td>295 ui</td>
+        <td>69.7 mg</td>
+    </tr>
+    <tr>
+        <th>Bananas</th>
+        <td>76 ui</td>
+        <td>10.3 mg</td>
+    </tr>
+    </tbody>
 </table>
 
 ## Experience Manager Code in Tables
