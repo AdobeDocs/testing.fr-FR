@@ -1,5 +1,5 @@
 ---
-source-git-commit: fa4e38dbfd66fb6a15a3348c5b9a1997904ab32e
+source-git-commit: b7481d554ec993e2b08a3a3cd30d803d291186f1
 translation-type: tm+mt
 
 ---
@@ -12,7 +12,6 @@ This is *italics*
 
 This is not \*italics\*.
 
-<center>Testing DNL for links</center>
 [[!DNL Adobe Cloud Platform]](https://www.adobe.com)
 
 ## Testing BR
