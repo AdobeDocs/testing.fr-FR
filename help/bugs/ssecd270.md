@@ -1,5 +1,5 @@
 ---
-source-git-commit: 70c58e32dd050e80825cfbc4f66a650732d85523
+source-git-commit: 39546ee998516b61ae3c705a3ede23f458fb366b
 translation-type: tm+mt
 
 ---
@@ -10,3 +10,5 @@ This is a dash: -
 This is an endash: &ndash;
 
 This is an emdash: &mdash;
+
+This is an emdash: &#x2014;
