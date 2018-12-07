@@ -1,9 +1,14 @@
 ---
-source-git-commit: b7481d554ec993e2b08a3a3cd30d803d291186f1
+source-git-commit: b3ee034c62039b0bc626ce4f3218021b69f46648
 translation-type: tm+mt
 
 ---
 # Admonitions
+
+
+## Testing superscript
+
+e=mc<sup>2</sup>
 
 
 ## Testing italics
