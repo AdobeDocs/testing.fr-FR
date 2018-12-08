@@ -1,15 +1,16 @@
 ---
-source-git-commit: 9cc6819ad919d9608223ac8c9eb5ba69f9553b3c
+source-git-commit: 422a22cf61dbdacae6019a1197c0c5ca39d8a77e
 translation-type: tm+mt
 
 ---
 # Videos
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+<!-- >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE) -->
 
-_Need MSC video stuff_
-
-<object width="425" height="349">
-    <param name="movie" value="http://www.youtube.com/v/ZuNNhOEzJGA&amp;hl=fr&amp;fs=1&amp;rel=0&amp;color1=0x006699&amp;color2=0x54abd6&amp;border=1"></param>
-    <param name="allowFullScreen" value="true"></param>
-</object>
+<iframe width="100%"
+src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"> </iframe>
