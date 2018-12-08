@@ -1,16 +1,8 @@
 ---
-source-git-commit: 422a22cf61dbdacae6019a1197c0c5ca39d8a77e
+source-git-commit: bd71c7b07beab9e36e25ebd3b189cd4668d5fb11
 translation-type: tm+mt
 
 ---
 # Videos
 
-<!-- >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE) -->
-
-<iframe width="100%"
-src="https://www.youtube.com/embed/tgbNymZ7vqY"
-        allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen"> </iframe>
+>[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
