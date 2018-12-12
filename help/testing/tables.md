@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 7c8dc092956e92337c238724bc5bfe5275fdd295
+source-git-commit: 9e0da6f82a552d9531115c409c8d58de4c0a3ed0
 
 ---
 
@@ -69,7 +69,7 @@ source-git-commit: 7c8dc092956e92337c238724bc5bfe5275fdd295
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/workflow/models</span></p> <p><span class="code">/conf/global/settings/workflow/models</span></p> <p><span class="code">/var/workflow/models</span></p> </td> 
+   <td><p><pre>PRE</pre></p><p><code>CODE</code></p><p><span class="code">/libs/settings/workflow/models</span></p> <p><span class="code">/conf/global/settings/workflow/models</span></p> <p><span class="code">/var/workflow/models</span></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
