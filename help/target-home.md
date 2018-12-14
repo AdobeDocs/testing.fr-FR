@@ -9,14 +9,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff82cf1aa1c3ef9b922ec98fc553ffd8bd0536e4
+source-git-commit: 2190a475cf1ae8a11a8d65d71d4664d2c87bb75e
 
 ---
 
 
 # Adobe Target product documentation{#adobe-target-product-documentation}
 
-[!VIDEO](https://youtu.be/MbC5gqQFKoo)
+>[!VIDEO](https://youtu.be/MbC5gqQFKoo)
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
