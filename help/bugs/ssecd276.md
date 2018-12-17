@@ -1,13 +1,13 @@
 ---
 pipeline_filename: ./sample.md
 translation-type: tm+mt
-source-git-commit: e2f74003832f0a2352de2ab62dd3f952469ec5d6
+source-git-commit: cb532d47254277c4e230624b926fbda10de07f66
 
 ---
 
-# ![PREMIUM](/premium.png) Criteria{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Criteria{#criteria}
 
 
 [Click here for more information about upcoming sessions and registration information](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
-## ![PREMIUM](/premium.png) Hello
+## ![PREMIUM](/help/assets/premium.png) Hello
