@@ -1,13 +1,14 @@
 ---
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: 3cbd7ca16aad6d1b01943791edd4faf225395617
 translation-type: tm+mt
 
 ---
 # Tests from Bug Reports
 
 * Open
-   * [SSECD-89 Videos Too Small](ssecd89.md)
+   * [SSECD-276 Space after link](ssecd276.md)
 * Closed
+   * [SSECD-89 Videos Too Small](ssecd89.md)
    * [SSECD-223 Inline Images](ssecd233-inline-images-newline.md)
    * [SSECD-270 EmDash Not Showing](ssecd270.md)
    * [SSECD-253 Clickable Images](ssecd253.md)
