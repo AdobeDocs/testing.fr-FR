@@ -1,7 +1,6 @@
 ---
-source-git-commit: a5e9776f1eef0455d4e91d81c223e4429f960e0c
+source-git-commit: cb532d47254277c4e230624b926fbda10de07f66
 translation-type: tm+mt
-Translated: 'false'
 
 ---
 # Contributing
@@ -24,3 +23,8 @@ All third-party contributions to this project must be accompanied by a signed co
 All submissions should come in the form of pull requests and need to be reviewed by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
 
 <!-- Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when submitting a pull request! -->
+> [!NOTE]
+> Hello
+
+> [!WARNING]
+> Dangerous certain consequences of an action
