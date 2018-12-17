@@ -1,14 +1,11 @@
 ---
 pipeline_filename: ./sample.md
 translation-type: tm+mt
-source-git-commit: f0cc95c26c72ad6ace5ef68e10024b6d5880911a
+source-git-commit: e2f74003832f0a2352de2ab62dd3f952469ec5d6
 
 ---
 
 # ![PREMIUM](/premium.png) Criteria{#criteria}
-
-This is a link [ta da](/sample.dita).
-
 
 
 [Click here for more information about upcoming sessions and registration information](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
