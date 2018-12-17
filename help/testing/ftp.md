@@ -25,7 +25,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/ftp.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: 2c12e0f224f51dbe3cf0cf81176451db256716a0
 
 ---
 
@@ -52,7 +52,7 @@ File uploads to the customer attributes FTP site can be done via FTP or SFTP.
 
 1. [Create a customer attribute source and upload the data file...](tables.md).
 
-   Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/<sftpname>].
+   Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/&gt;sftpname&lt;].
 
 1. [Create a customer attribute source and upload the data file...](tables.md).
 Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/<sftpname>].
