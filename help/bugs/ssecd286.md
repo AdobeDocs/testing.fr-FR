@@ -1,5 +1,5 @@
 ---
-source-git-commit: fae4b62d6bd46f9837ce5de3a3f33dd4983788ac
+source-git-commit: 760fd76a965346c68d67d45771c7022c470181ad
 translation-type: tm+mt
 
 ---
@@ -13,7 +13,7 @@ Here is an image: ![Assets](/assets/2018-07-24-13-47-56.png)
 
 ## Inline HTML
 
-Look here for <a href="/help/testing/admonitions">Admonitions</a>
+Look here for <a href="/help/testing/admonitions.md">Admonitions</a>
 
 Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/>
 
@@ -21,7 +21,7 @@ Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/>
 
 <table>
     <tr>
-        <td>Look here for <a href="/help/testing/admonitions">Admonitions</a></td>
+        <td>Look here for <a href="/help/testing/admonitions.md">Admonitions</a></td>
     </tr>
     <tr>
         <td>Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/></td>
