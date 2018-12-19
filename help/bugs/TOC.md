@@ -1,12 +1,12 @@
 ---
-source-git-commit: fae4b62d6bd46f9837ce5de3a3f33dd4983788ac
+source-git-commit: 29e910938d2a7141d7fbfbb661f65ffc22e32ef9
 translation-type: tm+mt
 
 ---
 # Tests from Bug Reports
 
 * Open
-*
+   * [SSECD-286 HTML Root](ssecd286.md)
 * Waiting
    * [SSECD-276 Space after link](ssecd276.md)
 * Closed
