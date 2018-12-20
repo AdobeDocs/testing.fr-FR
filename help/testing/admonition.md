@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: f302fd98c74767577146cedff79e2f2b0e7ea739
 translation-type: tm+mt
 
 ---
-# ![PREMIUM](/help/assets/premium.png) Admonitions
+# ![](/help/assets/premium.png) Admonitions
 
 
 ## Testing superscript
