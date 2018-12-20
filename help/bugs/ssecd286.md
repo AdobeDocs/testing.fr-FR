@@ -1,5 +1,5 @@
 ---
-source-git-commit: 642e5cf2e84f5a5d5ad84ba6a5d8e4914da284de
+source-git-commit: 2cb7653ff769af19d43b12518cf9fc411d752d11
 translation-type: tm+mt
 
 ---
@@ -34,19 +34,19 @@ Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/>
 This is a DNL test of the [!DNL Architecture] we have created.
 
 
-[[!DNL Root Link]](/sample.md) and [Another link](/sample.md)
+[[!DNL Root Link]](/help/testing/code-block.md) and [Another link](/help/testing/code-block.md)
 
 ![[](/image.png) and ![Root image](/image.png)
 
 
-<a href="/sample.md">Root Link</a>
+<a href="/help/testing/code-block.md">Root Link</a>
 <img src="/image.png"/>
 
 
 <table>
 <tr>
 <td>
-<a href="/sample.md">Root Link</a>
+<a href="/help/testing/code-block.md">Root Link</a>
 </td>
 </tr>
 <tr>
