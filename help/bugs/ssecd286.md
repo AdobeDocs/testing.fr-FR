@@ -1,5 +1,5 @@
 ---
-source-git-commit: da40f8a78e69a7068e69c8722ccbe6a4d8dae026
+source-git-commit: 642e5cf2e84f5a5d5ad84ba6a5d8e4914da284de
 translation-type: tm+mt
 
 ---
@@ -27,3 +27,36 @@ Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/>
         <td>Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/></td>
     </tr>
 </table>
+
+
+## Other tests
+
+This is a DNL test of the [!DNL Architecture] we have created.
+
+
+[[!DNL Root Link]](/sample.md) and [Another link](/sample.md)
+
+![[](/image.png) and ![Root image](/image.png)
+
+
+<a href="/sample.md">Root Link</a>
+<img src="/image.png"/>
+
+
+<table>
+<tr>
+<td>
+<a href="/sample.md">Root Link</a>
+</td>
+</tr>
+<tr>
+<td>
+<img src="/image.png"/>
+</td>
+</tr>
+</table>
+
+>[!MORELIKETHIS]
+>* One
+>* Two
+>* Three
