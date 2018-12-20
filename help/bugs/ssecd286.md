@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2cb7653ff769af19d43b12518cf9fc411d752d11
+source-git-commit: e60ef8bc209cc165f7790685b5d6f46899d3f91a
 translation-type: tm+mt
 
 ---
@@ -57,6 +57,5 @@ This is a DNL test of the [!DNL Architecture] we have created.
 </table>
 
 >[!MORELIKETHIS]
->* One
->* Two
->* Three
+>* [Using Admonitions](/help/testing/admonition.md)
+>* [Code Blocks for Fun and Profit](/help/testing/code-block.md)
