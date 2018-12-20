@@ -1,5 +1,5 @@
 ---
-source-git-commit: 760fd76a965346c68d67d45771c7022c470181ad
+source-git-commit: da40f8a78e69a7068e69c8722ccbe6a4d8dae026
 translation-type: tm+mt
 
 ---
@@ -7,13 +7,13 @@ translation-type: tm+mt
 
 ## Markdown
 
-Look here for [Admonitions](/help/testing/admonitions.md)
+Look here for [Admonitions](/help/testing/admonition.md)
 
 Here is an image: ![Assets](/assets/2018-07-24-13-47-56.png)
 
 ## Inline HTML
 
-Look here for <a href="/help/testing/admonitions.md">Admonitions</a>
+Look here for <a href="/help/testing/admonition.md">Admonitions</a>
 
 Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/>
 
@@ -21,7 +21,7 @@ Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/>
 
 <table>
     <tr>
-        <td>Look here for <a href="/help/testing/admonitions.md">Admonitions</a></td>
+        <td>Look here for <a href="/help/testing/admonition.md">Admonitions</a></td>
     </tr>
     <tr>
         <td>Here is an image: <img src="/assets/2018-07-24-13-47-56.png"/></td>
