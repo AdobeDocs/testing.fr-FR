@@ -1,5 +1,5 @@
 ---
-source-git-commit: 36bd629f3795b3d6b05ddea96523114c69f6c451
+source-git-commit: 04a342a2faa42f2169b61c99a87a2d128d35de18
 translation-type: tm+mt
 
 ---
@@ -7,7 +7,7 @@ translation-type: tm+mt
 
 ## Testing asterisk
 
-This is a * test
+This is a * test.  An * is cool.
 
 Options marked with an asterisk (*) are not supported...
 
