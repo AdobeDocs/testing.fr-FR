@@ -1,10 +1,15 @@
 ---
-source-git-commit: 642e5cf2e84f5a5d5ad84ba6a5d8e4914da284de
+source-git-commit: 36bd629f3795b3d6b05ddea96523114c69f6c451
 translation-type: tm+mt
 
 ---
 # ![](/help/assets/premium.png) Admonitions
 
+## Testing asterisk
+
+This is a * test
+
+Options marked with an asterisk (*) are not supported...
 
 ## Testing superscript
 
