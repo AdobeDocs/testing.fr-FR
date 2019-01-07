@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b33d6ee6c7ba7161294074b9210d1ad4e95559ae
+source-git-commit: 9a9c6b29e0259fec5cdaba35207fb7b0456e1a2d
 
 ---
 
@@ -137,11 +137,10 @@ Declarations are special guided-declare tags that you can set at the top of a to
      <!--updated to match search-eng version, 1/31/13--> 
      <codeblock>
        &lt;guided-if[-not]-result-wrap> 
-      &lt;guided-else-result-wrap>
-
-    &lt;/guided-if[-not]-result-wrap&gt;
-    </codeblock> </p> </td>
-<td colname="col2"> <p>When displaying results in columns, this tag is used to identify whether the current result marks the end of a column. </p> <p>When the Boolean condition is true, HTML is added to the end of the result to finish off the row and start a new one. When it is the last one, a new row is not started. </p> <p>See <span class="codeph"> &lt;guided-if-not-last> </span> to learn more about that tag. </p> <p> 
+      &lt;guided-else-result-wrap> 
+      &lt;/guided-if[-not]-result-wrap> 
+     </codeblock> </p> </td> 
+   <td colname="col2"> <p>When displaying results in columns, this tag is used to identify whether the current result marks the end of a column. </p> <p>When the Boolean condition is true, HTML is added to the end of the result to finish off the row and start a new one. When it is the last one, a new row is not started. </p> <p>See <span class="codeph"> &lt;guided-if-not-last> </span> to learn more about that tag. </p> <p> 
      <codeblock class="syntax html">
        &lt;guided-if-result-wrap> 
            &lt;/div> 
@@ -182,11 +181,10 @@ Declarations are special guided-declare tags that you can set at the top of a to
      <codeblock>
        &lt;guided-if[-not]-results-found 
       [gsname="searchname"]&gt; 
-      &lt;guided-else[-not]-results-found>
-
-    &lt;/guided-if[-not]-results-found&gt;
-    </codeblock> </p> </td>
-<td colname="col2"> <p>Shows content when results are found. Or, shows no results HTML when results are not found. </p> <p> 
+      &lt;guided-else[-not]-results-found> 
+      &lt;/guided-if[-not]-results-found> 
+     </codeblock> </p> </td> 
+   <td colname="col2"> <p>Shows content when results are found. Or, shows no results HTML when results are not found. </p> <p> 
      <codeblock class="syntax html">
        &lt;guided-if-results-found gsname="products"> 
           &lt;guided-results gsname="products"> 
@@ -217,11 +215,10 @@ Declarations are special guided-declare tags that you can set at the top of a to
    <td colname="col1"> <p> 
      <codeblock>
        &lt;guided-if-result-field gsname="fieldname"> 
-      &lt;guided-else-result-field>
-
-    &lt;/guided-if-result-field&gt;
-    </codeblock> </p> </td>
-<td colname="col2"> <p>True if there is content in the specific field to display. If no content exists, the condition is false. Use the tags to decide whether surrounding HTML is displayed or not if a value does not exist, or if a different image is displayed, and so on. </p> <p> 
+      &lt;guided-else-result-field> 
+      &lt;/guided-if-result-field> 
+     </codeblock> </p> </td> 
+   <td colname="col2"> <p>True if there is content in the specific field to display. If no content exists, the condition is false. Use the tags to decide whether surrounding HTML is displayed or not if a value does not exist, or if a different image is displayed, and so on. </p> <p> 
      <codeblock class="syntax html">
        &lt;guided-if-result-field gsname="thumbnail"> 
            &lt;guided-result-img gsname="thumbnail" class="thumb"/> 
@@ -240,27 +237,21 @@ Declarations are special guided-declare tags that you can set at the top of a to
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-result-attribute-table-field gsname="fieldname" [escape="html|url|js|json|0"]/> </span> </p> </td> 
    <td colname="col2"> <p>Displays attribute table field as defined in transport template. </p> <p> 
      <codeblock class="syntax html">
-       &lt;guided-results>
-
-    ...
-    
-    &lt;ul&gt;
-    
-    &lt;guided-result-attribute-table&nbsp;gsname="downloads"&gt;
-    &nbsp;&nbsp;&lt;li&gt;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="&lt;guided-result-attribute-table-field&nbsp;gsname="download_link"&nbsp;/&gt;"&gt;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-result-attribute-table-field&nbsp;gsname="download_title"&nbsp;/&gt;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/a&gt;&nbsp;(&lt;guided-result-field&nbsp;gsname="title"/&gt;)
-    &nbsp;&nbsp;&lt;/li&gt;
-    &lt;/guided-result-attribute-table&gt;
-    
-    &lt;/ul&gt;
-    
-    ...
-    
-    &lt;/guided-results&gt;
-    </codeblock> </p> </td>
-</tr> 
+       &lt;guided-results> 
+      ... 
+      &lt;ul> 
+      &lt;guided-result-attribute-table gsname="downloads"> 
+        &lt;li> 
+           &lt;a href="&lt;guided-result-attribute-table-field gsname="download_link" />"> 
+               &lt;guided-result-attribute-table-field gsname="download_title" /> 
+           &lt;/a> (&lt;guided-result-field gsname="title"/>) 
+        &lt;/li> 
+      &lt;/guided-result-attribute-table> 
+      &lt;/ul> 
+      ... 
+      &lt;/guided-results> 
+     </codeblock> </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
    <td colname="col1"> <p> 
@@ -414,18 +405,17 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
      <codeblock class="syntax html">
        &lt;guided-facet-rail> 
         &lt;guided-facet> 
-          &lt;guided-facet-display-name/>
-
-    &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-multiselect&gt;
-    &nbsp;...
-    &nbsp;&lt;guided-else-facet-multiselect&gt;
-    &nbsp;...
-    &nbsp;&lt;/guided-if-facet-multiselect&gt;
-    &nbsp;&nbsp;&nbsp;&nbsp;...
-    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet&gt;
-    &nbsp;&nbsp;&lt;/guided-facet-rail&gt;
-    </codeblock> </p> </td>
-</tr> 
+          &lt;guided-facet-display-name/> 
+          &lt;guided-if-facet-multiselect> 
+       ... 
+       &lt;guided-else-facet-multiselect> 
+       ... 
+       &lt;/guided-if-facet-multiselect> 
+          ... 
+          &lt;/guided-facet> 
+        &lt;/guided-facet-rail> 
+     </codeblock> </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> 
@@ -487,11 +477,10 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
      <!--Updated to match search-eng version 1/31/13--> 
      <codeblock>
        &lt;guided-if[-not]-facet-value-ghost> 
-      &lt;guided-else[-not]-facet-value-ghost>
-
-    &lt;/guided-if[-not]-facet-value-ghost&gt;
-    </codeblock> </p> </td>
-<td colname="col2"> <p>Changes the display of the facet value when it is a ghost value. When a facet value is a ghost value, it is typically displayed in italic text to indicate that the value is missing or "ghosted". </p> <p>The following code excerpt is an example of a facet block: </p> <p> 
+      &lt;guided-else[-not]-facet-value-ghost> 
+      &lt;/guided-if[-not]-facet-value-ghost> 
+     </codeblock> </p> </td> 
+   <td colname="col2"> <p>Changes the display of the facet value when it is a ghost value. When a facet value is a ghost value, it is typically displayed in italic text to indicate that the value is missing or "ghosted". </p> <p>The following code excerpt is an example of a facet block: </p> <p> 
      <codeblock class="syntax html">
        &lt;guided-facet-values> 
           &lt;guided-if-facet-value-selected> 
@@ -532,7 +521,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
        &lt;guided-facet gsname="category"> 
            &lt;guided-if-facet-long> 
                &lt;div class="long_facet"> 
-                   &lt;guided-facet-values> 
+                   &lt;guided-facet-values>
                        &lt;guided-facet-link>&lt;guided-facet-value/>&lt;/guided-facet-link> 
                    &lt;/guided-facet-values> 
                &lt;/div> 
@@ -693,13 +682,11 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
    <td colname="col01"> <p>28 </p> </td> 
    <td colname="col1"> <p> 
      <codeblock>
-       &lt;guided-if[-not]-facet-value-equals-length-threshold>
-
-    &lt;guided-else[-not]-facet-value-equals-length-threshold&gt;
-    
-    &lt;/guided-if[-not]-facet-value-equals-length-threshold&gt;
-    </codeblock> </p> </td>
-<td colname="col2"> <p>Determines if the current facet value within the facet-values loop, is equal to the length threshold. </p> </td> 
+       &lt;guided-if[-not]-facet-value-equals-length-threshold> 
+      &lt;guided-else[-not]-facet-value-equals-length-threshold> 
+      &lt;/guided-if[-not]-facet-value-equals-length-threshold> 
+     </codeblock> </p> </td> 
+   <td colname="col2"> <p>Determines if the current facet value within the facet-values loop, is equal to the length threshold. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>29 </p> </td> 
@@ -1496,20 +1483,17 @@ The following tags are available to let you do more advanced things with your te
    <td colname="col2"> <p>Lets you grab the existing value of a query parameter that is on the URL. If your parameter does not exist, this tag returns an empty string. If you do not specify an escape option the string returned is automatically HTML escaped, you can specify either HTML or URL escaping. </p> <p>Example: </p> <p> 
      <codeblock>
        If 
-      my URL is http://stage.leejeansken.com:2928/?q=pants&amp;lang=en
-
-    &lt;guided-query-param&nbsp;gsname="q"&nbsp;/&gt;
-    gives&nbsp;you&nbsp;the&nbsp;value&nbsp;pants
-    
-    &lt;guided-query-param&nbsp;gsname="lang"&nbsp;/&gt;
-    gives&nbsp;you&nbsp;the&nbsp;value&nbsp;en
-    
-    &lt;guided-query-param&nbsp;gsname="test"&nbsp;/&gt;
-    gives&nbsp;you&nbsp;an&nbsp;empty&nbsp;string
-    &nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </codeblock> </p> </td>
-</tr> 
+      my URL is http://stage.leejeansken.com:2928/?q=pants&amp;lang=en 
+      &lt;guided-query-param gsname="q" /> 
+      gives you the value pants 
+      &lt;guided-query-param gsname="lang" /> 
+      gives you the value en 
+      &lt;guided-query-param gsname="test" /> 
+      gives you an empty string 
+        
+             
+     </codeblock> </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-query-param-name gsname="param#" offset="offset_number"/> </span> </p> </td> 
@@ -2152,7 +2136,8 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
  </tbody> 
 </table>
 
-#### First page, sp_n=1
+### First page, sp_n=1
+
 <table id="table_0334F560A1F840A9A1447F357A888B6E">  
  <thead> 
   <tr> 
@@ -2196,7 +2181,8 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
  </tbody> 
 </table>
 
-#### Later page, sp_n=10
+### Later page, sp_n=10
+
 <table id="table_00DAAFA92C994387B38737C8435AB3D4">  
  <thead> 
   <tr> 
