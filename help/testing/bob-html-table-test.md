@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a9c6b29e0259fec5cdaba35207fb7b0456e1a2d
+source-git-commit: 6f08ab3bf66c2f31504ee20be55ef2661d0bcd49
 
 ---
 
@@ -30,24 +30,6 @@ r_presentation_template_tags.xml
  -->
 
 A presentation template is an HTML file that includes presentation template tags that site search/merchandising defines. These tags indicate how the search results that customers see are formatted.
-
-See [About Templates](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5).
-
-You can select from the following presentation tag groups:
-
-* [Declarations](../c-appendices/c-templates.md#section_82C5CA734D2941EB858FEFE3B695D2EC)
-* [Results](../c-appendices/c-templates.md#section_06F249C9F6AE4B0F8C32117E19DCC905)
-* [Facets](../c-appendices/c-templates.md#section_EA4C5678D5864B89BAB4D0DFE62A4624)
-* [Breadcrumb](../c-appendices/c-templates.md#section_9B39B71FA6EC49FA8D88AD8A3BA987F7)
-* [Menus](../c-appendices/c-templates.md#section_1D489ADF041F4351A66E5D5742125CA8)
-* [Pagenav](../c-appendices/c-templates.md#section_2EE397635C514BBC8D668278EA314F35)
-* [Recent Searches](../c-appendices/c-templates.md#section_8CD907521F584257B475595B01A5964B)
-* [Did You Mean](../c-appendices/c-templates.md#section_C1EB3B9D8E1242798A6E04609D1E3543)
-* [Autocomplete](../c-appendices/c-templates.md#section_897316BEE1454E839A56B565CA4AF018)
-* [Store](../c-appendices/c-templates.md#section_A33E25DB5E67404A823BD9618665B773)
-* [Zones](../c-appendices/c-templates.md#section_B9B3179E000C42D492E1541F2FE44CB5)
-* [Loop Indicators](../c-appendices/c-templates.md#section_387322CA0AA843A2ACF2795C328673E9)
-* [Miscellaneous Language](../c-appendices/c-templates.md#section_BFE8DC98E26F4D7BB60FEC54D9A5DC6C)
 
 ## Declarations {#section_82C5CA734D2941EB858FEFE3B695D2EC}
 
@@ -271,12 +253,6 @@ Declarations are special guided-declare tags that you can set at the top of a to
 
 Facets are navigational components that let you drill into search results. You can use the facet tags to display various facets on your presentation template. You reference facets by name.
 
-See [About Facets](../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5).
-
-See [About Facet Rail](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
-
-See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899).
-
 <table id="table_9C1183C074444179A0C296248A3C0BA1"> 
  <thead> 
   <tr> 
@@ -319,7 +295,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
      <li id="li_176949227AC14E8CA643A419E10F7B5A">guided-facet-undo-path </li> 
      <li id="li_B32D981281744462BC680F6EFEAC0069">guided-facet-behavior </li> 
     </ul> <p>The sort criteria on the <span class="wintitle"> Facet Rail </span> page determines the position of the facets. You can choose the sort order from the Sort Facets Method drop-down list. </p> <p> 
-     <!--NEW 02/27/2014-->This tag can optionally accept a gsname attribute value of <span class="codeph"> _dynamic_facets </span>, which provides a looping context for any dynamic facets for this search. This pre-defined facet rail is also exposed in the Business Rules user interface for action <span class="codeph"> push facet X in facet rail '_dynamic_facets' to position Y </span>". </p> <p>See <a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local"> About Facet Rail </a>. </p> <p>See also <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Dynamic Facets </a>. </p> </td> 
+     <!--NEW 02/27/2014-->This tag can optionally accept a gsname attribute value of <span class="codeph"> _dynamic_facets </span>, which provides a looping context for any dynamic facets for this search. This pre-defined facet rail is also exposed in the Business Rules user interface for action <span class="codeph"> push facet X in facet rail '_dynamic_facets' to position Y </span>". </p> <p>See . </p> <p>See also . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -739,8 +715,6 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
 
 ## Breadcrumb {#section_9B39B71FA6EC49FA8D88AD8A3BA987F7}
 
-See [About Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
-
 <table id="table_752EFE34541E41C6AA521970E40D74E2"> 
  <thead> 
   <tr> 
@@ -824,8 +798,6 @@ See [About Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB
 </table>
 
 ## Menus {#section_1D489ADF041F4351A66E5D5742125CA8}
-
-See [About Menus](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32).
 
 <table id="table_323B2C09835442DBA51DC39F5848665F"> 
  <thead> 
@@ -1079,8 +1051,6 @@ You can use recent searches tags to build a set of links that let a user quickly
 </guided-if-recent-searches>
 ```
 
-See [Configuring recent searches](../c-about-design-menu/t-configuring-recent-searches.md#task_E9E8ACA04C90484F8AFD5262167B2562).
-
 <table id="table_FBDC9DB8ED2A4974B16ED43508C74B7F"> 
  <thead> 
   <tr> 
@@ -1153,8 +1123,6 @@ You can use Did You Mean tags to build a set of links to suggestions when a sear
     </guided-suggestions> 
 </guided-if-suggestions>
 ```
-
-See [About Did You Mean](../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E).
 
 <table id="table_A139FC0A7DF7460DBC52D0C05771789C"> 
  <thead> 
@@ -1254,8 +1222,6 @@ See [About Did You Mean](../c-about-linguistics-menu/c-about-did-you-mean.md#con
 ## Autocomplete {#section_897316BEE1454E839A56B565CA4AF018}
 
 The following tags can be used to add autocomplete to your search form. The head-content and form-content tags are required to make autocomplete function correctly. It is recommended you use the tags as opposed to hard coding the autocomplete Javascript and CSS into your presentation template. The reason is because tags enable your templates to pick up any new defeat cache IDs whenever you change your autocomplete settings without the need to manually update your template.
-
-See [About Auto-Complete](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
 
 <table id="table_797858E5872545BE98CD59054F459C1D"> 
  <thead> 
@@ -1692,10 +1658,6 @@ In your presentation layer, you can have a single presentation template that pre
 
 Because the transport template is only used to pass data to the presentation layer, it does not have any HTML that is concerned with displaying the search results. The transport template uses transport template XML tags to pass the search results for populating the Guided Search components, such as facets, breadcrumbs, and menus. Within these tags standard search template tags are used to display the actual values.
 
-See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
-
-See [Search template tags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4).
-
 <table id="table_C94AA64B3C694C528E25CF0C45833872"> 
  <thead> 
   <tr> 
@@ -1797,7 +1759,7 @@ See [Search template tags](../c-appendices/c-templates.md#reference_F7AA3FF60231
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;suggestions>&lt;/suggestions> </span> </p> </td> 
-   <td colname="col2"> <p> Wrap your Did You Mean suggestions with tags so that Guided Search recognizes which XML nodes contain suggestions. </p> <p>See <a href="../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E" type="concept" format="dita" scope="local"> About Did You Mean </a>. </p> </td> 
+   <td colname="col2"> <p> Wrap your Did You Mean suggestions with tags so that Guided Search recognizes which XML nodes contain suggestions. </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;suggestion>&lt;/suggestion> </span> </p> </td> 
@@ -1810,7 +1772,7 @@ See [Search template tags](../c-appendices/c-templates.md#reference_F7AA3FF60231
          &lt;/search-suggestions> 
        &lt;/suggestions> 
      &lt;/search-if-suggestions> 
-    </codeblock> <p>See <a href="../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E" type="concept" format="dita" scope="local"> About Did You Mean </a>. </p> </td> 
+    </codeblock> <p>See . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1831,33 +1793,6 @@ r_search_template_tags.xml
 
 You can select from the following search template tag groups and reference material.
 
-Tags that are valid only within the results loop include the following:
-
-* [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629)
-* [Results loop string tags](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)
-* [Results loop conditional tags](../c-appendices/c-templates.md#section_35C367969E384A06A9865E388F1F9360)
-* [Results loop anchor link tags](../c-appendices/c-templates.md#section_C5FAEF520E9E42ADAD1F90651922AA02)
-* [Loop position conditional tags](../c-appendices/c-templates.md#section_E0C29DDA09E043C9A396F36334F05EBB)
-
-Tags that are valid throughout the template include the following:
-
-* [Field value list tags](../c-appendices/c-templates.md#section_D3298B5F976447DBA0032B883DCC91B1)
-* [Field value list loop tags](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E)
-* [Suggest tags](../c-appendices/c-templates.md#section_C28EB8B4F7DC4E278A0F143BCFEEB1AC)
-* [Template string tags](../c-appendices/c-templates.md#section_67E3D529661F4F03A1FF469D9D658CAF)
-* [Template anchor link tags](../c-appendices/c-templates.md#section_3A51D27616C541E2B818CC52B2B856BA)
-* [Template conditional tags](../c-appendices/c-templates.md#section_18D9BC66DE484881932FD2F7EA9D170D)
-* [Template form control tags](../c-appendices/c-templates.md#section_45AFC414ACA74825B72FEAA8456F8DD2)
-
-Search template reference topics
-
-* [Date format strings](../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4)
-* [Language identifiers](../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911)
-* [Specifying the content-type HTTP header](../c-appendices/c-templates.md#section_AEED823E9938448A9EDB2F286D9CFD90)
-* [Specifying a character set in an HTML template](../c-appendices/c-templates.md#section_E0D1816ABB5846BEBE9C26D5980CCBE6)
-* [Specifying a character set in an XML template](../c-appendices/c-templates.md#section_17DC31CDCC104F5F8081466B41A96E9D)
-* [Including a search template within another](../c-appendices/c-templates.md#section_7D1FCD3D9E2340C291E354C9720E8BC0)
-
 ## About Results loop tags {#section_D4DC7B4560144663972E8DBC3369C629}
 
 The results loop tag is the workhorse of the template system. When the tag is encountered during a search, the HTML is repeated and other tags between the beginning and ending results loop tags, replacing any other tags with your search results.
@@ -1868,16 +1803,9 @@ The results loop tags surround the HTML that shows the search results. The HTML 
 
 The following tags are valid only within the results loop:
 
-* [Results loop string tags](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320)
-* [Results loop conditional tags](../c-appendices/c-templates.md#section_35C367969E384A06A9865E388F1F9360)
-* [Results loop anchor link tags](../c-appendices/c-templates.md#section_C5FAEF520E9E42ADAD1F90651922AA02)
-* [Loop position conditional tags](../c-appendices/c-templates.md#section_E0C29DDA09E043C9A396F36334F05EBB)
-
 ## Results loop string tags {#section_80D68334E8D04A33937A6E58ABAAA320}
 
 The following tags return a string.
-
-See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table id="table_2B841B64E9744F6881FFE6E16FA98D58"> 
  <thead> 
@@ -1941,7 +1869,7 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field name="field-name" length="XX" none="text" date-format="date-format-string" gmt="yes/no" language="0/2/language-id" encoding="html/javascript/json/perl/url/none" quotes="yes/no" commas="yes/no" units="miles/kilometers" separator="|"> </span> </p> </td> 
-   <td colname="col2"> <p>This advanced tag displays the content of the metadata field (url, title, desc, keys, target, body, alt, date, charset, and language or fields defined under <span class="uicontrol"> Options </span> > <span class="uicontrol"> Metadata </span> > Definitions) specified in the <span class="codeph"> name </span> attribute, for the current result. For example: </p> <p> <span class="codeph"> &lt;search-display-field name="title" length="70" none="no title"> </span> </p> <p>Outputs the title of the page for a search result. If the optional <span class="codeph"> none </span> attribute is specified, its value is displayed on the results page only if there is no content associated with the field. </p> <p>The <span class="codeph"> date-format </span>, <span class="codeph"> gmt </span> and <span class="codeph"> language </span> attributes are only relevant if the content type of the specified field is <span class="codeph"> date </span>. </p> <p>The <span class="codeph"> date-format </span> attribute takes a UNIX style date format string such as <span class="codeph"> %A, %B %d, %Y </span> (for Monday, July 25, 2016). <span class="codeph"> gmt </span> defaults to <span class="codeph"> yes </span> and controls whether the time portion of the date string is output in GMT ( <span class="codeph"> yes </span>) or the account's time zone ( <span class="codeph"> no </span>). </p> <p>See <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> Date format strings </a>. </p> <p>The <span class="codeph"> language </span> attribute controls the language and locale conventions of the output date string. <span class="codeph"> 0 </span> (the default) means "Use Account Language". <span class="codeph"> 2 </span> means "Use Document Language". The <span class="codeph"> language </span> value <span class="codeph"> 1 </span> is reserved for future use). Any other <span class="codeph"> language </span> value is interpreted as a specific language identifier, for example, <span class="codeph"> en_US </span> means "English (United States)". </p> <p>See <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Language identifiers </a>. </p> <p>The optional <span class="codeph"> length </span> attribute is used to limit the length of strings displayed, with a default of 80 characters. </p> <p>The optional <span class="codeph"> encoding </span> attribute controls whether the output is HTML encoded, JavaScript encoded, Perl encoded, URL encoded or not encoded, for output on the results page. The default value of <span class="codeph"> encoding </span> is <span class="codeph"> html </span>. Normally, you do not need to specify the encoding attribute. </p> <p>The optional <span class="codeph"> quotes </span> attribute controls whether the individual items output are surrounded by double-quotes (or single-quotes, if <span class="codeph"> encoding=perl </span>). The default value of <span class="codeph"> quotes </span> is <span class="codeph"> no </span>. </p> <p>The optional <span class="codeph"> commas </span> attribute controls whether the individual items output are separated by commas. The default value of <span class="codeph"> commas </span> is <span class="codeph"> yes </span>. The <span class="codeph"> commas </span> attribute is ignored for non-list-type fields. </p> <p>The optional <span class="codeph"> units </span> attribute controls the distance units applied to a proximity search output field. The default value of <span class="codeph"> units </span> is determined from the "Default Units" setting of the location-type field associated with the given proximity search output field. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> <p>The optional <span class="codeph"> separator </span> attribute defines the single character, or delimiter, that is inserted between the values of the output for list-type fields. </p> </td> 
+   <td colname="col2"> <p>This advanced tag displays the content of the metadata field (url, title, desc, keys, target, body, alt, date, charset, and language or fields defined under <span class="uicontrol"> Options </span> > <span class="uicontrol"> Metadata </span> > Definitions) specified in the <span class="codeph"> name </span> attribute, for the current result. For example: </p> <p> <span class="codeph"> &lt;search-display-field name="title" length="70" none="no title"> </span> </p> <p>Outputs the title of the page for a search result. If the optional <span class="codeph"> none </span> attribute is specified, its value is displayed on the results page only if there is no content associated with the field. </p> <p>The <span class="codeph"> date-format </span>, <span class="codeph"> gmt </span> and <span class="codeph"> language </span> attributes are only relevant if the content type of the specified field is <span class="codeph"> date </span>. </p> <p>The <span class="codeph"> date-format </span> attribute takes a UNIX style date format string such as <span class="codeph"> %A, %B %d, %Y </span> (for Monday, July 25, 2016). <span class="codeph"> gmt </span> defaults to <span class="codeph"> yes </span> and controls whether the time portion of the date string is output in GMT ( <span class="codeph"> yes </span>) or the account's time zone ( <span class="codeph"> no </span>). </p> <p>See . </p> <p>The <span class="codeph"> language </span> attribute controls the language and locale conventions of the output date string. <span class="codeph"> 0 </span> (the default) means "Use Account Language". <span class="codeph"> 2 </span> means "Use Document Language". The <span class="codeph"> language </span> value <span class="codeph"> 1 </span> is reserved for future use). Any other <span class="codeph"> language </span> value is interpreted as a specific language identifier, for example, <span class="codeph"> en_US </span> means "English (United States)". </p> <p>See . </p> <p>The optional <span class="codeph"> length </span> attribute is used to limit the length of strings displayed, with a default of 80 characters. </p> <p>The optional <span class="codeph"> encoding </span> attribute controls whether the output is HTML encoded, JavaScript encoded, Perl encoded, URL encoded or not encoded, for output on the results page. The default value of <span class="codeph"> encoding </span> is <span class="codeph"> html </span>. Normally, you do not need to specify the encoding attribute. </p> <p>The optional <span class="codeph"> quotes </span> attribute controls whether the individual items output are surrounded by double-quotes (or single-quotes, if <span class="codeph"> encoding=perl </span>). The default value of <span class="codeph"> quotes </span> is <span class="codeph"> no </span>. </p> <p>The optional <span class="codeph"> commas </span> attribute controls whether the individual items output are separated by commas. The default value of <span class="codeph"> commas </span> is <span class="codeph"> yes </span>. The <span class="codeph"> commas </span> attribute is ignored for non-list-type fields. </p> <p>The optional <span class="codeph"> units </span> attribute controls the distance units applied to a proximity search output field. The default value of <span class="codeph"> units </span> is determined from the "Default Units" setting of the location-type field associated with the given proximity search output field. </p> <p>See . </p> <p>The optional <span class="codeph"> separator </span> attribute defines the single character, or delimiter, that is inserted between the values of the output for list-type fields. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
@@ -1990,7 +1918,7 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
         "rbtaActionID": 57 
       } 
      </codeblock> </p> 
-    <!--<p> Results added to the results set by way of <codeph>rbta</codeph> have a "naturalPosition" value of -1. </p>--> <p>The <span class="codeph"> encoding </span> attribute is optional; the default value is <span class="codeph"> html </span>. </p> <p> <p>Note:  This tag only has output if <span class="codeph"> sp_trace=1 </span> is specified with the core search query parameters. </p> </p> <p>See row 48 in the table found in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
+    <!--<p> Results added to the results set by way of <codeph>rbta</codeph> have a "naturalPosition" value of -1. </p>--> <p>The <span class="codeph"> encoding </span> attribute is optional; the default value is <span class="codeph"> html </span>. </p> <p> <p>Note:  This tag only has output if <span class="codeph"> sp_trace=1 </span> is specified with the core search query parameters. </p> </p> <p>See row 48 in the table found in . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1998,8 +1926,6 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 ## Results loop conditional tags {#section_35C367969E384A06A9865E388F1F9360}
 
 The following tags conditionally include the HTML between them.
-
-See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table id="table_C49347072D074E888DC5A8F3CE7C3113"> 
  <thead> 
@@ -2050,8 +1976,6 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 
 ## Results loop anchor link tags {#section_C5FAEF520E9E42ADAD1F90651922AA02}
 
-See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
-
 <table id="table_90B49709BD5A459EAE152066529B848B"> 
  <thead> 
   <tr> 
@@ -2082,8 +2006,6 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 ## Loop position conditional tags {#section_E0C29DDA09E043C9A396F36334F05EBB}
 
 The following tags conditionally include the text between them. They can only appear inside the "looping" tags: < `search-results>` and `<search-field-values>`. They are used to test the position of the current result within the result set.
-
-See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
 <table id="table_9CA9445FC1D4439EB65ADFD17B2D890D"> 
  <thead> 
@@ -2244,7 +2166,7 @@ The following advanced tags output field values and related data from the entire
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no" commas="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/perl/url/none"> </span> </p> </td> 
-   <td colname="col2"> <p>This tag displays a list of unique field values, value counts, or result counts within the entire result set. </p> <p>This tag only yields output for fields specified by the <span class="codeph"> sp_sfvl_field </span> CGI parameters in the search query. The optional "quotes" attribute controls whether the individual items output are surrounded by double-quotes (or single-quotes, if encoding=perl). The default value of "quotes" is "yes". The optional "commas" attribute controls whether the individual items output are separated by commas. The default value of "commas" is "yes". The optional "data" attribute controls whether each unique field value is output (data="values"), the total count of each unique field value is output (data="counts"), or the number of results containing each unique value (data="results") is output. The default value of "data" is "values". For non-list-type fields, data="counts" and data="results" are equivalent. The separator attribute defines the single character, or delimiter, to be inserted between the values of the output. The optional "sortby" attribute controls the ordering of the output; sortby="none" means no particular order, sortby="values" means sort by field values (in ascending or descending order according to the field's Sorting property), sortby="counts" means sort in descending order of field value counts, and sortby="results" means sort in descending order of the number of results containing each value. </p> <p>Note that sortby="counts" and sortby="results" are equivalent for non-list-type fields. The optional "max-items" attribute limits the number of items to output. The default value of "max-items" is -1, which means "output all items". </p> <p>There is an absolute limit of 100 for max-items. The "date-format", "gmt" and "language" attributes are only relevant if the content type of the specified field is "date". The "date-format" attribute takes a UNIX style date format string such as "%A, %B %d, %Y" (for "Monday, July 25, 2016"). "gmt" defaults to "yes" and controls whether the time portion of the date string should be output in GMT ("yes") or the account's time zone ("no"). </p> <p>See <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> Date format strings </a>. </p> <p>The "language" attribute controls the language and locale conventions of the output date string. "0" (the default) means "Use Account Language". Any other "language" value is interpreted as a specific language identifier, for example, "en_US" means "English (United States)". The optional "encoding" attribute controls whether the output string characters are HTML encoded, JavaScript encoded, Perl encoded, URL encoded or not encoded, for output on the results page. The default value of "encoding" is "html". </p> <p>See <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Language identifiers </a>. </p> </td> 
+   <td colname="col2"> <p>This tag displays a list of unique field values, value counts, or result counts within the entire result set. </p> <p>This tag only yields output for fields specified by the <span class="codeph"> sp_sfvl_field </span> CGI parameters in the search query. The optional "quotes" attribute controls whether the individual items output are surrounded by double-quotes (or single-quotes, if encoding=perl). The default value of "quotes" is "yes". The optional "commas" attribute controls whether the individual items output are separated by commas. The default value of "commas" is "yes". The optional "data" attribute controls whether each unique field value is output (data="values"), the total count of each unique field value is output (data="counts"), or the number of results containing each unique value (data="results") is output. The default value of "data" is "values". For non-list-type fields, data="counts" and data="results" are equivalent. The separator attribute defines the single character, or delimiter, to be inserted between the values of the output. The optional "sortby" attribute controls the ordering of the output; sortby="none" means no particular order, sortby="values" means sort by field values (in ascending or descending order according to the field's Sorting property), sortby="counts" means sort in descending order of field value counts, and sortby="results" means sort in descending order of the number of results containing each value. </p> <p>Note that sortby="counts" and sortby="results" are equivalent for non-list-type fields. The optional "max-items" attribute limits the number of items to output. The default value of "max-items" is -1, which means "output all items". </p> <p>There is an absolute limit of 100 for max-items. The "date-format", "gmt" and "language" attributes are only relevant if the content type of the specified field is "date". The "date-format" attribute takes a UNIX style date format string such as "%A, %B %d, %Y" (for "Monday, July 25, 2016"). "gmt" defaults to "yes" and controls whether the time portion of the date string should be output in GMT ("yes") or the account's time zone ("no"). </p> <p>See . </p> <p>The "language" attribute controls the language and locale conventions of the output date string. "0" (the default) means "Use Account Language". Any other "language" value is interpreted as a specific language identifier, for example, "en_US" means "English (United States)". The optional "encoding" attribute controls whether the output string characters are HTML encoded, JavaScript encoded, Perl encoded, URL encoded or not encoded, for output on the results page. The default value of "encoding" is "html". </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
@@ -2285,7 +2207,7 @@ The following advanced tags enumerate and output field values and related data f
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value date-format="date-format-string" encoding="html/javascript/json/perl/url/none" gmt="yes/no" language="0/language-id"> </span> </p> </td> 
-   <td colname="col2"> <p>This tag outputs the field value for the current &lt;search-field-values> loop iteration. This tag is only valid inside a <span class="codeph"> &lt;search-field-values> </span> loop. The "date-format", "gmt" and "language" attributes are only relevant if the content type of the field name specified in the enclosing &lt;search-field-values> tag is "date". The "date-format" attribute takes a UNIX style date format string such as "%A, %B %d, %Y" (for "Monday, July 25, 2016"). </p> <p>See <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> Date format strings </a>. </p> <p>The optional "encoding" attribute controls whether the output string characters are HTML encoded, JavaScript encoded, Perl encoded, URL encoded or not encoded, for output on the results page. The default value of "encoding" is "none". Normally, you do not need to specify the encoding attribute. "gmt" defaults to "yes" and controls whether the time portion of the date string should be output in GMT ("yes") or the account's time zone ("no"). The "language" attribute controls the language and locale conventions of the output date string. "0" (the default) means "Use Account Language". Any other "language" value is interpreted as a specific language identifier, for example, "en_US" means "English (United States)". </p> <p>See <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> Language identifiers </a>. </p> </td> 
+   <td colname="col2"> <p>This tag outputs the field value for the current &lt;search-field-values> loop iteration. This tag is only valid inside a <span class="codeph"> &lt;search-field-values> </span> loop. The "date-format", "gmt" and "language" attributes are only relevant if the content type of the field name specified in the enclosing &lt;search-field-values> tag is "date". The "date-format" attribute takes a UNIX style date format string such as "%A, %B %d, %Y" (for "Monday, July 25, 2016"). </p> <p>See . </p> <p>The optional "encoding" attribute controls whether the output string characters are HTML encoded, JavaScript encoded, Perl encoded, URL encoded or not encoded, for output on the results page. The default value of "encoding" is "none". Normally, you do not need to specify the encoding attribute. "gmt" defaults to "yes" and controls whether the time portion of the date string should be output in GMT ("yes") or the account's time zone ("no"). The "language" attribute controls the language and locale conventions of the output date string. "0" (the default) means "Use Account Language". Any other "language" value is interpreted as a specific language identifier, for example, "en_US" means "English (United States)". </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -2476,12 +2398,12 @@ The following tags output a string into the HTML at that point in the template.
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-lt> </span> </p> </td> 
-   <td colname="col2"> <p>Inserts the output from one of the Search template tags within other HTML or template tags on the results page. <span class="codeph"> &lt;search-lt> </span> inserts a less than character. Use of <span class="codeph"> &lt;search-lt> </span> and <span class="codeph"> &lt;search-gt> </span> provides a way to escape the definition of a tag so that you can use Search template tags as attribute values. When the template is rendered in response to a search, a less-than sign (&lt;) replaces the <span class="codeph"> &lt;search-lt> </span> tag. For example, <span class="codeph"> &lt;search-link> </span> is equivalent to <span class="codeph"> &lt;search-lt>a href="&lt;search-url>"&lt;search-gt> </span>. </p> </td> 
+   <td colname="col2"> <p>Inserts the output from one of the Search template tags within other HTML or template tags on the results page. <span class="codeph"> &lt;search-lt> </span> inserts a less than character. Use of <span class="codeph"> &lt;search-lt> </span> and <span class="codeph"> &lt;search-gt> </span> provides a way to escape the definition of a tag so that you can use Search template tags as attribute values. When the template is rendered in response to a search, a less-than sign (&lt;) replaces the <span class="codeph"> &lt;search-lt> </span> tag. For example, <span class="codeph"> &lt;search-link> </span> is equivalent to . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>20 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-gt> </span> </p> </td> 
-   <td colname="col2"> <p>Inserts the output from one of the Search template tags within other HTML or template tags on the results page. <span class="codeph"> &lt;search-gt> </span> inserts a greater than character. Use of <span class="codeph"> &lt;search-lt> </span> and <span class="codeph"> &lt;search-gt> </span> provides a way to escape the definition of a tag so that you can use other template tags as attribute values. When the template is rendered in response to a search, a greater-than sign (>) replaces the <span class="codeph"> &lt;search-gt> </span> tag. For example, <span class="codeph"> &lt;search-link> </span> is equivalent to <span class="codeph"> &lt;search-lt>a href="&lt;search-url>"&lt;search-gt> </span>. </p> </td> 
+   <td colname="col2"> <p>Inserts the output from one of the Search template tags within other HTML or template tags on the results page. <span class="codeph"> &lt;search-gt> </span> inserts a greater than character. Use of <span class="codeph"> &lt;search-lt> </span> and <span class="codeph"> &lt;search-gt> </span> provides a way to escape the definition of a tag so that you can use other template tags as attribute values. When the template is rendered in response to a search, a greater-than sign (>) replaces the <span class="codeph"> &lt;search-gt> </span> tag. For example, <span class="codeph"> &lt;search-link> </span> is equivalent to . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>21 </p> </td> 
@@ -2493,7 +2415,7 @@ The following tags output a string into the HTML at that point in the template.
    <td colname="col1"> <p> 
      <!--NEW for S&P 8.17.0 release on October 30 2014--> <span class="codeph"> &lt;search-trace encoding="html/javascript/ json/perl/url/none"> </span> </p> </td> 
    <td colname="col2"> 
-    <!--<p>This global core search template tag outputs a representation of the submitted core search query, including any "fuzzy-search" query term expansions that happen by way of synonyms, sound-alikes, and so forth. </p>--> <p>The <span class="codeph"> encoding </span> attribute is optional; the default value is <span class="codeph"> json </span>. </p> <p> <p>Note:  This tag only has output if <span class="codeph"> sp_trace=1 </span> is specified with the core search query parameters. </p> </p> <p>See row 48 in the table found in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
+    <!--<p>This global core search template tag outputs a representation of the submitted core search query, including any "fuzzy-search" query term expansions that happen by way of synonyms, sound-alikes, and so forth. </p>--> <p>The <span class="codeph"> encoding </span> attribute is optional; the default value is <span class="codeph"> json </span>. </p> <p> <p>Note:  This tag only has output if <span class="codeph"> sp_trace=1 </span> is specified with the core search query parameters. </p> </p> <p>See row 48 in the table found in . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2659,19 +2581,19 @@ You can use the following conversion specifications in date format strings:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>%A </p> </td> 
-   <td colname="col2"> <p> Matches the national representation of the full weekday name, for example, "Monday." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> About Words &amp; Language </a>. </p> </td> 
+   <td colname="col2"> <p> Matches the national representation of the full weekday name, for example, "Monday." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%a </p> </td> 
-   <td colname="col2"> <p> Matches the national representation of the abbreviated weekday name, where the abbreviation is the first three characters, for example "Mon." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> About Words &amp; Language </a>. </p> </td> 
+   <td colname="col2"> <p> Matches the national representation of the abbreviated weekday name, where the abbreviation is the first three characters, for example "Mon." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%B </p> </td> 
-   <td colname="col2"> <p> Matches the national representation of the full month name, for example "June." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> About Words &amp; Language </a>. </p> </td> 
+   <td colname="col2"> <p> Matches the national representation of the full month name, for example "June." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%b </p> </td> 
-   <td colname="col2"> <p> Matches the national representation of the abbreviated month name, where the abbreviation is the first three characters, for example "Jun." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> About Words &amp; Language </a>. </p> </td> 
+   <td colname="col2"> <p> Matches the national representation of the abbreviated month name, where the abbreviation is the first three characters, for example "Jun." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%D </p> </td> 
@@ -2719,7 +2641,7 @@ You can use the following conversion specifications in date format strings:
   </tr> 
   <tr> 
    <td colname="col1"> <p>%p </p> </td> 
-   <td colname="col2"> <p> Matches the national representation of either "ante meridiem" or "post meridiem" as appropriate, for example "PM." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See <a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local"> About Words &amp; Language </a>. </p> </td> 
+   <td colname="col2"> <p> Matches the national representation of either "ante meridiem" or "post meridiem" as appropriate, for example "PM." The setting in <span class="uicontrol"> Linguistics </span> > <span class="uicontrol"> Words &amp; Languages </span> > <span class="uicontrol"> Language </span> determines the national representation. </p> <p>See . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%R </p> </td> 
@@ -2767,14 +2689,6 @@ You can use the following conversion specifications in date format strings:
 ## Language identifiers {#section_0490DECC00E34691ADE5A9ED90A6D911}
 
 The following table contains the language identifiers for each supported language. You can use these identifiers as values for the optional "language" attribute in the following template tags:
-
-* `search-date` and `search-display-field`.
-
-   See [Results loop string tags](../c-appendices/c-templates.md#section_80D68334E8D04A33937A6E58ABAAA320).
-
-* `search-field-value-list` See [Field value list tags](../c-appendices/c-templates.md#section_D3298B5F976447DBA0032B883DCC91B1).
-
-* `search-field-value` See [Field value list loop tags](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E).
 
 <table id="table_5960FA4A816C47ECA8D8F1F937558FB5"> 
  <thead> 
@@ -2945,8 +2859,6 @@ If you do not specify the `charset` attribute, then no `charset` value is writte
 
 If you specify `charset="1"` then the actual value for `charset-name` is the value of the `sp_f` CGI parameter. If no `sp_f` CGI parameter is submitted with the search, then the actual value for `charset-name` is read from your account settings. You can view or change the character set that is associated with your account under **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
 
-See [Configuring your personal user information](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
-
 You can choose a specific character set name by listing it as the `charset` value, like `charset="iso-8859-1"` or `charset="Shift-JIS"`.
 
 If you specify a `charset` attribute, then it is used as the default `charset` attribute for the `<search-html-meta-charset>` and `<search-xml-decl>` tags, as well as being output to the `content-type` header.
@@ -2965,8 +2877,6 @@ If you do not specify the content attribute, then the actual value of `MIME-type
 
 If you do not specify the `charset` attribute, then the actual value of `charset-name` defaults to one of two values. If the `<search-content-type-header>` tag specified a `charset` attribute, then that value is used. Otherwise, the actual value for `charset-name` is read from your account settings. You can view or change the character set that is associated with your account under **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
 
-See [Configuring your personal user information](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
-
 If you specify `charset="1"` then the actual value for `charset-name` is the value of the `sp_f` CGI parameter. If no `sp_f` CGI parameter is submitted with the search, then the actual value for `charset-name` is either the value set in the `<search-content-type-header>` tag if it was specified, or the value that is set in your account settings.
 
 You can specify a specific character set name, as in `charset="charset-name"`. For example, `charset="iso-8859-1"` or `charset="Shift-JIS"`.
@@ -2984,8 +2894,6 @@ The `charset` attribute is optional. This tag must appear at the top of the temp
 `<?xml version="1.0" encoding="charset-name" standalone="yes" ?>`
 
 If you do not specify the `charset`, then the actual value of `charset-name` defaults to one of two values. If `<search-content-type-header>` specified a `charset` attribute, then that value is used. Otherwise, the actual value for `charset-name` is read from your account settings. You can view or change the character set that is associated with your account under **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL Personal Information]** > **[!UICONTROL Character Encoding]**.
-
-See [Configuring your personal user information](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
 If you specify `charset="1"` then the actual value for `charset-name` is the value of the `sp_f` CGI parameter. If no `sp_f` CGI parameter is submitted with the search, then the actual value for `charset-name` is either the value that is set in the `<search-content-type-header>` tag if it was specified, or the value that is set in your account settings.
 
@@ -3019,8 +2927,3 @@ To set up your search forms to use a specific transport template (other than the
 
 When a customer clicks a standard form that contains this line of code, the "clearance" search transport template is displayed along with their search results.
 
-See [Using collections in search forms](../c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3).
-
-See [Using frames with forms](../c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5).
-
-See [Sample advanced search form](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).
