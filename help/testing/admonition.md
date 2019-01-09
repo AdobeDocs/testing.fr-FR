@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4728718a1378e779cd2647f453967c256ce3a5cb
+source-git-commit: d780dfb25a0276506fcb8bd6f424a15beb239998
 translation-type: tm+mt
 
 ---
@@ -13,8 +13,6 @@ Options marked with an asterisk (*) are not supported...
 
 ## Testing bookmarklet
 
-# Hello
-
 ```javascript
 (function%20()%20{var%20parts%20=%20window.location.href.split('at_preview_token',2);%20if%20(parts.length%20>%201)%20{window.location.href%20=%20parts[0].concat('at_preview_token=');}%20})();
 ```
@@ -24,6 +22,7 @@ The bookmarklet should then appear on the toolbar for re-use.
 
 
 ## Markdown Link
+
 [Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
 
 [QA Bookmarklet](javascript
@@ -31,6 +30,7 @@ The bookmarklet should then appear on the toolbar for re-use.
 
 
 ## HTML Link
+
 <a href="javascript
 (function%20()%20{var%20parts%20=%20window.location.href.split('at_preview_token',2);%20if%20(parts.length%20>%201)%20{window.location.href%20=%20parts[0].concat('at_preview_token=');}%20})();">QA Bookmarklet</a>
 
