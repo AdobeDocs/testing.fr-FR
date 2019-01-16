@@ -1,5 +1,5 @@
 ---
-source-git-commit: d780dfb25a0276506fcb8bd6f424a15beb239998
+source-git-commit: aa18dfe9c11e49e99153df96aabfc37b51bb1b26
 translation-type: tm+mt
 
 ---
@@ -20,19 +20,6 @@ Options marked with an asterisk (*) are not supported...
 The bookmarklet should then appear on the toolbar for re-use.
 
 
-
-## Markdown Link
-
-[Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
-
-[QA Bookmarklet](javascript
-(function%20()%20{var%20parts%20=%20window.location.href.split('at_preview_token',2);%20if%20(parts.length%20>%201)%20{window.location.href%20=%20parts[0].concat('at_preview_token=');}%20})();)
-
-
-## HTML Link
-
-<a href="javascript
-(function%20()%20{var%20parts%20=%20window.location.href.split('at_preview_token',2);%20if%20(parts.length%20>%201)%20{window.location.href%20=%20parts[0].concat('at_preview_token=');}%20})();">QA Bookmarklet</a>
 
 ## Testing superscript
 
