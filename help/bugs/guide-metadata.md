@@ -1,7 +1,7 @@
 ---
-sample: this is a test again again again again again
+sample: this is a test again again again again again again
 translation-type: tm+mt
-source-git-commit: 15f15a6ebe6fc4ccdefe81ce2fac75e43d07513b
+source-git-commit: 8f2d73a82d16541194fb930f7015c23e84fcd5b2
 
 ---
 
