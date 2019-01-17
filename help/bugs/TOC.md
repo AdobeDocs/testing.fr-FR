@@ -1,7 +1,8 @@
 ---
 sample: this is a test again again again again again again
+woo: hoo
 translation-type: tm+mt
-source-git-commit: 524da4a58c946dcdcb64d9bda5044bbb51c42cd6
+source-git-commit: 06f3d227500fd142b927f3b120b0660c19f91c29
 
 ---
 
