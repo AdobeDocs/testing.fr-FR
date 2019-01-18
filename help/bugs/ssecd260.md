@@ -1,9 +1,11 @@
 ---
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: b2efce2493c8608e81f67600b7476d17e76d2a32
 translation-type: tm+mt
 
 ---
 # Clickable Images
+
+Hello!
 
 Click the image to go google.com
 
