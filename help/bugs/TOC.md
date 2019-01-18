@@ -7,8 +7,9 @@ found: it
 again: wrong
 adding: this
 removing: that
+evans: gambit
 translation-type: tm+mt
-source-git-commit: 7c1ac2e6aff42da9c5604d204d782cfad14b3dae
+source-git-commit: 34895f18cced84add6423b79319841bf6adceaa5
 
 ---
 
