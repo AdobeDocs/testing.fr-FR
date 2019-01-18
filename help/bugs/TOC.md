@@ -1,20 +1,8 @@
 ---
 sample: this is a test again again again again again again
-woo: hoo
-matt: bog
-grants: tomb
-found: it
-again: wrong
-adding: this
-removing: that
-evans: gambit
-pizza: carrier
-charles: dickens
-higher: power
-blow: false
 bob: rules
 translation-type: tm+mt
-source-git-commit: 91ccffa58ce09a805a83ddb23661705627d24f7a
+source-git-commit: 043babdf6d4f93968730c86a2145df63f3a07174
 
 ---
 
