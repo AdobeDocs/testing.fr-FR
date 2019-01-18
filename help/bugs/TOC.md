@@ -10,8 +10,9 @@ removing: that
 evans: gambit
 pizza: carrier
 charles: dickens
+higher: power
 translation-type: tm+mt
-source-git-commit: e1bfff8783ec729628dd59d759ef76ddde9fe7fa
+source-git-commit: 66f91d7bad107a5b9f695cd5e377745779579024
 
 ---
 
