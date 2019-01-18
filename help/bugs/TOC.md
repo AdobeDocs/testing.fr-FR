@@ -8,8 +8,9 @@ again: wrong
 adding: this
 removing: that
 evans: gambit
+pizza: carrier
 translation-type: tm+mt
-source-git-commit: 34895f18cced84add6423b79319841bf6adceaa5
+source-git-commit: 165398e0d03312c8779580df5c9ccc5da16a9b09
 
 ---
 
