@@ -1,9 +1,8 @@
 ---
 sample: this is a test again again again again again again
 bob: rules
-bad: mojo
 translation-type: tm+mt
-source-git-commit: 067bce5d86c338eda38adebe62a339f90db9cf0c
+source-git-commit: 2b3c870fab9ece9488b94d3abced3fc17fb37444
 
 ---
 
