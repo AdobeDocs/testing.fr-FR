@@ -1,7 +1,8 @@
 ---
 sample: metadata
+simple: change
 translation-type: tm+mt
-source-git-commit: 80216078d640d9312c7a8c3aee89ddae6f341c5b
+source-git-commit: 82aabab0184ca2b7d75fe1cd1066955041ad5f34
 
 ---
 
