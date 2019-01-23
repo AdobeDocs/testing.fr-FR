@@ -1,8 +1,7 @@
 ---
 sample: this is a test again again again again again again
-bob: rules
 translation-type: tm+mt
-source-git-commit: 2b3c870fab9ece9488b94d3abced3fc17fb37444
+source-git-commit: 795230d2d4f4bd9eb42d82bd8a667ec58a6d1d03
 
 ---
 
