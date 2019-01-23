@@ -5,9 +5,8 @@ solution-image: None
 getting-started-url: help/c-gs/c-gs.md
 tutorials-url: https://training.adobe.com/training/courses.html#
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
-another: change
 translation-type: tm+mt
-source-git-commit: fa37551bbd6dfc146dcf929cdbaf1c9e5c130b89
+source-git-commit: 464cf53946e3c7ec5f0df31676545c27aa8acec7
 
 ---
 
