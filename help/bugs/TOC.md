@@ -3,13 +3,13 @@ sample: this is a test again again again again again again
 bob: rules
 bad: mojo
 translation-type: tm+mt
-source-git-commit: 6c6af2c2579651d7edb9815d2a7f296afbbb3f35
+source-git-commit: 067bce5d86c338eda38adebe62a339f90db9cf0c
 
 ---
 
 # Tests from Bug Reports Change
 
-* OpenOpen
+* Open
    * [SSECD-286 HTML Root](ssecd286.md)
 * Waiting
    * [SSECD-276 Space after link](ssecd276.md)
