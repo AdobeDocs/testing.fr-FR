@@ -1,7 +1,7 @@
 ---
-sample: this is a test again again again again again again
+sample: metadata
 translation-type: tm+mt
-source-git-commit: 795230d2d4f4bd9eb42d82bd8a667ec58a6d1d03
+source-git-commit: 80216078d640d9312c7a8c3aee89ddae6f341c5b
 
 ---
 
