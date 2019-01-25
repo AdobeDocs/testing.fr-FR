@@ -17,7 +17,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/downloads.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: 588ac5a7117144903d4b4b1c781aeabeaa320e87
 
 ---
 
@@ -27,17 +27,16 @@ source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
 
 [PDF download](assets/Publish_Workflow.pdf)
 
-To download a set of image files, click <a href="assets/Publish_Workflow.pdf">here</a>
+To download a set of image files, click [here](assets/Publish_Workflow.pdf)
 
-
-![PDF download](assets/Publish_Workflow.pdf)
-![PNG Images  ](assets/access_api.png)
-[ZIP download](assets/test-images.zip)
+* [PDF download](assets/Publish_Workflow.pdf)
+* ![PNG Images](assets/access_api.png)
+* [ZIP download](assets/test-images.zip)
 
 ## Zip Link
 
-To download a set of image files, click <a href="assets/foobar.zip">here</a>
+To download a set of image files, click [here](assets/foobar.zip)
 
 ## Standard Image Display
 
-![Access API Image](assets/access_api.png)
+![Access API Image](/help/testing/assets/access_api.png)
