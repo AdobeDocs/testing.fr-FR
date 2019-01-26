@@ -17,7 +17,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/downloads.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 588ac5a7117144903d4b4b1c781aeabeaa320e87
+source-git-commit: d9f714f297d650bfcf65ab1cf7892af8ef0675b0
 
 ---
 
@@ -26,6 +26,8 @@ source-git-commit: 588ac5a7117144903d4b4b1c781aeabeaa320e87
 ## PDF Link
 
 [PDF download](assets/Publish_Workflow.pdf)
+
+[CSV download](assets/redirects.csv)
 
 To download a set of image files, click [here](assets/Publish_Workflow.pdf)
 
