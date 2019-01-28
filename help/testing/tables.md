@@ -10,7 +10,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 4a27accadd1995923b0ed4246c6839200c977f41
+source-git-commit: 32035c266b3b74e03a4aa9693144b3776f69a042
 
 ---
 
@@ -135,7 +135,6 @@ source-git-commit: 4a27accadd1995923b0ed4246c6839200c977f41
 | Access Method | Browser solution for building robust,custom analysis projects, and democratizing insights. | Browser solution for digital analysis. | Java based tool for advanced digital analysis. | Excel add-in that lets you build customized requests from R&A data, and visualize using Microsoft Excel. | Browser solution that generates reports in .csv format. Can generate Tableau format files. | Multi-channel analytics tool for advanced analysis, such as custom attribution modeling, predictive analytics, and 360 customer analysis. |
 | Report Breakdowns | Unlimited | Up to 2 correlations | Unlimited | Up to 2 correlations | Performs fully expanded, unlimited breakdowns, break down by segment. | Unlimited |
 | Segment Comparisons | Unlimited | Up to 2 segments | Unlimited | Unlimited (data request stacking) | 1 segment. Supports multiple (stacked) segments. | Unlimited |
-|  |
 | Row Output Limit | 400 | 200 | 50,000 | 50,000 | Unlimited | Customizable |
 | Unique Value Limits (within eVar/ prop reports) | 500K-2MM | 500K-2MM | 500K-2MM | 500K-2MM | Unlimited | Customizable |
 | Funnel/Pathing | Yes Fallout Flow | Yes | Yes | Yes | No | Yes |
