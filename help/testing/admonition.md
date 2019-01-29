@@ -1,9 +1,23 @@
 ---
-source-git-commit: 7568cf497c8a8e7c78ac430166f42198c6ab613c
+source-git-commit: 6bdb4cb092afa413f4c7c38c3e0d9761917c5c83
 translation-type: tm+mt
 
 ---
 # ![](/help/assets/premium.png) Admonitions
+
+## Testing ordered list start
+
+4. One
+5. Two
+6. Three
+
+
+Hello
+
+4. One
+4. Two
+4. Three
+
 
 ## Testing asterisk
 
