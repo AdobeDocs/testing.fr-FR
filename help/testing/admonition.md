@@ -1,19 +1,11 @@
 ---
-source-git-commit: 348ef5dfa47fa65cb67f482d29c04272028fe52c
+source-git-commit: 01e0962d5d279143aaf14dfce663342f116686fb
 translation-type: tm+mt
 
 ---
-# testing br
+# testing table
 
-This is some text
-<br/>
-Some other text with one line break
-<br/>
-<br/>
-Some other text with two line breaks
-
-<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
-This is some other text
-New line
-<br>
-after br
+| 1 | 2 |
+| --- | --- |
+| [a](http://www.google.com) | b |
+| c | d |
