@@ -7,12 +7,19 @@ solution: Social
 title: Release Notes
 uuid: 77c0762c-1366-4464-b4ce-4eaa2d9cbcf3
 translation-type: tm+mt
-source-git-commit: a313edfffdb7d7b74e31270ca6da29a2935aefc6
+source-git-commit: 9e1394972d39dcab6940e3cb9fbd757e1c153a03
 
 ---
 
 
 # Tables ugh
+## JPEG
+
+Before image
+
+![JPEG](trend_reports_border.jpg)
+
+after image
 
 ## Adobe Target Standard/Premium 18.10.1 (October 24, 2018) {#section_F3DB9A89D944428DBEE04634EB712601}
 
