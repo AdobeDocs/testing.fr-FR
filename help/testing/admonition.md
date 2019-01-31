@@ -1,17 +1,11 @@
 ---
-source-git-commit: 44d80090f39b59875be8865dee1f1ba2e64d59a9
+source-git-commit: 9e1394972d39dcab6940e3cb9fbd757e1c153a03
 translation-type: tm+mt
 
 ---
 # ![](/help/assets/premium.png) Admonitions
 
-## JPEG
 
-Before image
-
-![JPEG](trend_reports_border.jpg)
-
-after image
 
 ## Testing ordered list start
 
