@@ -7,7 +7,7 @@ solution: Social
 title: Release Notes
 uuid: 77c0762c-1366-4464-b4ce-4eaa2d9cbcf3
 translation-type: tm+mt
-source-git-commit: f7c4ad717880894a4b2f2da504e4120534652d44
+source-git-commit: a313edfffdb7d7b74e31270ca6da29a2935aefc6
 
 ---
 
@@ -18,14 +18,14 @@ source-git-commit: f7c4ad717880894a4b2f2da504e4120534652d44
 
 | Date | Topic | Changes |
 |--- |--- |--- |
-| November 8, 2018 | [Adobe Analytics as the reporting source for Adobe Target (https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added NodeJS SDK to the compatibility table. |
+| November 8, 2018 | [Adobe Analytics as the reporting source for Adobe Target](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added NodeJS SDK to the compatibility table. |
 | November 7, 2018 | [How long should you run an A/B Test?](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Edited topic and added additional information. |
-|  | [Target release notes (https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information about features in the Target 18.11.1 release. |
+|  | [Target release notes](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information about features in the Target 18.11.1 release. |
 | November 5, 2018 | [Integrate Recommendations with email](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Updated link in Option 3. |
 |  | [Customer attributes](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added the following note:<br>**Important**: The data source name and the attribute name cannot contain a period. |
 | October 31, 2018 | [System status updates](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Updated topic. |
 |  | [Target Basics Webinar Series](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added link to the Best Practices in Audience Segmentation recording. |
-| October 29, 2018 | [TLS (https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added new section: Expected Behavior with Browsers Supporting TLS 1.0 Only. |
+| October 29, 2018 | [TLS](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added new section: Expected Behavior with Browsers Supporting TLS 1.0 Only. |
 | October 26, 2018 | [Known Issues and Resolved Issues](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | <ul><li>Added a known issue about searching for strings containing special characters when creating geo-targeting audiences.</li><li>Moved at.js 1.6.0 redirect issue to Resolved Issues table.</li><li>Moved issue to the Resolved Issues table regarding activities in the default workspace deleted via API continuing to display in the Target UI</li></ul> |
 | October 24, 2018 | [Preferences](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information to consider when choosing the reporting source for activities in Setup > Preferences or per activity. |
 |  | [Create an Automated Personalization activity](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information about filtering for Unassigned Offers. |
@@ -34,7 +34,7 @@ source-git-commit: f7c4ad717880894a4b2f2da504e4120534652d44
 |  | [About audiences](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689). |
 |  | [at.js integrations](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Updated topic. |
 |  | [Implement Target without a tag manager](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Updated all sections.  Added new section: at.js Implementation. |
-|  | Release 18.10.1 [Release Notes](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
+|  | Release 18.10.1<br>[Release Notes](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. |
 
 >[!NOTE]
 >
