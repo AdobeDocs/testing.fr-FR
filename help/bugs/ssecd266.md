@@ -7,12 +7,13 @@ solution: Social
 title: Release Notes
 uuid: 77c0762c-1366-4464-b4ce-4eaa2d9cbcf3
 translation-type: tm+mt
-source-git-commit: 9e1394972d39dcab6940e3cb9fbd757e1c153a03
+source-git-commit: 228e9642c64f58584458f1cb1dacf33dab7780c1
 
 ---
 
 
 # Tables ugh
+
 ## JPEG
 
 Before image
