@@ -1,5 +1,5 @@
 ---
-source-git-commit: 9e1394972d39dcab6940e3cb9fbd757e1c153a03
+source-git-commit: 634e087c24d281122eb95432be00f45d1d97368a
 translation-type: tm+mt
 
 ---
@@ -19,6 +19,16 @@ Hello
 4. One
 4. Two
 4. Three
+
+Superscript:
+* x^2
+* x<sup>2</sup>
+
+Footnote:
+* [footnote]
+
+Insertion:
+* ++Foo++
 
 
 ## Testing asterisk
