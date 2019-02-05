@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: 314bba40a3416d8fe6e83290b0292dc90485506b
 translation-type: tm+mt
 
 ---
-# SSECD-270 Em Dash not working
+# SSECD-270 Em Dash not working {#ssecd270}
 
 This is a dash: -
 
