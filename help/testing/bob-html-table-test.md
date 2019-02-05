@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f08ab3bf66c2f31504ee20be55ef2661d0bcd49
+source-git-commit: 314bba40a3416d8fe6e83290b0292dc90485506b
 
 ---
 
@@ -2058,7 +2058,7 @@ The following tags conditionally include the text between them. They can only ap
  </tbody> 
 </table>
 
-### First page, sp_n=1
+### First page, sp_n=1 {#first_page}
 
 <table id="table_0334F560A1F840A9A1447F357A888B6E">  
  <thead> 
@@ -2103,7 +2103,7 @@ The following tags conditionally include the text between them. They can only ap
  </tbody> 
 </table>
 
-### Later page, sp_n=10
+### Later page, sp_n=10 {#later_page}
 
 <table id="table_00DAAFA92C994387B38737C8435AB3D4">  
  <thead> 
