@@ -12,7 +12,7 @@ snippet: y
 translate: y
 Translated: TM+MT
 translation-type: tm+mt
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: 314bba40a3416d8fe6e83290b0292dc90485506b
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Experience Cloud新しい機能や修正も可能になります。
 
 起動のリリースノートについては、[https://docs.adobelaunch.com/getting-started/release-notes](https://docs.adobelaunch.com/getting-started/release-notes)で定期的に更新されます。
 
-### エクスペリエンスCloudモバイルSDK{#section_FD57C8A6E37244E6B3E2} AEB0222230A6
+### エクスペリエンスCloudモバイルSDK{#section_FD57C8A6E37244E6B3E2}
 
 iOSおよびAndroidの修正とアップデート。
 
