@@ -1,13 +1,24 @@
 ---
-source-git-commit: 634e087c24d281122eb95432be00f45d1d97368a
+source-git-commit: f78856c018ccb0bfb711ef3eb1ef7844ccf58f27
 translation-type: tm+mt
 
 ---
 # ![](/help/assets/premium.png) Admonitions
 
+## 1. Testing ordered list start {#foo}
+
+4. One
+5. Two
+6. Three
+
+## 2. Testing ordered list start {#testing-ordered-list-start}
+
+4. One
+5. Two
+6. Three
 
 
-## Testing ordered list start
+## 3. Testing ordered list start {#n3-testing-ordered-list-start}
 
 4. One
 5. Two
@@ -28,7 +39,6 @@ Footnote:
 * [footnote]
 
 Insertion:
-* ++Foo++
 
 
 ## Testing asterisk
