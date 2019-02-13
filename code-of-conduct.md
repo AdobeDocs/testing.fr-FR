@@ -1,10 +1,11 @@
 ---
-Translated: TM+MT
+source-git-commit: 60c7f291d4ea71db0fa4677f4b947e8a386c8e82
+translation-type: tm+mt
 
 ---
 # Adobe Code of Conduct
 
-## Our Pledge
+## 1. Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our project and
