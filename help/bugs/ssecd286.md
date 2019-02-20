@@ -1,5 +1,5 @@
 ---
-source-git-commit: e60ef8bc209cc165f7790685b5d6f46899d3f91a
+source-git-commit: e9b1d6447e64ce6b56b85054982e574522d2ecf9
 translation-type: tm+mt
 
 ---
@@ -36,7 +36,6 @@ This is a DNL test of the [!DNL Architecture] we have created.
 
 [[!DNL Root Link]](/help/testing/code-block.md) and [Another link](/help/testing/code-block.md)
 
-![[](/image.png) and ![Root image](/image.png)
 
 
 <a href="/help/testing/code-block.md">Root Link</a>
