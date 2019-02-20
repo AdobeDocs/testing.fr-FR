@@ -1,5 +1,5 @@
 ---
-source-git-commit: f78856c018ccb0bfb711ef3eb1ef7844ccf58f27
+source-git-commit: 20d4bb9e8fcf0ecb4a62f746317d79f43a135b3a
 translation-type: tm+mt
 
 ---
@@ -22,7 +22,7 @@ translation-type: tm+mt
 
 4. One
 5. Two
-6. Three
+6. [Three](#foo)
 
 
 Hello
