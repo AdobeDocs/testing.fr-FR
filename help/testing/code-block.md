@@ -4,7 +4,7 @@ seo-title: null
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 6fa19cb15035f959a5cd387dd2ac0cf0fa09ec49
+source-git-commit: d068a4066b00fe4e27c42999c31e72f8f7abc3b9
 
 ---
 
@@ -13,12 +13,14 @@ source-git-commit: 6fa19cb15035f959a5cd387dd2ac0cf0fa09ec49
 
 ## highlight
 
-```
+<pre>
+<code>
 #include <stdio.h>
 int main() {
   return 0;
 }
-```
+</code>
+</pre>
 
 ## Code block with italics
 
