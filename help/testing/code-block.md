@@ -4,7 +4,7 @@ seo-title: null
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: d068a4066b00fe4e27c42999c31e72f8f7abc3b9
+source-git-commit: 2d70713c8baf84330f4d10b8ee6085a88ac25ae7
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d068a4066b00fe4e27c42999c31e72f8f7abc3b9
 
 <pre>
 <code>
-#include <stdio.h>
+#include &lt;stdio.h>
 int main() {
   return 0;
 }
