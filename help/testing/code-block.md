@@ -4,12 +4,21 @@ seo-title: null
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: b70fcdc20984bf0bc65df4f20fa89637cd4d316c
+source-git-commit: 6fa19cb15035f959a5cd387dd2ac0cf0fa09ec49
 
 ---
 
 
 # Code Blocks
+
+## highlight
+
+```
+#include <stdio.h>
+int main() {
+  return 0;
+}
+```
 
 ## Code block with italics
 
