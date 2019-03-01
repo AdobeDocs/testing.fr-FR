@@ -1,5 +1,5 @@
 ---
-source-git-commit: e9b1d6447e64ce6b56b85054982e574522d2ecf9
+source-git-commit: 07ac59a9d59e0adada3d586da3e6a6f68f01d3cb
 translation-type: tm+mt
 
 ---
@@ -8,6 +8,12 @@ translation-type: tm+mt
 ## 1. Testing ordered list start {#foo}
 
 hi
+
+<details>
+  <summary>Copyright 1999-2018.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
 
 4. One
 5. Two
