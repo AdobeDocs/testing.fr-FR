@@ -1,0 +1,3 @@
+[submodule "help/common"]
+	path = help/common
+	url = git@git.corp.adobe.com:AdobeDocs/testing-common.git
