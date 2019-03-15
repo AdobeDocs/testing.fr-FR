@@ -1,9 +1,15 @@
 ---
-source-git-commit: 0e86ece61c1601c1891f731dd831d89a03edcb91
+source-git-commit: c14c228090fd1c8638ee7e8fa34e93824a6ffda9
 translation-type: tm+mt
 
 ---
 # ![](/help/assets/premium.png) Admonitions
+
+
+## Space between emphasis and link problem
+
+There should be a space between **the text and the** [link](http://www.google.com)
+
 
 ## 1. Testing ordered list start {#foo}
 
