@@ -17,7 +17,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/downloads.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: aa658bf283fdccf5c07699b7a165d0a1cc30aa32
+source-git-commit: ee1fcbe31224a439f5eb9ed6dc7dcfd548e2dbcb
 
 ---
 
@@ -26,10 +26,8 @@ source-git-commit: aa658bf283fdccf5c07699b7a165d0a1cc30aa32
 ## PDF Link
 
 [PDF download](assets/Publish_Workflow.pdf)
-[No ext](assets/goofball){download}
 [CSV download](assets/redirects.csv)
 
-<a href="assets/goofball" id="download">HTML Download Link</a>
 To download a set of image files, click [here](assets/Publish_Workflow.pdf)
 
 * [PDF download](assets/Publish_Workflow.pdf)
