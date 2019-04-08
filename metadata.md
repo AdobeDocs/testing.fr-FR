@@ -6,12 +6,14 @@ getting-started-url: help/c-gs/c-gs.md
 tutorials-url: https://training.adobe.com/training/courses.html#
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 464cf53946e3c7ec5f0df31676545c27aa8acec7
+source-git-commit: 5fe3b3c9b47e1114cbc2fc244660dfc4b3f62708
 
 ---
 
 
 # Metadata for internal use
+
+Change 3
 
 The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
 
