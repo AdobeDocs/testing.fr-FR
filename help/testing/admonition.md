@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6296b9d24a69ef3cc9050fb342642ca373f7d316
+source-git-commit: 5fe3b3c9b47e1114cbc2fc244660dfc4b3f62708
 translation-type: tm+mt
 
 ---
@@ -13,7 +13,6 @@ There should be a space between **the text and the ** [link](http://www.google.c
 
 ## 1. Testing ordered list start {#foo}
 
-[Some common file](/help/common/overflow.md)
 
 hi
 
