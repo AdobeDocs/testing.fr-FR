@@ -2,7 +2,7 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: a98b737039db4cda60f5f070807cfbde332bb68c
+source-git-commit: 9ccabe9ac89632ae0b7df2ec45f31a3c92cb9589
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: a98b737039db4cda60f5f070807cfbde332bb68c
 * [FTP short title](ftp.md)
 * [tables for fun](tables.md)
 * [Definition Lists](definition.md)
-   * Group B {#internal-group}
-      * [Adobe](https://www.adobe.com)
-      * [colors](color.md)
+* Group B {#internal-group}
+   * [Adobe](https://www.adobe.com)
+   * [colors](color.md)
    * [Google](https://www.google.com)
    * [Admonitions](admonition.md)
 * プロキシです {#second-group}
@@ -29,5 +29,5 @@ source-git-commit: a98b737039db4cda60f5f070807cfbde332bb68c
    * [Video](videos.md)
    * [Audience](audience-lab-faq.md)
    * [JP Test](jptest.md)
-* Bob and Alva
+* Bob and Alva {#bob-and-alva}
    * [Code Blocks](code-block.md)
