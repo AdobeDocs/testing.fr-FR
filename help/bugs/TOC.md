@@ -2,15 +2,15 @@
 sample: metadata
 simple: change
 translation-type: tm+mt
-source-git-commit: b7cab6f7ce9929c2819f5067cb3881c301586dfb
+source-git-commit: 9ccabe9ac89632ae0b7df2ec45f31a3c92cb9589
 
 ---
 
 
-* Open
+* Open {#open}
    * [SSECD-266 Table Col Size](ssecd266.md)
-* Waiting
-* Closed
+* Waiting {#waiting}
+* Closed {#closed}
    * [SSECD-89 Videos Too Small](ssecd89.md)
    * [SSECD-223 Inline Images](ssecd233-inline-images-newline.md)
    * [SSECD-270 EmDash Not Showing](ssecd270.md)
