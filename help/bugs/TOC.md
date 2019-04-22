@@ -2,11 +2,10 @@
 sample: metadata
 simple: change
 translation-type: tm+mt
-source-git-commit: 7568cf497c8a8e7c78ac430166f42198c6ab613c
+source-git-commit: b7cab6f7ce9929c2819f5067cb3881c301586dfb
 
 ---
 
-# Tests from Bug Reports Change
 
 * Open
    * [SSECD-266 Table Col Size](ssecd266.md)
@@ -18,7 +17,7 @@ source-git-commit: 7568cf497c8a8e7c78ac430166f42198c6ab613c
    * [SSECD-253 Clickable Images](ssecd253.md)
    * [SSECD-255 Escaped Asterisks to prevent italics](ssecd255.md)
    * [SSECD-229 HTTP in filenames deep link](ssecd229-http-in-filename.md)
-   * [SSECD-223 Special Characters like .àâäáîïíôöóùûüéêëçñ !?,":&'/#()"Ü in title](ssecd253.md)
+   * [SSECD-223 Special Characters like .àâäáîïíôöóùûüéêëçñ !?,&quot;:&amp;&#39;/#()&quot;Ü in title](ssecd253.md)
    * [SSECD-260 Root Links Fail Validation](ssecd260.md)
    * [SSECD-286 HTML Root](ssecd286.md)
    * [SSECD-276 Space after link](ssecd276.md)
