@@ -1,25 +1,8 @@
 ---
-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
-last-update: '2019-04-08'
-pipeline_filename: help/testing/admonition.md
-publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/internal-group/admonition.html
-git-commit-file: 53f523daba3d0e275f727f59199f3030689c946a
-guide-url: guide-landing.html
-guide-title: リリースノート
-solution-title: Matt's Test Repo
-solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: None
-getting-started-url: help/c-gs/c-gs.md
-tutorials-url: https://training.adobe.com/training/courses.html#
-git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/admonition.md
-git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
-git-filename: help/testing/admonition.md
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
+source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 translation-type: tm+mt
-source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
 
 ---
-
 # ![](/help/assets/premium.png) Admonitions
 
 
