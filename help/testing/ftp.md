@@ -1,11 +1,12 @@
 ---
+pipeline_filename: help/testing/ftp.md
+publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/ftp.html
+git-commit-file: 1e4c301fc792ac353323dd05b37a91c55c54c504
 git-commit: 929f281af2114d7ed4173f66e85085ded450a8c8
-last-update: 2018-10-17T00:00:00Z
-description: If you do not upload using drag-and-drop, you can upload customer attribute
-  data via FTP to the Experience Cloud.
+last-update: '2018-10-17'
+description: If you do not upload using drag-and-drop, you can upload customer attribute data via FTP to the Experience Cloud.
 keywords: customer attributes;core services
-seo-description: If you do not upload using drag-and-drop, you can upload customer
-  attribute data via FTP to the Experience Cloud.
+seo-description: If you do not upload using drag-and-drop, you can upload customer attribute data via FTP to the Experience Cloud.
 seo-title: Optional - Upload the data file via FTP using Adobe Experience Cloud
 title: Optional - Upload the data file via FTP
 uuid: d5f2ff9f-01d7-482d-9d46-070edc6e8ab4
@@ -25,7 +26,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/ftp.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 1e4c301fc792ac353323dd05b37a91c55c54c504
+source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
 
 ---
 
@@ -52,12 +53,12 @@ File uploads to the customer attributes FTP site can be done via FTP or SFTP.
 
 1. [Create a customer attribute source and upload the data file...](tables.md).
 
-   Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/&gt;sftpname&lt;].
+   Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/>sftpname<].
 
 1. [Create a customer attribute source and upload the data file...](tables.md).
-Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/&gt;sftpname&lt;].
+Ensure that you are logged in to your FTP site at [!DNL  ftp.adobe.com/>sftpname<].
 
-1. Click **[!UICONTROL  Actions]** > **[!UICONTROL  File Upload]**.
+1. Click **[!UICONTROL  Actions]** &gt; **[!UICONTROL  File Upload]**.
 
 1. Upload a [!DNL  .fin] file, so that your file can be retrieved.
 The file type [!DNL  .fin] is user-created and signals that the upload is finished. It can be a blank notepad file. For example, if you upload [!DNL  crs123.csv], you also upload [!DNL  crs123.fin].
