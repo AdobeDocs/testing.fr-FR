@@ -2,14 +2,13 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: 7293affa66373b0fbcdabb381f90f345fd27a706
+source-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
 
 ---
 
 # Testing Repo for Matt Lawrence {#hello}
 
 * [Bob and Alva](bob-html-table-test.md)
-* [Empty](empty.md)
 * [pre](pre.md)
 * [prolog test](prolog.md)
 * [sample](sample.md)
