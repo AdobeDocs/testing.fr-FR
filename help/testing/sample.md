@@ -14,7 +14,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/sample.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 994027e87ba13995e6bd7154b3760de8d43af31e
 
 ---
 
@@ -24,3 +24,5 @@ source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 * [PDF File](matt/Publish_Workflow.pdf)
 * [PNG File](image.png)
 * [ZIP File](archive.zip)
+
+Doing a test for commit-id-file
