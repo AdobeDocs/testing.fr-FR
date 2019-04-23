@@ -1,9 +1,4 @@
 ---
-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
-last-update: '2019-01-28'
-pipeline_filename: help/testing/tables.md
-publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/tables.html
-git-commit-file: 32035c266b3b74e03a4aa9693144b3776f69a042
 description: learn about new features and fixes in the adobe marketing cloud.
 keywords: release notes
 seo-description: learn about new features and fixes in the adobe marketing cloud.
@@ -14,19 +9,8 @@ internal: n
 snippet: y
 translate: y
 matt: lawrence
-guide-url: guide-landing.html
-guide-title: リリースノート
-solution-title: Matt's Test Repo
-solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: None
-getting-started-url: help/c-gs/c-gs.md
-tutorials-url: https://training.adobe.com/training/courses.html#
-git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/tables.md
-git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
-git-filename: help/testing/tables.md
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
+source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 
 ---
 
@@ -236,3 +220,5 @@ This<br>is<br>a<br>test
 * Fixed an issue preventing the use of Japanese text in comments between the [!DNL  Creative Cloud] and the [!DNL  Marketing Cloud].
 
 See [Marketing Cloud Product Documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/) for product help.
+
+
