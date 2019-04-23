@@ -1,11 +1,6 @@
 ---
-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
-last-update: '2019-02-05'
-pipeline_filename: help/testing/bob-html-table-test.md
-publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/bob-html-table-test.html
-git-commit-file: 314bba40a3416d8fe6e83290b0292dc90485506b
-description: None
-seo-description: None
+description: 'null'
+seo-description: 'null'
 seo-title: Templates
 solution: Target
 title: Templates
@@ -14,21 +9,11 @@ uuid: c537a538-d713-49e2-84ed-5c155cb05c52
 index: y
 internal: n
 snippet: y
-guide-url: guide-landing.html
-guide-title: リリースノート
-solution-title: Matt's Test Repo
-solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: None
-getting-started-url: help/c-gs/c-gs.md
-tutorials-url: https://training.adobe.com/training/courses.html#
-git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/bob-html-table-test.md
-git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
-git-filename: help/testing/bob-html-table-test.md
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
+source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 
 ---
+
 
 # Templates{#templates}
 
@@ -2941,3 +2926,4 @@ To set up your search forms to use a specific transport template (other than the
 `<input type=hidden name="sp_t" value="clearance">`
 
 When a customer clicks a standard form that contains this line of code, the &quot;clearance&quot; search transport template is displayed along with their search results.
+
