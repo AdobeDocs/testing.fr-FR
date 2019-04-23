@@ -1,4 +1,9 @@
 ---
+git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
+last-update: '2018-12-14'
+pipeline_filename: help/testing/audience-lab-faq.md
+publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/second-group/audience-lab-faq.html
+git-commit-file: 9be9596643811156661bf80e560652b8286d4b75
 description: Frequently asked questions about the Audience Lab feature.
 seo-description: Frequently asked questions about the Audience Lab feature.
 seo-title: Audience Lab FAQ
@@ -10,11 +15,21 @@ index: y
 internal: n
 snippet: y
 translate: y
+guide-url: guide-landing.html
+guide-title: リリースノート
+solution-title: Matt's Test Repo
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: None
+getting-started-url: help/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/audience-lab-faq.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/testing/audience-lab-faq.md
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 9be9596643811156661bf80e560652b8286d4b75
+source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
 
 ---
-
 
 # Audience Lab FAQ
 
@@ -25,9 +40,9 @@ Yes, the test segments have different segment IDs. For destinations with Auto-fi
 
 **Can the same conversion trait be associated with multiple test groups?**
 
-Yes, this is allowed. Think of a case of one test using a male segment associated to conversion X and one test using a female segment associated to conversion X. It doesn't matter that both tests are driving conversions since they are testing two different audiences.
+Yes, this is allowed. Think of a case of one test using a male segment associated to conversion X and one test using a female segment associated to conversion X. It doesn&#39;t matter that both tests are driving conversions since they are testing two different audiences.
 
-**Let's say a test group is using an authenticated profile for the test segment split. The authenticated profile is linked to 4 [ Audience Manager UUIDs](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). When the visitor exhibits a conversion trait from one of the four UUIDs, does Audience Lab count this as one or four conversions?**
+**Let&#39;s say a test group is using an authenticated profile for the test segment split. The authenticated profile is linked to 4 [ Audience Manager UUIDs](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). When the visitor exhibits a conversion trait from one of the four UUIDs, does Audience Lab count this as one or four conversions?**
 
 In this case, Audience Lab only counts one conversion. In other cases, Audience Lab counts many conversions. This is just a test answer.
 
