@@ -1,4 +1,9 @@
 ---
+git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
+last-update: '2019-02-05'
+pipeline_filename: help/testing/jptest.md
+publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/second-group/jptest.html
+git-commit-file: 314bba40a3416d8fe6e83290b0292dc90485506b
 description: Adobe Experience Cloud新しい機能や修正も可能になります。
 seo-description: Adobe Experience Cloud新しい機能や修正も可能になります。
 seo-title: Adobe Experience Cloudリリースノート
@@ -11,12 +16,21 @@ internal: n
 snippet: y
 translate: y
 Translated: TM+MT
+guide-url: guide-landing.html
+guide-title: リリースノート
+solution-title: Matt's Test Repo
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: None
+getting-started-url: help/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/jptest.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/testing/jptest.md
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 314bba40a3416d8fe6e83290b0292dc90485506b
+source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
 
 ---
-
-
 
 # Adobe Experience Cloudリリースノート
 
@@ -94,12 +108,12 @@ Adobe Analyticsで離した機能強化と新機能。
 
 | 関数名 | 説明 |
 |--- |--- |
-| 分析ワークスペースドロップゾーンガイド | これらのガイドは各ドラッグ&ドロップアクションごとに表示をより簡単に理解しやすくなります。 表示内にコンポーネントをドラッグしている間、アクションが、内訳が追加、置換、フィルタできないことを示します。 また、これらすべては推奨されません(無効な2の指標データのスタック内にするなどのアクションをとる場合、黄色の警告を追加しました。 |
-| 分析ワークスペースが空白のパネルオプションを追加 | これを追加パネルの追加が容易になり、最後のパネルの下にある"+"ボタンシンボルが追加されました。 |
+| 分析ワークスペースドロップゾーンガイド | これらのガイドは各ドラッグ&amp;ドロップアクションごとに表示をより簡単に理解しやすくなります。 表示内にコンポーネントをドラッグしている間、アクションが、内訳が追加、置換、フィルタできないことを示します。 また、これらすべては推奨されません(無効な2の指標データのスタック内にするなどのアクションをとる場合、黄色の警告を追加しました。 |
+| 分析ワークスペースが空白のパネルオプションを追加 | これを追加パネルの追加が容易になり、最後のパネルの下にある&quot;+&quot;ボタンシンボルが追加されました。 |
 
 ### Analytics-変更および更新{}# Analyticsインターフェイス
 
-Adobe Analyticsインターフェイスツールおよびコンポーネント(分析ワークスペースが適用されている更新バージョン」および「マイナー& ampとに報告されます。amp;amp;Analytics、Report Builderなど)が含まれています。
+Adobe Analyticsインターフェイスツールおよびコンポーネント(分析ワークスペースが適用されている更新バージョン」および「マイナー&amp; ampとに報告されます。amp;amp;Analytics、Report Builderなど)が含まれています。
 
 <!-- <p>Include topics regarding Analytics &amp;gt; Components or Tools and interfaces. </p> -->
 
@@ -265,8 +279,8 @@ Adobe Analyticsインターフェイスツールおよびコンポーネント(�
    <td colname="col1"> <p>管理コンソールにユーザーIDを移行する前に、アップデートのReport Builder </p> </td> 
    <td colname="col02"> <p>17年2018月12日 </p> </td> 
    <td colname="col2"> <p> 
-   >[!重要]
-   >最新バージョンの<a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html" format="html" scope="external"> Report Builder</a>のインストールを更新してください。 このアップデートは2018年に開始管理コンソールへのAnalyticsユーザーIDの移行を実行するための前提条件です。 </p> </p> <p>移行について、管理コンソール</a>で<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="https" scope="external"> Analyticsユーザーの移行を参照してください。
+   &gt;[!重要]
+   &gt;最新バージョンの<a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html" format="html" scope="external"> Report Builder</a>のインストールを更新してください。 このアップデートは2018年に開始管理コンソールへのAnalyticsユーザーIDの移行を実行するための前提条件です。 </p> </p> <p>移行について、管理コンソール</a>で<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="https" scope="external"> Analyticsユーザーの移行を参照してください。
    </a></td> 
   </tr> 
   <tr> 
@@ -363,9 +377,9 @@ Adobe Analyticsインターフェイスツールおよびコンポーネント(�
 製品マニュアルについては、次を参照してください。
 
 * [Adobeキャンペーンクラシックリリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html)
-* [AdobeキャンペーンClassicは& amp;amp;サポート](https://helpx.adobe.com/support/campaign/classic.html)
+* [AdobeキャンペーンClassicは&amp; amp;amp;サポート](https://helpx.adobe.com/support/campaign/classic.html)
 * [Adobe Stockリリースノートキャンペーン](https://helpx.adobe.com/campaign/standard/rn/rn.html)
-* [Adobeキャンペーン規格(& C); ampamp;サポート ](https://helpx.adobe.com/support/campaign/standard.html)
+* [Adobeキャンペーン規格(&amp; C); ampamp;サポート ](https://helpx.adobe.com/support/campaign/standard.html)
 
 <!-- To learn more about Adobe Campaign, enable yourself at [ Adobe Digital Library ](https://digitalu.adobe.com/content/Enablement/en.html). -->
 
@@ -445,9 +459,9 @@ Adobeは、安定性、セキュリティおよびパフォーマンスを確保
 
 ### Additional resources {#section_B1FAFE0975E74070812BC036D994FBE3}
 
-* [Send& AEM6.4; ampamp;サポートホーム ](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Send& AEM6.3; ampamp;サポートホーム ](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [Send& AEM6.2; ampamp;サポートホーム ](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Send&amp; AEM6.4; ampamp;サポートホーム ](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Send&amp; AEM6.3; ampamp;サポートホーム ](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [Send&amp; AEM6.2; ampamp;サポートホーム ](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Managerのユーザーガイド ](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
 * [AEMドキュメントの旧バージョン ](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Scene7 Publishing Systemリリースノート ](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
