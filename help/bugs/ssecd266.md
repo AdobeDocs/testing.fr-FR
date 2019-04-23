@@ -1,16 +1,31 @@
 ---
-description: null
+git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
+last-update: '2019-02-19'
+pipeline_filename: help/bugs/ssecd266.md
+publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/open/ssecd266.html
+git-commit-file: 4b3fa1756c36babac3314f4d60c1bd44bc416228
+description: None
 keywords: fixes;release notes;update;what's new
-seo-description: null
+seo-description: None
 seo-title: Release Notes
 solution: Social
 title: Release Notes
 uuid: 77c0762c-1366-4464-b4ce-4eaa2d9cbcf3
+sample: metadata
+simple: change
+solution-title: Matt's Test Repo
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: None
+getting-started-url: help/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/bugs/ssecd266.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/bugs/ssecd266.md
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: e9b1d6447e64ce6b56b85054982e574522d2ecf9
+source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
 
 ---
-
 
 # Tables ugh
 
@@ -30,7 +45,7 @@ source-git-commit: e9b1d6447e64ce6b56b85054982e574522d2ecf9
 |  | [Target Basics Webinar Series](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added link to the Best Practices in Audience Segmentation recording. |
 | October 29, 2018 | [TLS](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added new section: Expected Behavior with Browsers Supporting TLS 1.0 Only. |
 | October 26, 2018 | [Known Issues and Resolved Issues](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | <ul><li>Added a known issue about searching for strings containing special characters when creating geo-targeting audiences.</li><li>Moved at.js 1.6.0 redirect issue to Resolved Issues table.</li><li>Moved issue to the Resolved Issues table regarding activities in the default workspace deleted via API continuing to display in the Target UI</li></ul> |
-| October 24, 2018 | [Preferences](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information to consider when choosing the reporting source for activities in Setup > Preferences or per activity. |
+| October 24, 2018 | [Preferences](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information to consider when choosing the reporting source for activities in Setup &gt; Preferences or per activity. |
 |  | [Create an Automated Personalization activity](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information about filtering for Unassigned Offers. |
 |  | [Create Experience](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information about duplicating experiences in XT activities. |
 |  | [Add experience](https://docs-author-stg.corp.adobe.com/content/help/en/social/using/settings/c-gdpr-request.html#topic_53C551FDEB6141108F7679F106ADB689) | Added information about duplicating experiences in A/B Tests. |
@@ -55,7 +70,7 @@ The Social 17.11.1.0 release (11/14/2017) includes the following changes:
 
 | Feature | Description |
 |--- |--- |
-| Twitter character limit | Adobe Social has been updated in accordance with Twitter's new 280-character limit for tweets.<br>For more information, see the [Twitter community discussion](https://twittercommunity.com/t/updating-the-character-limit-and-the-twitter-text-library/96425). |
+| Twitter character limit | Adobe Social has been updated in accordance with Twitter&#39;s new 280-character limit for tweets.<br>For more information, see the [Twitter community discussion](https://twittercommunity.com/t/updating-the-character-limit-and-the-twitter-text-library/96425). |
 
 ## Documentation Updates, Historical Release Notes, and Experience Cloud Release Notes
 
