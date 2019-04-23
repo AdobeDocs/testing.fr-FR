@@ -1,6 +1,9 @@
 ---
+pipeline_filename: help/testing/downloads.md
+publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/downloads.html
+git-commit-file: ee1fcbe31224a439f5eb9ed6dc7dcfd548e2dbcb
 git-commit: 929f281af2114d7ed4173f66e85085ded450a8c8
-last-update: 2018-10-24T00:00:00Z
+last-update: '2018-10-24'
 title: Download File Test
 seo-title: Download File Test for Adobe Contributor docs
 description: Download File Test for Adobe Contributor docs
@@ -17,11 +20,11 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/downloads.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: ee1fcbe31224a439f5eb9ed6dc7dcfd548e2dbcb
+source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
 
 ---
 
-# Bob's Download Test
+# Bob&#39;s Download Test
 
 ## PDF Link
 
