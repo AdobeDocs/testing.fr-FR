@@ -1,31 +1,16 @@
 ---
-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
-last-update: '2019-02-19'
-pipeline_filename: help/bugs/ssecd266.md
-publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/open/ssecd266.html
-git-commit-file: 4b3fa1756c36babac3314f4d60c1bd44bc416228
-description: None
+description: 'null'
 keywords: fixes;release notes;update;what's new
-seo-description: None
+seo-description: 'null'
 seo-title: Release Notes
 solution: Social
 title: Release Notes
 uuid: 77c0762c-1366-4464-b4ce-4eaa2d9cbcf3
-sample: metadata
-simple: change
-solution-title: Matt's Test Repo
-solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: None
-getting-started-url: help/c-gs/c-gs.md
-tutorials-url: https://training.adobe.com/training/courses.html#
-git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/bugs/ssecd266.md
-git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
-git-filename: help/bugs/ssecd266.md
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
+source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 
 ---
+
 
 # Tables ugh
 
