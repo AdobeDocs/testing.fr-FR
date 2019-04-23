@@ -1,7 +1,4 @@
 ---
-pipeline_filename: help/testing/ftp.md
-publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/ftp.html
-git-commit-file: 1e4c301fc792ac353323dd05b37a91c55c54c504
 git-commit: 929f281af2114d7ed4173f66e85085ded450a8c8
 last-update: '2018-10-17'
 description: If you do not upload using drag-and-drop, you can upload customer attribute data via FTP to the Experience Cloud.
@@ -26,7 +23,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/ftp.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
+source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 
 ---
 
