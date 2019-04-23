@@ -1,7 +1,4 @@
 ---
-pipeline_filename: help/testing/images.md
-publish-url: https://docs.adobe.com/content/help/en_US.UTF-8/primetime/testing/hello/images.html
-git-commit-file: 9be9596643811156661bf80e560652b8286d4b75
 git-commit: 929f281af2114d7ed4173f66e85085ded450a8c8
 last-update: '2018-10-24'
 matt: lawrence
@@ -17,7 +14,7 @@ git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
 git-filename: help/testing/images.md
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 translation-type: tm+mt
-source-git-commit: 7b1d7dc2884498a3260ca1f2affa096a88196489
+source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
 
 ---
 
