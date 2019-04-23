@@ -2,12 +2,13 @@
 sample: metadata
 simple: change
 translation-type: tm+mt
-source-git-commit: c45bdbc2e2207fba21effa94cd73528c1f37ddcf
+source-git-commit: 90356e92fd78128872e262521b54e6a377b1c628
 
 ---
 
 
-# Tests from Bug Reports Change
+# Tests from Bug Reports Change {#testing}
+
 * Open {#open}
    * [SSECD-266 Table Col Size](ssecd266.md)
 * Waiting {#waiting}
