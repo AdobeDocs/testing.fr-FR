@@ -1,10 +1,8 @@
 ---
-matt: lawrence
+source-git-commit: d23da2ec6fafda1d66360dad8ab2abd184bb6be9
 translation-type: tm+mt
-source-git-commit: 7fcf9cb00adc70a5810bca9d6f8e89eac3fcd912
 
 ---
-
 # Testing Links
 
 * [](acro.pdf)
@@ -12,6 +10,4 @@ source-git-commit: 7fcf9cb00adc70a5810bca9d6f8e89eac3fcd912
 * [](image.png)
 * [](archive.zip)
 
-Doing a test for commit-id-file
-
-Matt
+Woo hoo!
