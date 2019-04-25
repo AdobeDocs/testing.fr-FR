@@ -6,7 +6,7 @@ seo-title: Optional - Upload the data file via FTP using Adobe Experience Cloud
 title: Optional - Upload the data file via FTP
 uuid: d5f2ff9f-01d7-482d-9d46-070edc6e8ab4
 translation-type: tm+mt
-source-git-commit: 3626ba6080d3389de55758f9a3ef2136c8eb27c1
+source-git-commit: bbc0c82cd8cfdba8e72bd0aed35289eda334db30
 
 ---
 
