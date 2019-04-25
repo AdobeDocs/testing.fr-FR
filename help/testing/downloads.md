@@ -4,7 +4,7 @@ seo-title: Download File Test for Adobe Contributor docs
 description: Download File Test for Adobe Contributor docs
 seo-description: Download File Test for Adobe Contributor docs
 translation-type: tm+mt
-source-git-commit: d23da2ec6fafda1d66360dad8ab2abd184bb6be9
+source-git-commit: 3626ba6080d3389de55758f9a3ef2136c8eb27c1
 
 ---
 
