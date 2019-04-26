@@ -1,9 +1,8 @@
 ---
 sample: metadata
 simple: change
-matt: lawrence
 translation-type: tm+mt
-source-git-commit: 58ffc7d1082a3484e1da8cb360fcfb04dc0c6929
+source-git-commit: 3f9fc4008836da19e03eaee4ba919f2183540a08
 
 ---
 
