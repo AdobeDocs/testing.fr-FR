@@ -1,5 +1,5 @@
 ---
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 3b35287978bc0e521cb5be40239e0070f3b74cd9
 translation-type: tm+mt
 
 ---
@@ -14,7 +14,7 @@ There should be a space between **the text and the ** [link](http://www.google.c
 ## 1. Testing ordered list start {#foo}
 
 
-hi
+[hi](hi.md)
 
 4. One
 5. Two
