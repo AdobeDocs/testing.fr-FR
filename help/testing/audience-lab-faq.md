@@ -6,12 +6,11 @@ solution: Audience Manager
 title: Audience Lab FAQ
 topic: DIL API
 uuid: 24ac421a-edc3-4d0b-af45-2da78562e519
-index: y
 internal: n
 snippet: y
 translate: y
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
 
 ---
 
@@ -27,7 +26,7 @@ Yes, the test segments have different segment IDs. For destinations with Auto-fi
 
 Yes, this is allowed. Think of a case of one test using a male segment associated to conversion X and one test using a female segment associated to conversion X. It doesn&#39;t matter that both tests are driving conversions since they are testing two different audiences.
 
-**Let&#39;s say a test group is using an authenticated profile for the test segment split. The authenticated profile is linked to 4 [ Audience Manager UUIDs](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). When the visitor exhibits a conversion trait from one of the four UUIDs, does Audience Lab count this as one or four conversions?**
+**Let&#39;s say a test group is using an authenticated profile for the test segment split. The authenticated profile is linked to 4[Audience Manager UUIDs](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). When the visitor exhibits a conversion trait from one of the four UUIDs, does Audience Lab count this as one or four conversions?**
 
 In this case, Audience Lab only counts one conversion. In other cases, Audience Lab counts many conversions. This is just a test answer.
 
@@ -39,6 +38,6 @@ In this case, [!UICONTROL  Audience Lab] counts three conversions, one for each 
 
 See [ Create Segment Test Groups](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html) for information on how to use [!UICONTROL  Audience Lab] with RBAC privileges.
 
-**Can I use Audience Lab in conjunction with the Profile Link Device Graph and External Device Graphs ([ Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
+**Can I use Audience Lab in conjunction with the Profile Link Device Graph and External Device Graphs ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
 
 For now, Audience Lab can only split out segment populations by the devices connected to a qualifying device, when using the Profile Link Device Graph. We are working on adding support in Audience Lab for the other device graphs and will let you know when we do so.
