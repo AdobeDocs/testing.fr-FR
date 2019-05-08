@@ -6,11 +6,10 @@ solution: Target
 title: Templates
 topic: Appendices,Site search and merchandising
 uuid: c537a538-d713-49e2-84ed-5c155cb05c52
-index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
 
 ---
 
