@@ -4,13 +4,12 @@ keywords: release notes
 seo-description: learn about new features and fixes in the adobe marketing cloud.
 seo-title: release notes - may 2015
 title: release notes - may 2015
-index: y
 internal: n
 snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
 
 ---
 
