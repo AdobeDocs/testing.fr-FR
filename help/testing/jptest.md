@@ -6,13 +6,12 @@ solution: リリースノート、Marketing Cloudの解析、Social、Target、M
 title: Adobe Experience Cloudリリースノート
 topic: Release notes
 uuid: c56a1064-0f2c-4241-93c6- ca4b1f267763
-index: y
 internal: n
 snippet: y
 translate: y
 Translated: TM+MT
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
 
 ---
 
