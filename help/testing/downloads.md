@@ -4,7 +4,7 @@ seo-title: Download File Test for Adobe Contributor docs
 description: Download File Test for Adobe Contributor docs
 seo-description: Download File Test for Adobe Contributor docs
 translation-type: tm+mt
-source-git-commit: 1383b8547afd0d46adfa780004c9372996232785
+source-git-commit: 1a21f9765ca10c96ec1a0da054c043440ddce8df
 
 ---
 
@@ -12,12 +12,12 @@ source-git-commit: 1383b8547afd0d46adfa780004c9372996232785
 
 ## PDF Link
 
-[PDF download](/assets/Publish_Workflow.pdf)
+[PDF download](/help/assets/Publish_Workflow.pdf)
 [CSV download](assets/redirects.csv)
 
-To download a set of image files, click [here](/assets/Publish_Workflow.pdf)
+To download a set of image files, click [here](/help//assets/Publish_Workflow.pdf)
 
-* [PDF download](/assets/Publish_Workflow.pdf)
+* [PDF download](/help/assets/Publish_Workflow.pdf)
 * ![PNG Images](assets/access_api.png)
 * [ZIP download](assets/test-images.zip)
 
