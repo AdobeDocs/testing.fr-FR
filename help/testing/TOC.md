@@ -2,7 +2,7 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: 9aa2ecf2b2be3a65975597fa74cc919f376cac58
+source-git-commit: 8965edaa859333fcf707b3cc57d4be3f2842cd01
 
 ---
 
@@ -10,14 +10,14 @@ source-git-commit: 9aa2ecf2b2be3a65975597fa74cc919f376cac58
 
 * [Bob and Alva](bob-html-table-test.md)
 * [pre](pre.md)
-* [prolog test](prolog-test.md)
 * [sample](sample.md)
-* [downloads](downloads.md)
+* [download stuff](downloads-and-stuff.md)
 * [Images](images.md)
 * [FTP short title](ftp.md)
 * [tables for fun](tables.md)
 * [Definition Lists](definition.md)
 * Group B {#internal-group-b}
+   * [prolog test](prolog-test.md)
    * [Adobe](https://www.adobe.com)
    * [colors](color.md)
    * [Google](https://www.google.com)
