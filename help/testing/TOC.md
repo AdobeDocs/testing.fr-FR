@@ -2,7 +2,7 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
+source-git-commit: 53b85b6163635fe5013c4c34beba7e804b50f50f
 
 ---
 
@@ -10,7 +10,7 @@ source-git-commit: 0e5452ad941d957757295595b4475ae4df4397dc
 
 * [Bob and Alva](bob-html-table-test.md)
 * [pre](pre.md)
-* [prolog test](prolog.md)
+* [prolog test](prolog-test.md)
 * [sample](sample.md)
 * [downloads](downloads.md)
 * [Images](images.md)
