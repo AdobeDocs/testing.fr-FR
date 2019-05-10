@@ -2,7 +2,7 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: 53b85b6163635fe5013c4c34beba7e804b50f50f
+source-git-commit: 9aa2ecf2b2be3a65975597fa74cc919f376cac58
 
 ---
 
@@ -17,12 +17,12 @@ source-git-commit: 53b85b6163635fe5013c4c34beba7e804b50f50f
 * [FTP short title](ftp.md)
 * [tables for fun](tables.md)
 * [Definition Lists](definition.md)
-* Group B {#internal-group}
+* Group B {#internal-group-b}
    * [Adobe](https://www.adobe.com)
    * [colors](color.md)
    * [Google](https://www.google.com)
    * [Admonitions](admonition.md)
-* プロキシです {#second-group}
+* プロキシです {#second-group-c}
    * [troubleshooting](troubleshooting.md)
    * [loc uicontrol and dnl](locdnl.md)
    * [Google](https://www.google.com)
