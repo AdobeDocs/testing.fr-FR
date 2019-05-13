@@ -1,7 +1,7 @@
 ---
-redirect-from: https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/introduction.html
+redirect-from: /content/help/en/collaborative-doc-instructions/collaboration-guide/introduction.html
 translation-type: tm+mt
-source-git-commit: 1ee8ea9a6d85d3d4ea5d3c11299b4b1871858972
+source-git-commit: 3668a13e75907a9d2f03ca9134a013b132c044aa
 
 ---
 
