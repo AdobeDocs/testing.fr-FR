@@ -4,7 +4,7 @@ seo-title: 'null'
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 45e7478d48d5cb781c1e3676da39a6db7e933112
+source-git-commit: 1b04cfdf843b78bd512115d34d3392f5a6d0036e
 
 ---
 
@@ -28,8 +28,10 @@ int main() {
 hello world, how are <i>you</i>
 </pre>
 
+<div>
 <h3>Code Block</h3>
 This is a code block
+</div>
 
 ## Code block with numbering ON {#code-block-11}
 
