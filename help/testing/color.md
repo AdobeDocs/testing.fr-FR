@@ -1,8 +1,11 @@
 ---
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+redirect-from: https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/introduction.html
 translation-type: tm+mt
+source-git-commit: 1ee8ea9a6d85d3d4ea5d3c11299b4b1871858972
 
 ---
+
+
 # Example of migration of color code
 
 Testing
