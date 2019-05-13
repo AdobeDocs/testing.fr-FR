@@ -4,14 +4,14 @@ seo-title: 'null'
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: f8d7d76883dd760dfcf438a98cf074201412991b
 
 ---
 
 
 # Code Blocks
 
-## highlight
+## highlight {#code-block}
 
 <pre>
 <code>
@@ -22,13 +22,13 @@ int main() {
 </code>
 </pre>
 
-## Code block with italics
+## Code block with italics {#code-block-1}
 
 <pre>
 hello world, how are <i>you</i>
 </pre>
 
-## Code block with numbering ON
+## Code block with numbering ON {#code-block-11}
 
 ```javascript
 This is the first line
@@ -36,7 +36,7 @@ This is the second line
 This is line 3
 ```
 
-## Code block with numbering OFF
+## Code block with numbering OFF {#code-block-12}
 
 ```javascript {line-numbers="no"}
 This is the first line
@@ -44,7 +44,7 @@ This is the second line
 This is line 3
 ```
 
-## Code block with line wrap ON
+## Code block with line wrap ON {#code-block-13}
 
 ```javascript {line-wrap="yes"}
 This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. 
@@ -52,7 +52,7 @@ This is the second line
 This is line 3
 ```
 
-## Code block with line wrap OFF
+## Code block with line wrap OFF {#code-block-14}
 
 ```javascript
 This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. This is the first line. 
