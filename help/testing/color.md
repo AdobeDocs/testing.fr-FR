@@ -1,10 +1,9 @@
 ---
 redirect-from: /content/help/en/collaborative-doc-instructions/collaboration-guide/introduction.html
 translation-type: tm+mt
-source-git-commit: 3668a13e75907a9d2f03ca9134a013b132c044aa
+source-git-commit: 2dd1ee38b93487399d36ceb99ee71b569be1ecbb
 
 ---
-
 
 # Example of migration of color code
 
