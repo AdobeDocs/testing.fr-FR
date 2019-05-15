@@ -1,11 +1,10 @@
 ---
-source-git-commit: 901835fc8843b4590515d8c3de5dd4ffb106610a
+source-git-commit: d475136d191e5147b1135f856591fbadb3747328
 translation-type: tm+mt
 
 ---
 # Example of migration of color code
 
-Testing
 <!-- <style>
 .bluetext {
     color: blue
