@@ -1,5 +1,5 @@
 ---
-source-git-commit: 02e7111bb1ff69c71cf0d2f97bb2017c8d011c3a
+source-git-commit: d36ec09b651aae9bbf043af95e2af592a227045e
 translation-type: tm+mt
 
 ---
@@ -10,6 +10,7 @@ translation-type: tm+mt
 Pour ajouter uné application à votre site, vous devez d&#39;abord créer une application dans Livefyre Studio.
 
 The quick brown fox jumps over 13 lazy dogs.
+
 ## Space between emphasis and link problem
 
 There should be a space between **the text and the ** [link](http://www.google.com)
