@@ -1,11 +1,15 @@
 ---
-source-git-commit: 36744f07dc47529d8835cb954366c196a6dffe6d
+source-git-commit: 02e7111bb1ff69c71cf0d2f97bb2017c8d011c3a
 translation-type: tm+mt
 
 ---
 # ![](/help/assets/premium.png) Admonitions - NEW!
 
+## Création © © d&#39;une application {#create-an-app}
 
+Pour ajouter uné application à votre site, vous devez d&#39;abord créer une application dans Livefyre Studio.
+
+The quick brown fox jumps over 13 lazy dogs.
 ## Space between emphasis and link problem
 
 There should be a space between **the text and the ** [link](http://www.google.com)
