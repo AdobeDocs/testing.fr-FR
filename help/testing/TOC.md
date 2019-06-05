@@ -2,7 +2,7 @@
 guide-url: guide-landing.html
 guide-title: リリースノート
 translation-type: tm+mt
-source-git-commit: faa95cbdcbf18bba1a1d761a494bee9496ad2ce2
+source-git-commit: e29830295e263333d6a1917fe5659b1b5b6b33e6
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: faa95cbdcbf18bba1a1d761a494bee9496ad2ce2
 * [FTP short title](ftp.md)
 * [tables for fun](tables.md)
 * [Definition Lists](definition.md)
-* Group B {#internal-group-b}
+* Group B {#second-group-c}
    * [prolog test](prolog.md)
    * [Adobe](https://www.adobe.com)
    * [colors](color.md)
