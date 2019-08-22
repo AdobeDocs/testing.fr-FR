@@ -1,27 +1,27 @@
 ---
-sample: metadata
-simple: change
+sample: Métadonnées
+simple: changement
 translation-type: tm+mt
-source-git-commit: 3520b548b39dba13d5792b11eb1921e0ad164234
+source-git-commit: f42932f1b07ce817d565ddec0e4ee5eb4723cfbd
 
 ---
 
 
-# Tests from Bug Reports Change {#testing}
+# Tests de Bug Reports Change{#testing}
 
-* Open {#open}
-   * [SSECD-266 Table Col Size](ssecd266.md)
-* Waiting {#waiting}
-* Closed {#closed}
-   * [SSECD-89 Videos Too Small](ssecd89.md)
-   * [SSECD-223 Inline Images](ssecd233-inline-images-newline.md)
-   * [SSECD-270 EmDash Not Showing](ssecd270.md)
-   * [SSECD-253 Clickable Images](ssecd253.md)
-   * [SSECD-255 Escaped Asterisks to prevent italics](ssecd255.md)
-   * [SSECD-229 HTTP in filenames deep link](ssecd229-http-in-filename.md)
-   * [SSECD-223 Special Characters like .àâäáîïíôöóùûüéêëçñ !?,":&amp;'/#()"Ü in title](ssecd253.md)
-   * [SSECD-260 Root Links Fail Validation](ssecd260.md)
-   * [SSECD-286 HTML Root](ssecd286.md)
-   * [SSECD-276 Space after link](ssecd276.md)
+* garder l'esprit ouvert{#open}
+   * [Taille du col de table SSECD-266](ssecd266.md)
+   * [Bon titre](../testing/definition.md)
+* attente{#waiting}
+* fermé{#closed}
+   * [SSECD-89 Vidéos Trop petites](ssecd89.md)
+   * [Images en ligne SSECD-223](ssecd233-inline-images-newline.md)
+   * [SSECD-270 Emdash ne montrant pas](ssecd270.md)
+   * [Images sSECD-253 Cliquables](ssecd253.md)
+   * [SSECD-255 Astérisques échappés pour prévenir les italiques](ssecd255.md)
+   * [SSECD-229 HTTP dans les noms de fichiers lien profond](ssecd229-http-in-filename.md)
+   * [SSECD-223 Personnages spéciaux comme .àâ 'îï'ô'ùû '!?,'ç'!?,":'/''')"dans le titre](ssecd253.md)
+   * [SSECD-260 Root Links Échec Validation](ssecd260.md)
+   * [SSECD-276 Espace après lien](ssecd276.md)
 
 
