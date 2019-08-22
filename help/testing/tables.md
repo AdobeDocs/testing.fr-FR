@@ -1,21 +1,39 @@
 ---
-description: learn about new features and fixes in the adobe marketing cloud.
-keywords: release notes
-seo-description: learn about new features and fixes in the adobe marketing cloud.
-seo-title: release notes - may 2015
-title: release notes - may 2015
+git-commit: 4d22987883e7f5ddcabb054c15d4aeaf2086a5f9
+last-update: '2019-05-08'
+pipeline_filename: help/testing/tables.md
+publish-url: https://docs.adobe.com/content/help/en/./testing/hello/tables.html
+git-commit-file: 0dd86c17204472f130e1552e72e2615020b9be78
+description: en savoir plus sur les nouvelles fonctionnalités et corrections dans le cloud marketing adobe.
+keywords: notes de communiqué
+seo-description: en savoir plus sur les nouvelles fonctionnalités et corrections dans le cloud marketing adobe.
+seo-title: notes de sortie - mai 2015
+title: notes de sortie - mai 2015
 internal: n
-snippet: y
-translate: y
-matt: lawrence
+snippet: y (en)
+translate: y (en)
+matt: Lawrence
+guide-url: guide-landing.html
+guide-title: C'est une fois
+solution-title: Matt's Test Repo Ne pas utiliser
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: aucun
+getting-started-url: aide/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/tables.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/testing/tables.md
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
+index: n
+ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
 translation-type: tm+mt
-source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
+source-git-commit: 6267783d239cbca5f35fc07c3978dda3804b0f7a
 
 ---
 
 # [!DNL Table Tests]
 
-## AsideBlock
+## AsideBlock (en)
 
 ```
 | one 
@@ -26,7 +44,7 @@ source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
 | a | b |
 ```
 
-## HTML Table Widths
+## Largeurs de table HTML
 
 <table>
   <col style="width:10%">
@@ -35,189 +53,187 @@ source-git-commit: 0dd86c17204472f130e1552e72e2615020b9be78
   <thead>
   <tr>
     <th>Fruits</th>
-    <th>Vitamin A</th>
-        <th>Vitamin C</th>
+    <th>Vitamine A</th>
+        <th>Vitamine C</th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <th>Apples</th>
-        <td>98 ui</td>
-        <td>8.4 mg</td>
+        <th>Pommes</th>
+        <td>98 ui (en)</td>
+        <td>8,4 mg</td>
     </tr>
     <tr>
         <th>Oranges</th>
         <td>295 ui</td>
-        <td>69.7 mg</td>
+        <td>69,7 mg</td>
     </tr>
     <tr>
-        <th>Bananas</th>
+        <th>dingue</th>
         <td>76 ui</td>
-        <td>10.3 mg</td>
+        <td>10,3 mg</td>
     </tr>
     </tbody>
 </table>
 
-## Experience Manager Code in Tables
+## Code de gestionnaire d'expérience dans les tableaux
 
 <table> 
  <tbody>
   <tr>
-   <td><strong>Previous location</strong></td> 
-   <td><codeblock>/etc/workflow/models</codeblock></td> 
+   <td><strong>Emplacement précédent</strong></td> 
+   <td><codeblock>/etc/workflow/modèles</codeblock></td> 
   </tr>
   <tr>
-   <td><strong>New location(s)</strong></td> 
-   <td><p><pre>PRE</pre></p><p><code>CODE</code></p><p><span class="code">/libs/settings/workflow/models</span></p> <p><span class="code">/conf/global/settings/workflow/models</span></p> <p><span class="code">/var/workflow/models</span></p> </td> 
+   <td><strong>Nouvel emplacement (s)</strong></td> 
+   <td><p><pre>PRÉ</pre></p><p><code>code</code></p><p><span class="code">/libs/settings/workflow/models</span></p> <p><span class="code">/conf/global/settings/workflow/models</span></p> <p><span class="code">/var/workflow/modèles</span></p> </td> 
   </tr>
   <tr>
-   <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new or modified Workflow Models must be migrated to /conf/global/workflow/models.</p> 
+   <td><strong>Orientation de restructuration</strong></td> 
+   <td><p>Tout modèle de flux de travail nouveau ou modifié doit être migré vers /conf/global/workflow/models.</p> 
     <codeblock>
-        This is pre text should be monospace
+        C'est pré texte doit être monospace
         </codeblock>
     <ol> 
-     <li>Deploy the modified Workflow Models into a local AEM 6.4 development instance, such that they exist in the Previous location.</li> 
-     <li>Edit the Workflow Model using AEM's Workflow Model Editor at AEM &gt; Tools &gt; Workflow &gt; Models.</li> 
-     <li>When migrating modified AEM-provided Workflow Models
+     <li>Déployez les modèles de flux de travail modifiés dans une instance de développement AEM 6.4 locale, de sorte qu'ils existent dans l'emplacement précédent.</li> 
+     <li>Modifier le modèle de flux de travail à l'aide de l'éditeur de modèles de flux de travail d'AEM chez AEM , Outils et modèles de workflow.</li> 
+     <li>Lors de la migration des modèles de flux de travail modifiés fournis par AEM
       <ol> 
-       <li>With the Workflow Model Editor open, modify the browser's address URL, and replace the path segment /libs/settings/workflow/models with /etc/workflow/models.
+       <li>Avec l'éditeur de modèle de flux de travail ouvert, modifiez l'URL d'adresse du navigateur et remplacez le segment de chemin /libs/settings/workflow/models par /etc/workflow/models.
         <ul> 
-         <li>For example, change: <em>http://localhost:4502/editor.html<strong>/libs/settings/workflow/models</strong>/dam/update_asset.html</em> to <em>http://localhost:4502/editor.html<strong>/etc/workflow/models</strong>/dam/update_asset.html</em></li> 
+         <li>Par exemple, <em>modifier<strong>: http://localhost:4502/editor.html /libs/settings/workflow/models</strong></em> /dam/update_asset.html to <em>http://localhost:4502/editor.html<strong>/etc/workflow/models/dam</strong> /mise à jour.asset.html</em></li> 
         </ul> </li> 
       </ol> </li> 
-     <li>Enable Edit mode in the Workflow Model Editor which will copy the Workflow Model definition to /conf/global/workflow/models.</li> 
-     <li>Tap the Sync button to sync the changes to the Runtime Workflow Model under /var/workflow/models.</li> 
-     <li>Export both the Workflow Model (/conf/global/workflow/models/&lt;workflow-model&gt;) and Runtime Workflow Model (/var/workflow/models/&lt;workflow-model&gt;) and integrate into the AEM project.
+     <li>Activer le mode Modifier dans l'éditeur de modèle de flux de travail qui copiera la définition du modèle de flux de travail à /conf/global/workflow/models.</li> 
+     <li>Appuyez sur le bouton Sync pour synchroniser les modifications apportées au modèle de flux de travail runtime sous /var/workflow/models.</li> 
+     <li>Exporter à la fois le modèle de flux de travail (/conf/global/workflow/models/&lt;workflow-model&gt;) et runtime Workflow Model (/var/workflow/models/&lt;workflow-model&gt;) et s'intégrer dans le projet AEM.&lt;/workflow-model&gt; &lt;/workflow-model&gt;
       <ol> 
-       <li>For example, export:
+       <li>Par exemple, exporter :
         <ul> 
-         <li><span class="code">/config/settings/workflow/models/dam/my_workflow_model</span><br /> and </li> 
-         <li><span class="code">/var/workflow/models/dam/my_workflow_model</span></li> 
+         <li><span class="code">/config/settings/workflow/models/dam/my-workflow</span> <br /> </li> 
+         <li><span class="code">/var/workflow/models/dam/my-workflow</span></li> 
         </ul> </li> 
       </ol> </li> 
     </ol> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>Workflow Model resolution occurs in the following order:</p> 
+   <td><p>La résolution du modèle de flux de travail se produit dans l'ordre suivant :</p> 
     <ol> 
      <li><span class="code">/conf/global/settings/workflow/models</span></li> 
      <li><span class="code">/libs/settings/workflow/models</span></li> 
-     <li><span class="code">/etc/workflow/models</span></li> 
-    </ol> <p>Thus, any customizations of AEM-provided Workflow Models persisted in the Previous location must be moved to /conf/global/settings/workflow/models if they are to be retained, otherwise they will be superseded by the AEM-provided Workflow Model definition in /libs/settings/workflow/models.</p> </td> 
+     <li><span class="code">/etc/workflow/modèles</span></li> 
+    </ol> <p>Ainsi, toute personnalisation des modèles de flux de travail fournis par AEM persiste dans l'emplacement précédent doit être déplacée vers /conf/global/settings/workflow/models s'ils doivent être conservés, sinon ils seront remplacés par la définition du modèle de flux de travail fournie par l'AEM dans / libs/settings/workflow/models.</p> </td> 
   </tr>
  </tbody>
 </table>
 
 
-## Sign in and manage your profile settings
+## Connectez-vous et gérez les paramètres de votre profil
 
 >[!NOTE]
 >
->You must encode any URL before passing it to the `destURL` parameter. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
+>Vous devez coder n'importe quelle `destURL` URL avant de la transmettre au paramètre. (Des sites d'encodeur comme [LE](https://meyerweb.com/eric/tools/dencoder/) décodeur url / Encoder sont disponibles.)
 
 
-## Core Services Table With URL and one long cell
+## Tableau des services de base avec URL et une cellule longue
 
-| Parameter | Description | Example | Required / Optional |
+| paramètre | description | échantillon | Obligatoire / Facultatif |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|------------------------------------|
-| tenantId | Name of the tenant the user should log into. | aem62tenant | Optional |
-| destURL | The complete URL to the place where the user should be taken to. | https://sc.omniture.com/x/1_7xxzf | Optional |
-| solutionname | Name of the MAC Solution that is the owner of destURL parameter. It is used to verify that the user has access to the solution which is the owner of the URL.  It is the responsibility of the solutions to make sure that the solutionname is in Sync with the destURL parameter.  For example : If the URL contains solutionname as social and the destURL provided is an analytics url, then the user would be redirected to the url even if he doesn&#39;t have access to analytics. MAC does NOT verify weather the owner of the destURL is in sync with the solution name. | analytics | Required if destURL param is used. |
+| locataireId | Nom du locataire dans qui l'utilisateur doit se connecter. | aem62tenant | facultatif |
+| destURL | L'URL complète à l'endroit où l'utilisateur doit être pris. | https://sc.omniture.com/x/1_7xxzf | facultatif |
+| nom de solution | Nom de la solution MAC qui est le propriétaire du paramètre destURL. Il est utilisé pour vérifier que l'utilisateur a accès à la solution qui est le propriétaire de l'URL.  Il est de la responsabilité des solutions de s'assurer que le nom de la solution est en synchronisation avec le paramètre destURL.  Par exemple : Si l'URL contient le nom de solution comme social et que le destURL fourni est une URL analytique, alors l'utilisateur serait redirigé vers l'URL même s'il n'a pas accès à l'analyse. MAC ne vérifie PAS la météo le propriétaire de la destURL est en phase avec le nom de la solution. | Analytics | Nécessaire si destURL param est utilisé. |
 
 
-## Big Table  with many cols
+## Grande table avec beaucoup de cols
 
-| Product Name &amp; Help Link | Analysis Workspace | Reports &amp; Analytics | Ad Hoc Analysis | Report Builder | Data Warehouse | Data Workbench |
+| Nom du produit et lien d'aide | Espace de travail d'analyse | Rapports et analyses | Analyse Ad Hoc | Constructeur de rapports | entrepôt | Établi de données |
 |------------------------|------------------|-------------------|---------------|--------------|--------------|--------------|
-| Access Method | Browser solution for building robust,custom analysis projects, and democratizing insights. | Browser solution for digital analysis. | Java based tool for advanced digital analysis. | Excel add-in that lets you build customized requests from R&amp;A data, and visualize using Microsoft Excel. | Browser solution that generates reports in .csv format. Can generate Tableau format files. | Multi-channel analytics tool for advanced analysis, such as custom attribution modeling, predictive analytics, and 360 customer analysis. |
-| Report Breakdowns | Unlimited | Up to 2 correlations | Unlimited | Up to 2 correlations | Performs fully expanded, unlimited breakdowns, break down by segment. | Unlimited |
-| Segment Comparisons | Unlimited | Up to 2 segments | Unlimited | Unlimited (data request stacking) | 1 segment. Supports multiple (stacked) segments. | Unlimited |
-| Row Output Limit | 400 | 200 | 50,000 | 50,000 | Unlimited | Customizable |
-| Unique Value Limits (within eVar/ prop reports) | 500K-2MM | 500K-2MM | 500K-2MM | 500K-2MM | Unlimited | Customizable |
-| Funnel/Pathing | Yes Fallout Flow | Yes | Yes | Yes | No | Yes |
-| Advanced Customer Journey Analysis | Planned | No | Yes | No | No | Yes |
-| Cohort Analysis | Yes | No | No | No | No | Yes |
-| Advanced Attribution | Limited currently - first/last/linear | Limited - first/last/linear | Limited - first/last/linear | Limited - first/last/linear | Limited - first/last/linear | Yes |
-Learn about new features and fixes in the Adobe Marketing Cloud.
+| Méthode d'accès | Solution de navigateur pour la construction de projets robustes et d'analyse personnalisé s'il démocratise les idées. | Solution de navigateur pour l'analyse numérique. | Outil basé sur Java pour l'analyse numérique avancée. | L'add-in Excel vous permet de créer des demandes personnalisées à partir de données de Recherche et D.A. et de visualiser à l'aide de Microsoft Excel. | Solution de navigateur qui génère des rapports en format .csv. Peut générer des fichiers de format Tableau. | Outil d'analyse multicanal pour l'analyse avancée, comme la modélisation d'attribution personnalisée, l'analyse prédictive et l'analyse client 360. |
+| Répartition des rapports | illimité | Jusqu'à 2 corrélations | illimité | Jusqu'à 2 corrélations | Effectue des ventilations illimitées et entièrement étendues, ventilées par segment. | illimité |
+| Comparaisons sectorielles | illimité | Jusqu'à 2 segments | illimité | Illimité (empilement de demande de données) | 1 segment. Prend en charge plusieurs segments (empilés). | illimité |
+| Limite de sortie de ligne | 400 | 200 | 50,000 | 50,000 | illimité | Personnalisable |
+| Limites de valeur uniques (dans les rapports eVar/prop) | 500K-2MM | 500K-2MM | 500K-2MM | 500K-2MM | illimité | Personnalisable |
+| Entonnoir/Pathing | Oui Fallout Flow | ouais | ouais | ouais | non | ouais |
+| Analyse avancée du parcours client | Prévu | non | ouais | non | non | ouais |
+| Analyse de cohorte | ouais | non | non | non | non | ouais |
+| Attribution avancée | Limité actuellement - premier/dernier/linéaire | Limité - premier/dernier/linéaire | Limité - premier/dernier/linéaire | Limité - premier/dernier/linéaire | Limité - premier/dernier/linéaire | ouais |
+Découvrez les nouvelles fonctionnalités et corrections dans le Cloud Marketing Adobe.
 
 >[!NOTE]
 >
->To receive release notes one week prior to the monthly product update, subscribe to the[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html). Release information in the Priority Product Update comes one week in advance of the release date and is subject to change. Please check back at release time for updates.
+>Pour recevoir des notes de sortie une semaine[avant la](https://www.adobe.com/subscription/priority-product-update.html)mise à jour mensuelle du produit, abonnez-vous à la mise à jour adobe Priority Product . Les informations de publication dans la mise à jour du produit prioritaire sont disponibles une semaine avant la date de sortie et peuvent être modifiées. S'il vous plaît vérifier à l'heure de sortie pour les mises à jour.
 
 <!-- <p>This file is the template for the monthly RNs. To update all links, open this file in notepad++, search for <span class="filepath"> 05212015 </span> and replace all occurrences with the current file name (usually release date). When adding content, edit only the tables and Fixes ULs. Do not overwrite Concepts, Sections, or the topic maps ULs. </p> -->
-May 2015
+Mai 2015
 
-## Sample Markdown Table with small cols
+## Tableau Markdown avec de petits cols
 
-| Hello | There |
+| Bonjour | y |
 |---|---|
-| a | b |
+| un | B |
 
 
-## Markdown Table with embedded lists and breaks
+## Tableau Markdown avec listes et pauses intégrées
 
-| Feature | Description |
+| caractéristique | description |
 | --- | --- |
-| Something goes here... | The left navigation menus have been updated and arranged to provide access to all of the core services and solutions.  Notable changes include: <ol> <li>The Audience Library and Customer Attributes menu selections are now located under Audiences . </li> <li>The  Exchange menu selection was moved from the Help drop-down menu to the left navigation rail. </li><li> Solutions has been removed. You can launch all solutions from the bottom half of the navigation rail. </li></ol><br>See [About Core Services and Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) for descriptions of the selections in the lefthand navigation menu. |
+| Quelque chose va ici ... | Les menus de navigation de gauche ont été mis à jour et disposés pour donner accès à tous les services et solutions de base.  Parmi les changements notables, mentionnons : <ol> <li>Les sélections de menus de la Bibliothèque d'audience et des attributs des clients sont maintenant situées sous Audiences . </li> <li>La sélection du menu Exchange a été déplacée du menu Help down au rail de navigation gauche. </li><li> Les solutions ont été supprimées. Vous pouvez lancer toutes les solutions à partir de la moitié inférieure du rail de navigation. </li></ol><br>Voir [À propos](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) des services et solutions de base pour les descriptions des sélections dans le menu de navigation à gauche. |
 
 
-## Markdown Table with Images and three cols almost identical to test balancing
+## Tableau Markdown avec images et trois cols presque identiques à l'équilibrage de test
 
-| Feature | Description | Description2 | Description 3 |
+| caractéristique | description | Description2 | Description 3 |
 | --- | --- | --- | --- |
-| Something goes here... | The left navigation menus have been updated and arranged to provide access to all of the core services and solutions. ![Warning](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) Notable changes include: <ol> <li>The Audience Library and Customer Attributes menu selections are now located under Audiences . </li> <li>The  Exchange menu selection was moved from the Help drop-down menu to the left navigation rail. </li><li> Solutions has been removed. You can launch all solutions from the bottom half of the navigation rail. </li></ol><br>See [About Core Services and Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) for descriptions of the selections in the lefthand navigation menu. | The left navigation menus have been updated and arranged to provide access to all of the core services and solutions. <br>![Warning](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) <br> Notable changes include: <ol> <li>The Audience Library and Customer Attributes menu selections are now located under Audiences . </li> <li>The  Exchange menu selection was moved from the Help drop-down menu to the left navigation rail. </li><li> Solutions has been removed. You can launch all solutions from the bottom half of the navigation rail. </li></ol><br>See [About Core Services and Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) for descriptions of the selections in the lefthand navigation menu. | The left navigation menus have been updated and arranged to provide access to all of the core services and solutions. ![Warning](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) Notable changes include: <ol> <li>The Audience Library and Customer Attributes menu selections are now located under Audiences . </li> <li>The  Exchange menu selection was moved from the Help drop-down menu to the left navigation rail. </li><li> Solutions has been removed. You can launch all solutions from the bottom half of the navigation rail. </li></ol><br>See [About Core Services and Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) for descriptions of the selections in the lefthand navigation menu. |
+| Quelque chose va ici ... | Les menus de navigation de gauche ont été mis à jour et disposés pour donner accès à tous les services et solutions de base. ![Avertissement](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) Les changements notables incluent : <ol> <li>Les sélections de menus de la Bibliothèque d'audience et des attributs des clients sont maintenant situées sous Audiences . </li> <li>La sélection du menu Exchange a été déplacée du menu Help down au rail de navigation gauche. </li><li> Les solutions ont été supprimées. Vous pouvez lancer toutes les solutions à partir de la moitié inférieure du rail de navigation. </li></ol><br>Voir [À propos](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) des services et solutions de base pour les descriptions des sélections dans le menu de navigation à gauche. | Les menus de navigation de gauche ont été mis à jour et disposés pour donner accès à tous les services et solutions de base. <br>![Avertissement](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) <br> Les changements notables incluent : <ol> <li>Les sélections de menus de la Bibliothèque d'audience et des attributs des clients sont maintenant situées sous Audiences . </li> <li>La sélection du menu Exchange a été déplacée du menu Help down au rail de navigation gauche. </li><li> Les solutions ont été supprimées. Vous pouvez lancer toutes les solutions à partir de la moitié inférieure du rail de navigation. </li></ol><br>Voir [À propos](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) des services et solutions de base pour les descriptions des sélections dans le menu de navigation à gauche. | Les menus de navigation de gauche ont été mis à jour et disposés pour donner accès à tous les services et solutions de base. ![Avertissement](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) Les changements notables incluent : <ol> <li>Les sélections de menus de la Bibliothèque d'audience et des attributs des clients sont maintenant situées sous Audiences . </li> <li>La sélection du menu Exchange a été déplacée du menu Help down au rail de navigation gauche. </li><li> Les solutions ont été supprimées. Vous pouvez lancer toutes les solutions à partir de la moitié inférieure du rail de navigation. </li></ol><br>Voir [À propos](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names) des services et solutions de base pour les descriptions des sélections dans le menu de navigation à gauche. |
 
 
-## Simple HTML Table
+## Table HTML simple
 
 <table>
 <tr>
 <td>
-hello
+Bonjour
 </td>
 <td>
-there
+y
 </td>
 </tr>
 <tr>
 <td>
 </td>
 <td>
-This<br>is<br>a<br>test
+Il<br><br>s'agit d'un<br>test
 </td>
 </tr>
 </table>
 
-## HTML Table Feature/Description
+## Fonction de table HTML/Description
 
 <table id="table_14E7B35E06C84A258A21D09691B58354"> 
  <thead> 
   <tr> 
-   <th colname="col1" > Feature </th> 
-   <th colname="col2" > Description </th> 
+   <th colname="col1" > caractéristique </th> 
+   <th colname="col2" > description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Something goes here...</p> </td> 
-   <td colname="col2"> <p>The left navigation menus have been updated and arranged to provide access to all of the core services and solutions. Notable changes include: </p> 
+   <td colname="col1"> <p> Quelque chose va ici ...</p> </td> 
+   <td colname="col2"> <p>Les menus de navigation de gauche ont été mis à jour et disposés pour donner accès à tous les services et solutions de base. Parmi les changements notables, mentionnons : </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Audience Library </span> and <span class="term"> Customer Attributes </span> menu selections are now located under <span class="term"> Audiences </span>. </li> 
-     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">The <span class="term"> Exchange </span> menu selection was moved from the Help drop-down menu to the left navigation rail. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Solutions </span> has been removed. You can launch all solutions from the bottom half of the navigation rail. </li> 
-    </ul> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names" format="https" scope="external"> About Core Services and Solutions </a> for descriptions of the selections in the lefthand navigation menu. </p> </td> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Les <span class="term"> sélections <span class="term"> de </span> menus de la Bibliothèque <span class="term"> </span> d'audience et des attributs des clients sont maintenant situées sous Audiences </span>. </li> 
+     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La <span class="term"> </span> sélection du menu Exchange a été déplacée du menu Help down au rail de navigation gauche. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Les </span> solutions ont été supprimées. Vous pouvez lancer toutes les solutions à partir de la moitié inférieure du rail de navigation. </li> 
+    </ul> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=solutions_capability_names" format="https" scope="external"> À propos </a> des services et solutions de base pour les descriptions des sélections dans le menu de navigation à gauche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Fixes**
+**Correctifs**
 
-* Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) page from displaying in Japanese.
-* Fixed an issue preventing the use of Japanese text in comments between the [!DNL  Creative Cloud] and the [!DNL  Marketing Cloud].
+* Correction d'un problème empêchant les attributs des clients de se synchroniser pour certains clients.
+* Correction d'un [problème empêchant](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) Adobe Target Product Documentation page d'afficher en japonais.
+* Correction d'un problème empêchant l'utilisation [!DNL  Creative Cloud] du [!DNL  Marketing Cloud]texte japonais dans les commentaires entre le .
 
-See [Marketing Cloud Product Documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/) for product help.
-
-
+Voir [Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/) Product Documentation pour obtenir de l'aide produit.
