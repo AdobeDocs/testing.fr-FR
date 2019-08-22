@@ -1,19 +1,39 @@
 ---
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+git-commit: 4d22987883e7f5ddcabb054c15d4aeaf2086a5f9
+last-update: '2019-04-23'
+pipeline_filename: help/bugs/ssecd233-inline-images-newline.md
+publish-url: https://docs.adobe.com/content/help/en/./testing/waiting/closed/ssecd233-inline-images-newline.html
+git-commit-file: 89f53f008964b82faab3870e27bd3015ebece61b
+sample: Métadonnées
+simple: changement
+solution-title: Matt's Test Repo Ne pas utiliser
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: aucun
+getting-started-url: aide/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/bugs/ssecd233-inline-images-newline.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/bugs/ssecd233-inline-images-newline.md
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
+index: n
+ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
 translation-type: tm+mt
+source-git-commit: 6267783d239cbca5f35fc07c3978dda3804b0f7a
 
 ---
-# Inline images (like Icon) create new line
 
-This should all be one line, with no line breaks before or after the image:
+# Les images en ligne (comme Icon) créent une nouvelle ligne
 
-In the Experience Cloud, click the menu icon  ![](icon.png) to access the pull-down menu.
+Tout cela devrait être une ligne, sans rupturede de ligne avant ou après l'image:
+
+Dans le Nuage d'expérience, cliquez sur l'icône ![ ](icon.png) du menu pour accéder au menu de retrait.
 
 
 [![](icon.png)](http://www.google.com)
 
 >[!NOTE]
->Hello
->* one
->* two
-   >   * three
+>Bonjour
+>* un
+>* deux
+   >   * trois
+
