@@ -24,13 +24,13 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
 index: n
 ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
 translation-type: tm+mt
-source-git-commit: b2db34265e2e5521ab7445cc773649f091588033
+source-git-commit: b321c894ba45576f2e484271b217700fd38151ae
 
 ---
 
-# Nouveau! Tableau de bord d'aperçu{#12-foo}
+# Nouveau! Tableau de bord d'aperçu
 
-Consultez les tableaux de bord de l'aperçu du marketing et de la modération.
+<a name="foo">Consultez les tableaux de bord de l'aperçu du marketing et de la modération.</a>
+<producer>Bonjour</producer>
 
 
-Matt était [ici mauvais lien](/help/fluffernutter.md)
