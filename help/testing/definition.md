@@ -1,23 +1,44 @@
 ---
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+git-commit: 4d22987883e7f5ddcabb054c15d4aeaf2086a5f9
+last-update: '2019-04-23'
+pipeline_filename: aide/bugs/.. /testing/definition.md
+publish-url: https://docs.adobe.com/content/help/en/./testing/open/definition.html
+git-commit-file: 89f53f008964b82faab3870e27bd3015ebece61b
+sample: Métadonnées
+simple: changement
+solution-title: Matt's Test Repo Ne pas utiliser
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: aucun
+getting-started-url: aide/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/definition.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/testing/definition.md (en)
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
+index: n
+ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
+guide-url: guide-landing.html
+guide-title: C'est une fois
 translation-type: tm+mt
+source-git-commit: 6267783d239cbca5f35fc07c3978dda3804b0f7a
 
 ---
-# Definition Lists
 
-Uses extension to markdown...
+# Listes de définition
 
-replacer
-: Function or Regex used to replace the text of each content count.
+Utilise l'extension pour marquer...
 
-function
-: Used to do the replacement on each element. The function’s arguments:
+Remplacement
+: Fonction ou Regex utilisé pour remplacer le texte de chaque nombre de contenu.
 
-element
-: The HTML element that is being updated.
+fonction
+: Utilisé pour effectuer le remplacement sur chaque élément. Les arguments de la fonction :
 
-count
-: The content count for this element
+élément
+: L'élément HTML qui est mis à jour.
 
-term
-: This is a large definition
+compter
+: Le nombre de contenu pour cet élément
+
+terme
+: Il s'agit d'une grande définition
