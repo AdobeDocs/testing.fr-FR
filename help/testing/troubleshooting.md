@@ -1,98 +1,116 @@
 ---
-matt: lawrence
+git-commit: 4d22987883e7f5ddcabb054c15d4aeaf2086a5f9
+last-update: '2019-04-23'
+pipeline_filename: help/testing/troubleshooting.md
+publish-url: https://docs.adobe.com/content/help/en/./testing/hello/second-group-c/troubleshooting.html
+git-commit-file: 89f53f008964b82faab3870e27bd3015ebece61b
+matt: Lawrence
+guide-url: guide-landing.html
+guide-title: C'est une fois
+solution-title: Matt's Test Repo Ne pas utiliser
+solution-hub-url: https://docs.ci.corp.adobe.com
+solution-image: aucun
+getting-started-url: aide/c-gs/c-gs.md
+tutorials-url: https://training.adobe.com/training/courses.html#
+git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/troubleshooting.md
+git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
+git-filename: help/testing/troubleshooting.md
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
+index: n
+ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
 translation-type: tm+mt
-source-git-commit: 733f96475a5c09736bef6f3b6508396bd961258f
+source-git-commit: 6267783d239cbca5f35fc07c3978dda3804b0f7a
 
 ---
 
-# Troubleshooting
+# dépannage
 
-## Testing BR
+## Test BR
 
-* Got to Assets<br/>![](assets/2018-07-24-13-47-56.png)
-* help<br/>![](2018-07-24-13-49-21.png)
-* Open solution folder (launch.en)<br/>![](2018-07-24-13-51-13.png)
-* Click on the ditamap entry to bring up the XML Add On panel<br/>![](2018-07-24-13-52-20.png)
-* Navigate to Outputs<br/>![](2018-07-24-13-53-25.png)
-
-
-## The Pipeline Phases
-
-There are three main phases of the pipeline where errors can occur:
-
-1. Ditamap Creation
-2. Markdown to DITA (and HTML) conversion
-3. DITA to AEM Sites Generation using the XML Add-on For AEM
-
-### Ditamap Creation
-
-This is the process by which the TOC.md files are read and a ditamap is created.
-
-Additionally, this is also where the YAML rewrite occurs.  All of the markdown files are rewritten to include:
-
-* Any YAML variables in the TOC.md file (if the variable already exists in the markdown file, it is retained and considered a local override for that file)
-* The git-repo variables are created (git-edit and git-issue)
-* The last-modified YAML variable is generated from the commit date of the file and written as a YAML variable in the header of the markdown file
+* Got à des actifs<br/>![](assets/2018-07-24-13-47-56.png)
+* Aide<br/>![](2018-07-24-13-49-21.png)
+* Dossier de solution ouverte (launch.fr)<br/>![](2018-07-24-13-51-13.png)
+* Cliquez sur l'entrée ditamap pour mettre en place le XML Add On panneau<br/>![](2018-07-24-13-52-20.png)
+* Naviguez vers les sorties<br/>![](2018-07-24-13-53-25.png)
 
 
+## Les phases du pipeline
 
-### Markdown to Dita (and HTML) Conversion
+Il y a trois phases principales du pipeline où des erreurs peuvent se produire :
 
-Markdown content is first converted to DITA before uploading to AEM for processing.  Additionally, in the beginning of the pipeline (Jenkins), HTML is generated from the DITA as a method to both catch any problems that may occur during AEM Sites Generation with the XML Add-on.
+1. Création Ditamap
+2. Markdown à la conversion DITA (et HTML)
+3. DITA à AEM Sites Génération en utilisant le XML Add-on For AEM
 
-These DITA and HTML files can be viewed in Jenkins.  Open the job name (lauch.en as an example), and the generated files will be in the job workspace:
+### Création Ditamap
+
+Il s'agit du processus par lequel les fichiers TOC.md sont lus et une ditamap est créée.
+
+En outre, c'est également là que la réécriture YAML se produit.  Tous les fichiers de markdown sont réécrits pour inclure :
+
+* Toutes les variables YAML dans le fichier TOC.md (si la variable existe déjà dans le fichier de dépréciation, elle est conservée et considérée comme une dérogation locale pour ce fichier)
+* Les variables git-repo sont créées (git-edit et git-issue)
+* La dernière variable YAML modifiée est générée à partir de la date de validation du fichier et écrite en tant que variable YAML dans l'en-tête du fichier de markdown
+
+
+
+### Markdown à Dita (et HTML) Conversion
+
+Le contenu Markdown est d'abord converti en DITA avant de le télécharger sur AEM pour traitement.  En outre, au début du pipeline (Jenkins), HTML est généré à partir de la DITA comme une méthode pour attraper tous les problèmes qui peuvent se produire au cours de la génération de sites AEM avec le XML Add-on.
+
+Ces fichiers DITA et HTML peuvent être consultés dans Jenkins.  Ouvrez le nom de l'emploi (lauch.en par exemple), et les fichiers générés seront dans l'espace de travail :
 
 ![](2018-07-24-12-52-17.png)
 
-From the Workspace, navigate to out/dita to see the raw dita that was generated.  Note: Although the file extensions in this directory are `.md`, the content is Dita.  You can view or download these files and run them through a validator (such as OxygenXML).  Additionally, in the workspace you can also view the generated HTML files (which should be similar to the content created by the XML Add-On).  Simply go to the out/html directory.
+De l'espace de travail, naviguer vers l'extérieur / dita pour voir la dita brute qui a été généré.  Remarque : Bien que les extensions `.md`de fichiers de ce répertoire soient, le contenu est Dita.  Vous pouvez afficher ou télécharger ces fichiers et les exécuter via un validateur (comme OxygenXML).  En outre, dans l'espace de travail, vous pouvez également afficher les fichiers HTML générés (qui doivent être similaires au contenu créé par le XML Add-On).  Il suffit d'aller à l'annuaire out/html.
 
-During the conversion many errors can occur resulting from:
+Au cours de la conversion, de nombreuses erreurs peuvent se produire à la suite de :
 
-* Invalid Markdown
-* Unsupported HTML in the Markdown file
+* Markdown invalide
+* HTML non pris en charge dans le fichier Markdown
 
 
-### DITA to AEM Sites Generation using the XML Add-on For AEM
+### DITA à AEM Sites Génération en utilisant le XML Add-on For AEM
 
-It is unusual to face any issues with the DITA to AEM Sites Generation *that is not caught by the DITA to html transformation earlier in the pipeline*.
+Il est inhabituel de faire face à des *problèmes avec le DITA à AEM Sites* Generation qui n'est pas pris par le DITA à la transformation html plus tôt dans le pipeline .
 
-However, if there are difficulties, review the Add On logs in AEM (may need to consult with an Admin).  The current stage instance for Docs is [https://docs-author-stg.corp.adobe.com](https://docs-author-stg.corp.adobe.com).
+Toutefois, s'il y a des difficultés, examinez les journaux Add On dans AEM (peut-être besoin de consulter un administrateur).  L'instance d'étape [actuelle](https://docs-author-stg.corp.adobe.com)pour Docs est https://docs-author-stg.corp.adobe.com .
 
-The logs can be found in:
+Les journaux peuvent être trouvés dans :
 
 <!-- markdownlint-disable MD037 -->
 <!-- markdownlint-disable MD033 -->
 
-* Got to Assets<br/>![](assets/2018-07-24-13-47-56.png)
-* help<br/>![](2018-07-24-13-49-21.png)
-* Open solution folder (launch.en)<br/>![](2018-07-24-13-51-13.png)
-* Click on the ditamap entry to bring up the XML Add On panel<br/>![](2018-07-24-13-52-20.png)
-* Navigate to Outputs<br/>![](2018-07-24-13-53-25.png)
-* Click on the date/time for the generated output to see the log<br/>![](2018-07-24-13-54-12.png)
+* Got à des actifs<br/>![](assets/2018-07-24-13-47-56.png)
+* Aide<br/>![](2018-07-24-13-49-21.png)
+* Dossier de solution ouverte (launch.fr)<br/>![](2018-07-24-13-51-13.png)
+* Cliquez sur l'entrée ditamap pour mettre en place le XML Add On panneau<br/>![](2018-07-24-13-52-20.png)
+* Naviguez vers les sorties<br/>![](2018-07-24-13-53-25.png)
+* Cliquez sur la date/heure de la sortie générée pour voir le journal<br/>![](2018-07-24-13-54-12.png)
 
-## Common Problems
+## Problèmes courants
 
-### Content not showing in AEM
+### Contenu non présenté dans aEM
 
-#### Problem
+#### problème
 
-The content went through the pipeline and the Jenkins job was successful, however, no content can be seen in AEM.
+Le contenu est passé par le pipeline et le travail Jenkins a été couronnée de succès, cependant, aucun contenu ne peut être vu dans AEM.
 
-#### Resolution
+#### résolution
 
-This is most commonly attributable to the associated TOC.md file not being updated to include the markdown file.
+Cela est le plus souvent attribuable au fait que le fichier TOC.md associé n'a pas été mis à jour pour inclure le fichier de balisage.
 
-*If a markdown file is not found in a TOC.md, it will not be included in the ditamap and will not be uploaded to AEM.*
+*Si un fichier de dépréciation n'est pas trouvé dans un TOC.md, il ne sera pas inclus dans le ditamap et ne sera pas téléchargé sur AEM.*
 
-### DITA Errors
+### Erreurs DITA
 
-When a  markdown file is processed via the pipeline, it is first converted from Markdown to DITA using the DITA Open Toolkit, specifically the plugin named lwDita (or lightweight-dita).
+Lorsqu'un fichier de débarquement est traité via le pipeline, il est d'abord converti de Markdown à DITA à l'aide de la boîte à outils ouverte DITA, en particulier le plugin nommé lwDita (ou léger-dita).
 
-During this processing, the resulting dita that is generated from the input markdown file may be invalid.
+Au cours de ce traitement, la dita résultante qui est générée à partir du fichier de balisage d'entrée peut être invalide.
 
-#### Problem
+#### problème
 
-Easily the most common error encoutered is `DOTJ013E`, indicates the generated DITA is invalid.  Example:
+Facilement l'erreur la plus `DOTJ013E`commune encoutered est , indique le DITA généré est invalide.  échantillon:
 
 ```log
 [DOTJ013E][ERROR] Failed to parse the referenced file 'file:/apps/jenkins/2.121.1/workspace/testing.en/out/dita/color.md'.: file:/apps/jenkins/2.121.1/workspace/testing.en/out/dita/color.md Line 16:Attribute "style" must be declared for element type "ph".
@@ -101,14 +119,14 @@ Easily the most common error encoutered is `DOTJ013E`, indicates the generated D
 
 <!-- <font color="blue">Hello</font> -->
 
-#### Resolution
+#### résolution
 
-Examine the generated dita source by going to [Jenkins](https://docs.ci.corp.adobe.com) and examining the failing job.
-The generated Dita is in the
+Examiner la source dita [générée](https://docs.ci.corp.adobe.com) en allant à Jenkins et en examinant le travail défaillant.
+Le Dita généré est dans le
 
-### Malformed Markdown Tables
+### Tables de Markdown mal formées
 
-#### Problem
+#### problème
 
 `Error: Failed to run pipeline: No renderer configured for com.vladsch.flexmark.ext.aside.AsideBlock`
 
@@ -118,19 +136,19 @@ The generated Dita is in the
 | a bad |table |
 ```
 
-#### Resolution
+#### résolution
 
-An aside block is an extension to Markdown syntax that is indicated by a line starting with a pipe `|`.  This is currently unsupported by the lwDita (markdown to dita) processor.
+Un bloc de côté est une extension de la syntaxe `|`Markdown qui est indiquée par une ligne commençant par un tuyau .  Ceci n'est actuellement pas pris en charge par le processeur lwDita (markdown to dita).
 
-Fix the markdown syntax for the table (preferred) or, in the case of spans, create a **simple** html table:
+Fixez la syntaxe de markdown pour la table (préférée) **ou, dans le cas des travées, créez une table html simple** :
 
 <table>
     <tr>
-        <td>This</td>
-        <td>is</td>
+        <td>lundi</td>
+        <td>Est</td>
     </tr>
     <tr>
-        <td>a bad</td>
+        <td>une mauvaise</td>
         <td>table</td>
     </tr>
 </table>
