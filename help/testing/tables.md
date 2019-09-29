@@ -1,9 +1,4 @@
 ---
-git-commit: 4d22987883e7f5ddcabb054c15d4aeaf2086a5f9
-last-update: '2019-05-08'
-pipeline_filename: help/testing/tables.md
-publish-url: https://docs.adobe.com/content/help/en/./testing/hello/tables.html
-git-commit-file: 0dd86c17204472f130e1552e72e2615020b9be78
 description: en savoir plus sur les nouvelles fonctionnalités et corrections dans le cloud marketing adobe.
 keywords: notes de communiqué
 seo-description: en savoir plus sur les nouvelles fonctionnalités et corrections dans le cloud marketing adobe.
@@ -13,21 +8,8 @@ internal: n
 snippet: y (en)
 translate: y (en)
 matt: Lawrence
-guide-url: guide-landing.html
-guide-title: C'est une fois
-solution-title: Matt's Test Repo Ne pas utiliser
-solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: aucun
-getting-started-url: aide/c-gs/c-gs.md
-tutorials-url: https://training.adobe.com/training/courses.html#
-git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/tables.md
-git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
-git-filename: help/testing/tables.md
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
-index: n
-ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
 translation-type: tm+mt
-source-git-commit: 6267783d239cbca5f35fc07c3978dda3804b0f7a
+source-git-commit: fcd622e0e6418b927405275ccae8168b86a88b98
 
 ---
 
