@@ -1,35 +1,15 @@
 ---
-git-commit: 4d22987883e7f5ddcabb054c15d4aeaf2086a5f9
-last-update: '2019-05-08'
-pipeline_filename: help/testing/jptest.md
-publish-url: https://docs.adobe.com/content/help/en/./testing/hello/second-group-c/jptest.html
-git-commit-file: 0dd86c17204472f130e1552e72e2615020b9be78
 description: Adobe Experience Cloud
 seo-description: Adobe Experience Cloud
 seo-title: Adobe Experience Cloud
-solution: L'optimiseur de la commercialisation du cloud
 title: Adobe Experience Cloud
 topic: Notes de sortie
-uuid: c56a1064-0f2c-4241-93c6- ca4b1f267763
 internal: n
 snippet: y (en)
 translate: y (en)
 Translated: TM-MT (en)
-guide-url: guide-landing.html
-guide-title: C'est une fois
-solution-title: Matt's Test Repo Ne pas utiliser
-solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: aucun
-getting-started-url: aide/c-gs/c-gs.md
-tutorials-url: https://training.adobe.com/training/courses.html#
-git-edit: https://git.corp.adobe.com/AdobeDocs/testing.en/tree/master/help/testing/jptest.md
-git-issue: https://git.corp.adobe.com/AdobeDocs/testing.en/issues/new
-git-filename: help/testing/jptest.md
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
-index: n
-ROBOTS: NOINDEX, NOFOLLOW, NOARCHIVE, NOSNIPPET
 translation-type: tm+mt
-source-git-commit: 6267783d239cbca5f35fc07c3978dda3804b0f7a
+source-git-commit: a0151abf5f67d32c60125575d07aa1fd088b3643
 
 ---
 
@@ -62,7 +42,7 @@ Cloud Adobe, l'API de La Gestion des Étiquettes Dynamiques
 **C'est le fait que je les ai fait**
 
 * Nuage créatif CORE-15971()
-* C'est pas un peu comme un peu plus de CORE-15938()
+* C'est pas un peu comme un peu plus de CORE-15938 ()
 * C'est pas le fait de s'en l'aller. (CORE-5833-CORE-14278)
 * Creative Cloud Marketing Cloud CORE-16677 ()
 
@@ -325,7 +305,7 @@ Adobe Analytics, c'est un amplis amp;amp; Analytiques, Constructeur,
   <tr> 
    <td colname="col1"> <p> API </p> </td> 
    <td colname="col02"> <p>21年2017月24日 </p> </td> 
-   <td colname="col2"> <p> Adobeでは、管理コンソールを使用すると、ユーザーのアクセスおよび管理を移行するには、次の手順で活動の一部として、<span class="codeph">認証機関</span>と<span class="codeph"> Company. API GetLoginKey</span> </p> <p> - Analytiques ,<b>2018 31 , 31</b> ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' </p> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-administration-1-4/admin-api" format="https" scope="external"> API de l'administration analytique API1.4</a> </p> </td> 
+   <td colname="col2"> <p> &lt;a0&gt;Adobe,&lt;/a0&gt;<span class="codeph"></span> société<span class="codeph"> API GetLoginKey</span> </p> <p> - Analytiques ,<b>2018 31 , 31</b> ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' </p> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-administration-1-4/admin-api" format="https" scope="external"> API de l'administration analytique API1.4</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>20 </p> </td> 
