@@ -1,28 +1,28 @@
 ---
-solution-title: Matt's Test Repo Don't Use
+solution-title: Matt's Test Repo Ne pas utiliser
 solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: None
-getting-started-url: help/c-gs/c-gs.md
+solution-image: aucun
+getting-started-url: aide/c-gs/c-gs.md
 tutorials-url: https://training.adobe.com/training/courses.html#
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
-index: n
+index: y
 translation-type: tm+mt
-source-git-commit: c63e780c2aad9bd893b2ed165f240899392b7ee3
+source-git-commit: 8e84730ae2c0e214e018e5f55b717d96e61bf0be
 
 ---
 
 
-# Metadata for internal use
+# Métadonnées pour usage interne
 
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+Le fichier metadata.md inclut des métadonnées de niveau repo qui passent par le guide d'utilisateur TOC.md les fichiers dans la pension. Si vous souhaitez modifier metadata.md contenu pour n'importe quel guide utilisateur, faites-le dans n'importe quel fichier TOC.md.
 
-| metadata | what it does |
+| Métadonnées | ce qu'il fait |
 |--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| solution-icon | Displays solution icon next to solution title. Not yet implemented |
-| getting-started-url | Link to helpx getting started page |
-| tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
-| mini-toc-levels | Determines the number of heading levels that appear in right rail. default is 2 |
-| git-repo | Specifies the location of the master repo for internal use |
+| solution-titre | Utilisé dans l'en-tête de l'article comme lien |
+| solution-hub-url | Ouvre la page de hub helpx |
+| solution-icône | Affiche l'icône de la solution à côté du titre de la solution. Pas encore mis en œuvre |
+| getting-started-url | Lien vers helpx démarrage page |
+| tutoriels-url | Lien vers des tutoriels vidéo - soit des tutoriels helpx ou tutoriels KT |
+| mini-toc-niveaux | Détermine le nombre de niveaux de cap qui apparaissent dans le rail droit. par défaut est de 2 |
+| git-repo | Spécifie l'emplacement de la pension principale pour usage interne |
