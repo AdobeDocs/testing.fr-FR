@@ -1,11 +1,12 @@
 ---
-source-git-commit: 9f89db19ccc73f69c94b6e5a744fed8d63ee05e9
+source-git-commit: 336c297d255caa109e6afe4c3541b8e22f34c7f7
 translation-type: tm+mt
 
 ---
 # dépannage
 
 ## Test BR
+
 ![Il s'agit d'une légende](filesystem-layout-urls-from-dispatcher.png)
 *Système de fichier d'expédition ressemble à ceci après quelque chose*
 
