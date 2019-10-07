@@ -1,5 +1,5 @@
 ---
-source-git-commit: 525403698bd807f681b4add86de027bd5abc965b
+source-git-commit: 4ef3c6cb8f695f9722edabed0f0a391640ec19d9
 translation-type: tm+mt
 
 ---
@@ -10,7 +10,8 @@ translation-type: tm+mt
 ![Il s'agit d'une légende](filesystem-layout-urls-from-dispatcher.png)
 *Système de fichier d'expédition ressemble à ceci après quelque chose*
 
-![Il s'agit d'une légende](filesystem-layout-urls-from-dispatcher.png)<br>
+![Il s'agit d'une légende](filesystem-layout-urls-from-dispatcher.png)
+
 *Système de fichier d'expédition ressemble à ceci après quelque chose*
 
 
