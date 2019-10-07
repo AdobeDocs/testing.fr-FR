@@ -1,11 +1,13 @@
 ---
-source-git-commit: d2be7d301d84c8e7b8d29e4cadf64dd22ecd832a
+source-git-commit: 9f89db19ccc73f69c94b6e5a744fed8d63ee05e9
 translation-type: tm+mt
 
 ---
 # dépannage
 
 ## Test BR
+![Il s'agit d'une légende](filesystem-layout-urls-from-dispatcher.png)
+*Système de fichier d'expédition ressemble à ceci après quelque chose*
 
 ![Pas](assets/2018-07-24-13-47-56.png)
 *de taille*
