@@ -1,13 +1,12 @@
 ---
 solution-title: Matt's Test Repo Ne pas utiliser
 solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: aucun
+solution-image: Aucun
 getting-started-url: aide/c-gs/c-gs.md
 tutorials-url: https://training.adobe.com/training/courses.html#
 git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
-index: y
 translation-type: tm+mt
-source-git-commit: 8e84730ae2c0e214e018e5f55b717d96e61bf0be
+source-git-commit: 3bc27b5c9c083f8cbec4a2396346caf8f5f857b0
 
 ---
 
