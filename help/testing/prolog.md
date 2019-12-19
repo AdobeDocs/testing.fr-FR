@@ -6,15 +6,17 @@ solution: Social
 title: Tableau de bord d'aperçu
 uuid: 3c813d45-866a-4987-bfbf-dd5e7fca50c5
 guide-url: guide-landing.html
-guide-title: リリースノート
+guide-title: XXXXXXX
 translation-type: tm+mt
-source-git-commit: c850cfab909bb749de17d5e953fe5d6c9c2a7380
+source-git-commit: f54c053513d24d0a118450471b7495f08fbc8650
 
 ---
 
 # Nouveau! Tableau de bord d'aperçu
 
 Peluches
+
+Consultez [cette](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_composition/schema_composition.md) documentation pour plus de détails.
 
 ## un certain contexte{#context}
 
@@ -36,3 +38,9 @@ Bonjour
 >url 'https://www.adobe.com" texte '"Adobe Homepage"
 
 Au revoir
+
+
+**XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
+
+* XXX API XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (AAM-36824)
+* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX[](https://marketing.adobe.com/resources/help/en_US/aam/c_segment_builder.html)
