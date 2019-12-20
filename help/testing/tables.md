@@ -9,7 +9,7 @@ snippet: y
 translate: y
 matt: lawrence
 translation-type: tm+mt
-source-git-commit: 36aa118c8bda0ca3714ca36c320df08df5861361
+source-git-commit: 11e94c721aa03ac8ee7982b9cd6f89617cbeedc4
 
 ---
 
@@ -58,13 +58,13 @@ source-git-commit: 36aa118c8bda0ca3714ca36c320df08df5861361
     </tbody>
 </table>
 
-## Code de gestionnaire d'expérience dans les tableaux
+## Voyages de campagne
 
 >[!CONTEXTUALHELP]
->id '"aemtables"
->titre "AEM Tables"
->abstractMD "Comment l'équipe AEM utilise les tables"
->extra_url"http://extra.url" text "Plus d'infos"
+>id'"voyages"
+>titre"Voyages"
+>abstractMD"Triggered Journeys est une nouvelle fonctionnalité de campagne pour gérer les scénarios de marketing basés sur les événements et en temps réel.  C'est une fonctionnalité très ouverte.  Il reçoit des événements, interroge des sources de données, des actions de tir.
+>supplémentaire-url"https://campaign-rd-voyager-mkt-dev1.campaign.adobe.com/voyager/journeys"" text"Watch demo video"
 
 <table> 
  <tbody>
