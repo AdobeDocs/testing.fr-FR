@@ -1,9 +1,11 @@
 ---
-source-git-commit: a0151abf5f67d32c60125575d07aa1fd088b3643
+source-git-commit: 1504303e96870766bf16ce8d30a8550f1002457b
 translation-type: tm+mt
 
 ---
 # Exemple de migration du code couleur
+
+Aloha!
 
 Salut
 <!-- <style>
@@ -18,7 +20,7 @@ Changements
 
 
 * TimedMetadata (en)
-* [peu sûr](http://www.adobe.com)
+* [Insécurité](http://www.adobe.com)
 
 <!-- 
 <span outputclass="bluetext">Hello</span> There -->
