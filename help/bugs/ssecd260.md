@@ -1,8 +1,8 @@
 ---
-sample: Métadonnées
-simple: changement
+sample: metadata
+simple: change
 translation-type: tm+mt
-source-git-commit: a0151abf5f67d32c60125575d07aa1fd088b3643
+source-git-commit: 46789be3b0bb55ebf556843573919413544792dc
 
 ---
 
@@ -10,6 +10,6 @@ source-git-commit: a0151abf5f67d32c60125575d07aa1fd088b3643
 
 Bonjour!
 
-Cliquez sur l'image pour aller google.com
+Cliquez sur l’image pour aller google.com
 
-[Télécharger Test](/help/testing/downloads-and-stuff.md)
+[Télécharger Test](/help//testing/downloads-and-stuff.md)
