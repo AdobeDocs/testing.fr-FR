@@ -1,13 +1,11 @@
 ---
-sample: Métadonnées
-simple: changement
+sample: metadata
+simple: change
 translation-type: tm+mt
-source-git-commit: c257898cc6cd0a62f936d19d32412ddd24779086
+source-git-commit: 9c286d138acff156c2a4c303eb0b734e2de2237a
 
 ---
 
 # Vidéos
-
-Maya
 
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
