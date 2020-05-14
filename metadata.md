@@ -1,27 +1,31 @@
 ---
-solution-title: Matt's Test Repo Ne pas utiliser
+solution-title: Matt's Test Repo Don't Use
 solution-hub-url: https://docs.ci.corp.adobe.com
-solution-image: Aucun
-getting-started-url: aide/c-gs/c-gs.md
+solution-image: None
+getting-started-url: help/c-gs/c-gs.md
 tutorials-url: https://training.adobe.com/training/courses.html#
-git-repo: https://git.corp.adobe.com/AdobeDocs/testing.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/testing.fr-FR
+Matt: null
 translation-type: tm+mt
-source-git-commit: 3bc27b5c9c083f8cbec4a2396346caf8f5f857b0
+source-git-commit: 93860055a66ed0079e78271d8aebde9da5ba2918
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
-# Métadonnées pour usage interne
+# Metadata for internal use
 
 
-Le fichier metadata.md inclut des métadonnées de niveau repo qui passent par le guide d'utilisateur TOC.md les fichiers dans la pension. Si vous souhaitez modifier metadata.md contenu pour n'importe quel guide utilisateur, faites-le dans n'importe quel fichier TOC.md.
+The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
 
-| Métadonnées | ce qu'il fait |
+| metadata | what it does |
 |--- |--- |
-| solution-titre | Utilisé dans l'en-tête de l'article comme lien |
-| solution-hub-url | Ouvre la page de hub helpx |
-| solution-icône | Affiche l'icône de la solution à côté du titre de la solution. Pas encore mis en œuvre |
-| getting-started-url | Lien vers helpx démarrage page |
-| tutoriels-url | Lien vers des tutoriels vidéo - soit des tutoriels helpx ou tutoriels KT |
-| mini-toc-niveaux | Détermine le nombre de niveaux de cap qui apparaissent dans le rail droit. par défaut est de 2 |
-| git-repo | Spécifie l'emplacement de la pension principale pour usage interne |
+| solution-title | Used in article header as link |
+| solution-hub-url | Opens helpx hub page |
+| solution-icon | Displays solution icon next to solution title. Not yet implemented |
+| getting-started-url | Link to helpx getting started page |
+| tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
+| mini-toc-levels | Determines the number of heading levels that appear in right rail. default is 2 |
+| git-repo | Specifies the location of the master repo for internal use |
